@@ -1,0 +1,330 @@
+* {
+  box-sizing: border-box;
+  margin: 0;
+  padding: 0;
+}
+html {
+  scroll-behavior: smooth;
+}
+body {
+  text-align: center;
+  font-family: "Montserrat", sans-serif;
+  color: #ffffff;
+  background-color: #121212;
+  width: 100%;
+}
+.seperator {
+  height: 60px;
+}
+
+.nav-container {
+  display: flex;
+  justify-content: flex-start;
+  position: sticky;
+  align-items: center;
+  text-overflow: ellipsis;
+  overflow: hidden;
+  z-index: 39;
+  background-color: #161819;
+  top: 0;
+  height: 65px;
+  width: 100%;
+}
+.logo {
+  padding-left: 4%;
+  padding-right: 2%;
+  cursor: pointer;
+}
+.nav-link {
+  display: flex;
+  align-items: center;
+  width: 100%;
+}
+.nav-menu {
+  display: flex;
+  align-items: center;
+  width: 100%;
+}
+.nav-menu a {
+  position: relative;
+  text-decoration: none;
+  font-size: 14.5px;
+  color: #d4d4d4;
+  margin: 0 1%;
+  padding: 5px 5px;
+}
+.nav-menu a:after {
+  position: absolute;
+  background: none repeat scroll 0 0 transparent;
+  content: "";
+  height: 1.4px;
+  width: 0;
+  left: 50%;
+  bottom: 0;
+  background: #fff;
+  transition: width 0.3s ease 0s, left 0.3s ease 0s;
+}
+.nav-menu a:hover {
+  color: #ffffff;
+}
+.nav-link a:hover:after { 
+  cursor: pointer;
+  width: 100%; 
+  left: 0; 
+}
+.nav-sm {
+  display: inline-flex;
+  justify-content: space-between;
+  align-items: center;
+  gap: 15px;
+  margin-right: 20px;
+}
+
+.content-container {
+  height: 5000px;
+}
+/**/
+/* Greeting Section */
+.greeting-bg1 {
+  position: absolute;
+  top: 10%;
+  left: 50%;
+  width: 0px;
+  height: 0px;
+  border-radius: 50%;
+  box-shadow:
+    0 0 120px 70px #39da8a;
+  animation: fadeIn 4s infinite;
+}
+.greeting-bg2 {
+  position: absolute;
+  top: 50%;
+  left: 0%;
+  width: 0px;
+  height: 0px;
+  border-radius: 50%;
+  box-shadow:
+    0 0 140px 90px #ac5cd9;
+  animation: fadeIn 9s infinite;
+}
+.greeting-bg3 {
+  position: absolute;
+  top: 90%;
+  left: 97%;
+  width: 0px;
+  height: 0px;
+  border-radius: 50%;
+  box-shadow:
+    0 0 180px 160px #5b8dee;
+  animation: fadeIn 6s infinite;
+}
+.greeting {
+  display: flex;
+  justify-content: center;
+  align-items: center;
+  flex-direction: column;
+  height: 800px;
+  padding: 0;
+  font-size: 80px;
+}
+.greeting-wrapper {
+  display: inline-block;
+  text-align: center;
+  font-family: "roboto", sans-serif;
+  color: #fff;
+  animation: fadeIn 1.5s forwards;
+  transition-timing-function: cubic-bezier(0.785, 0.135, 0.15, 0.86);
+}
+.greeting-1 {
+  display: inline-block;
+  animation: firstspan 1.5s forwards cubic-bezier(0.785, 0.135, 0.15, 0.86);
+}
+.slide {
+  display: inline-flex;
+  overflow: hidden;
+}
+.greeting-2 {
+  display: inline-block;
+  z-index: -1;
+	background: linear-gradient(to right, #00ff9d 0%, #0051ff 100%);
+	-webkit-background-clip: text;
+	-webkit-text-fill-color: transparent;
+  animation: secondspan 1.5s forwards cubic-bezier(0.785, 0.135, 0.15, 0.86);
+}
+@keyframes fadeIn {
+  0% {
+    opacity: 0;
+    transform: scale(1);
+  }
+  50% {
+    opacity: 1;
+    transform: scale(1.1);
+  }
+  100% {
+    opacity: 1;
+    transform: scale(1);
+  }
+}
+@keyframes firstspan {
+  0% {
+    transform: translateX(50%);
+  }
+  60% {
+    transform: translateX(50%);
+  }
+  100% {
+    transform: translateX(0%);
+  } 
+}
+@keyframes secondspan {
+  0% {
+    transform: translateX(-100%);
+  }
+  60% {
+    transform: translateX(-100%);
+  }
+  100% {
+    transform: translateX(0%);
+  } 
+}
+/* End of Greeting Section */
+/**/
+/* Highlight Section */
+.slider-container {
+  position: relative;
+  overflow: hidden;
+  text-align: center;
+  height: 700px;
+  background-color: #1a1a1a;
+}
+.highlight-text {
+  color: #ffffff;
+  font-size: 70px;
+  position: absolute;
+  top: 50%;
+  left: 50%;
+  transform: translate(-50%, -50%);
+}
+.highlight-wrapper {
+  display: flex;
+  height: 100%;
+  animation: slide 16s infinite;
+}
+.highlight-wrapper img {
+  object-fit: cover;
+  filter: brightness(30%);
+  min-width: 100%;
+}
+@keyframes slide {
+  0% {
+    transform: translate(0);
+  }
+  13% {
+    transform: translate(0);
+  }
+  26% {
+    transform: translate(-100%);
+  }
+  39% {
+    transform: translate(-100%);
+  }
+  52% {
+    transform: translate(-200%);
+  }
+  65% {
+    transform: translate(-200%);
+  }
+  78% {
+    transform: translate(-300%);
+  }
+  90% {
+    transform: translate(-300%);
+  }
+  100% {
+    transform: translate(0);
+  }
+}
+/* End of Highlight Section */
+/**/
+/* Journey Section */
+
+/* End of Journey Section */
+/**/
+/* About Section */
+.about-title {
+  font-size: 40px;
+}
+.about-name {
+}
+.about-desc {
+}
+/* End of About Section */
+/**/
+/* Footer Section */
+footer {
+  padding: 0;
+  background-color: #161819;
+}
+.f-container {
+  display: flex;
+  justify-content: space-between;
+  text-overflow: ellipsis;
+  overflow: hidden;
+  flex-direction: row;
+  align-items: start;
+  height: 300px;
+  margin: 0 14% 0 14%;
+}
+.f-social, .f-navigation, .f-contact {
+  display: flex;
+  flex-direction: column;
+  gap: 8px;
+  margin: 80px 10% 0 10%;
+}
+.f-social a, .f-navigation a, .f-contact a {
+  text-decoration: none;
+  align-self: start;
+  color: #ffffff;
+  font-family: "Roboto Condensed";
+  font-size: 16px;
+}
+.f-social div, .f-navigation div, .f-contact div {
+  text-decoration: none;
+  align-self: start;
+  font-size: 20px;
+  margin: 6px 0 6px 0;
+}
+.f-copyright {
+  align-items: center;
+  height: 45px;
+  font-family: "Montserrat", sans-serif;
+  font-size: 15px;
+  color: #d4d4d4;
+  padding: 15px 0 15px 0;
+}
+/* End of Footer Section */
+/**/
+/* Scrollbar Section */
+::-webkit-scrollbar {
+  width: 15px;
+}
+::-webkit-scrollbar-track {
+  background-color: transparent;
+}
+::-webkit-scrollbar-thumb {
+  background-color: #d6dee1;
+}
+::-webkit-scrollbar-thumb {
+  background-color: #d6dee1;
+  border-radius: 20px;
+}
+::-webkit-scrollbar-thumb {
+  background-color: #d6dee1;
+  border-radius: 20px;
+  border: 5px solid transparent;
+  background-clip: content-box;
+}
+::-webkit-scrollbar-thumb:hover {
+  background-color: #a8bbbf;
+}
+/* End of Scrollbar Section */
