@@ -15,7 +15,7 @@
             <div class="nav-link">
                 <div class="logo">
                     <a href="index.html">
-                        <img src="Resources/Logo.png" alt="Logo" height="32" loading="lazy">
+                        <img src="Resources/Logo.png" draggable="false" alt="Logo" height="32" loading="lazy">
                     </a>
                 </div>
                 <div class="nav-menu">
@@ -27,10 +27,10 @@
             </div>
             <div class="nav-sm" >
                 <a href="https://www.instagram.com/nevylloproman">
-                    <img src="Resources/Instagram.png" alt="Instagram: @nevylloproman" height="24" loading="lazy">
+                    <img src="Resources/Instagram.png" draggable="false" alt="Instagram: @nevylloproman" height="24" loading="lazy">
                 </a>
                 <a href="https://www.youtube.com/@vlovlovlo">
-                    <img src="Resources/Youtube.png" alt="Youtube: VLOVLOVLO" height="28" loading="lazy">
+                    <img src="Resources/Youtube.png" draggable="false" alt="Youtube: VLOVLOVLO" height="28" loading="lazy">
                 </a>
             </div>
         </div>
@@ -50,29 +50,40 @@
             </div>
             <div class="slider-container" alt="VLOVLOVLO" height="24" loading="lazy">
                 <div class="highlight-wrapper">
-                    <img src="Resources/SL1.jpeg" loading="lazy">
-                    <img src="Resources/SL2.jpeg" loading="lazy">
-                    <img src="Resources/SL3.jpeg" loading="lazy">
-                    <img src="Resources/SL4.jpg" loading="lazy">
+                    <img src="Resources/SL1.jpeg" draggable="false" loading="lazy" oncontextmenu="return false;">
+                    <img src="Resources/SL2.jpeg" draggable="false" loading="lazy" oncontextmenu="return false;">
+                    <img src="Resources/SL3.jpeg" draggable="false" loading="lazy" oncontextmenu="return false;">
+                    <img src="Resources/SL4.jpg" draggable="false" loading="lazy" oncontextmenu="return false;">
                 </div>
                 <div class="highlight-text">
                     <a>Recent Activity</a>
                 </div>
+            </div>                        
+            <div class="slide-controls">
+                <label onclick="chooseSlide()" class="slide-control"></label>
+                <label onclick="chooseSlide(1)" class="slide-control"></label>
+                <label onclick="chooseSlide(1)" class="slide-control"></label>
+                <label onclick="chooseSlide(1)" class="slide-control"></label>
             </div>
             <div class="seperator"></div>
-            <div class="journey">
-                <div>
-                    My Journey
-                </div>
-                <div>
-                    2019 : Start Coding
-                </div>
-                <div>
-                    2020 : Head of Student Council Sport & Art Division
-                </div>
-                <div>
-                    2022 : President of Student Council
-                </div>
+            <div class="journey-wrapper">
+                <ul class="journey">
+                    <div class="journey-title">
+                        My Journey
+                    </div>
+                    <li>
+                        <div class="time">Feb 2019</div>
+                        <p>Start Coding</p>
+                    </li>
+                    <li>
+                        <div class="time">Jan 2020</div>
+                        <p>Head of Student Council Sport & Art Division</p>
+                    </li>
+                    <li>
+                        <div class="time">Sep 2022</div>
+                        <p>President of Student Council</p>
+                    </li>
+                </ul>
             </div>
             <div class="seperator"></div>
             <div class="about">
