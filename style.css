@@ -86,7 +86,7 @@ body {
   height: 5000px;
 }
 /**/
-/* Greeting Section */
+/* Greeting Section - Production */
 .greeting {
   display: flex;
   justify-content: center;
@@ -106,7 +106,7 @@ body {
 }
 .greeting-1 {
   display: inline-block;
-  animation: firstspan 1.5s forwards cubic-bezier(0.785, 0.135, 0.15, 0.86);
+  animation: fadeIn 0.8s, firstspan 1.5s forwards cubic-bezier(0.785, 0.135, 0.15, 0.86);
 }
 .greeting-2 {
   display: inline-block;
@@ -115,8 +115,8 @@ body {
 	background: linear-gradient(to right, #00ff9d 0%, #0051ff 100%);
 	-webkit-background-clip: text;
 	-webkit-text-fill-color: transparent;
-  animation: secondspan 1.5s forwards cubic-bezier(0.785, 0.135, 0.15, 0.86), bounce 0.4s ease infinite alternate;
-  animation-delay: 0s, 2s;
+  animation: fadeIn 0.8s, secondspan 1.5s forwards cubic-bezier(0.785, 0.135, 0.15, 0.86), bounce 0.4s ease infinite alternate;
+  animation-delay: 0s, 0s, 2s;
 }
 .slide {
   display: inline-flex;
@@ -153,7 +153,7 @@ body {
   border-radius: 50%;
   box-shadow:
     0 0 180px 160px #5b8dee;
-  animation: fadeIn 6s infinite;
+  animation: fadeIn 7s infinite;
 }
 @keyframes bounce {
   0% {
@@ -204,128 +204,175 @@ body {
 /* End of Greeting Section */
 /**/
 /* Highlight Section */
-.slider-container {
+.slides{
+  display: flex;
   position: relative;
   overflow: hidden;
-  text-align: center;
   height: 700px;
-  background-color: #1a1a1a;
+  width: 100%;
+  font-size: 0;
+  transition: 0.8s;
+}
+.slides input{
+  display: none;
+}
+.slides div {
+  min-width: 100%;
+  transition: all 0.8s ease;
+}
+.slider img{
+  object-fit: cover;
+  filter: brightness(30%);
+  width: 100%;
+}
+.navigation-mannual{
+  position: absolute;
+  z-index: 2;
+  bottom: -580px;
+  width: 100%;
+}
+.mannual-btn{
+  display: inline-block;
+  text-decoration: none;
+  background: #929292;
+  width: 20px;
+  height: 20px;
+  margin: 0 4px;
+  border-radius: 50%;
+}
+.mannual-btn:not(:last-child){
+  margin-right: 40px;
+}
+.mannual-btn:hover{
+  background: #ffffff !important;
+}
+#radio1:checked ~ .slide{
+  transform: translateX(0);
+}
+#radio2:checked ~ .slide{
+  transform: translateX(-100%);
+}
+#radio3:checked ~ .slide{
+  transform: translateX(-200%);
+}
+#radio4:checked ~ .slide{
+  transform: translateX(-300%);
 }
 .highlight-text {
-  color: #ffffff;
-  font-size: 70px;
   position: absolute;
+  z-index: 2;
+  font-size: 70px;
   top: 50%;
   left: 50%;
   transform: translate(-50%, -50%);
 }
-.highlight-wrapper {
-  display: flex;
-  height: 100%;
-  animation: slide 16s infinite;
-}
-.highlight-wrapper img {
-  object-fit: cover;
-  filter: brightness(30%);
-  min-width: 100%;
-}
-@keyframes slide {
-  0% {
-    transform: translate(0);
-  }
-  13% {
-    transform: translate(0);
-  }
-  26% {
-    transform: translate(-100%);
-  }
-  39% {
-    transform: translate(-100%);
-  }
-  52% {
-    transform: translate(-200%);
-  }
-  65% {
-    transform: translate(-200%);
-  }
-  78% {
-    transform: translate(-300%);
-  }
-  90% {
-    transform: translate(-300%);
-  }
-  100% {
-    transform: translate(0);
-  }
-}
-.slide-controls {
-  display: flex;
-  position: relative;
-  justify-content: center;
-  margin-top: -30px;
-}
-.slide-control {
-  cursor: pointer;
-  border: 1px solid #fff;
-  padding: 5px;
-  border-radius: 10px;
-  transition: 1s;
-}
-.slide-control:not(:last-child) {
-  margin-right: 30px;
-}
-.slide-control:hover {
-  background-color: #fff
-}
 /* End of Highlight Section */
 /**/
 /* Journey Section */
-.journey-wrapper {
-  display: inline-block;
-  text-align: center;
-  font-size: 20px;
-  background: rgb(32, 32, 32);
-  padding: 50px;
-  border-radius: 15px;
+.container{
+	margin: 30px;
 }
-.journey {
-  justify-items: center;
+.row{
+	display: flex;
+	justify-content: center;
+	flex-wrap: wrap;
+	width: 100%;
+}
+.image{
+	position: relative;
+	overflow: hidden;
+	flex: 1;
+	max-width: 460px;
+	height: 600px;
+	margin: 20px;
+  background-color: #2d30416c;
   border-radius: 12px;
-  padding: 0;
+  backdrop-filter: blur(16px) saturate(131%);
+  -webkit-backdrop-filter: blur(16px) saturate(131%);
 }
-.journey-title {
-  text-align: left;
-  padding-bottom: 20px;
-  font-weight: 700;
+.image img{
+	opacity: 0.8;
+	position: relative;
+	vertical-align: top;
+	transition: 0.6s;
+	transition-property: opacity;
 }
-.journey li {
-  position: relative;
-  list-style: none;
-  text-align: left;
-  padding-bottom: 1.5rem;
-  border-left: 1px solid #abaaed;
-  padding-left: 20px;
-  margin-left: 10px;
+.image:hover img{
+	opacity: 1;
 }
-.journey li:last-child {
-    border: 0px;
-    padding-bottom: 0;
+.image .details{
+	z-index: 1;
+	position: absolute;
+	top: 0;
+	right: 0;
+	color: #fff;
+	width: 100%;
+	height: 100%;
 }
-.journey li:before {
-  position: absolute;
-  content: '';
-  width: 13px;
-  height: 13px;
-  background: rgb(255, 255, 255);
-  box-shadow: 2px 2px 0px #b700ff;
-  border-radius: 50%;
-  left: -10px;
-  top: 0px;
+.image .details h2{
+	text-align: center;
+	font-size: 35px;
+	text-transform: uppercase;
+	font-weight: 300;
+	margin-top: 70px;
+	transition: 0.4s;
+	transition-property: transform;
 }
-.time{
-  text-align: left;
-  font-family: 'Poppins', sans-serif;
-  font-weight: 500;
+.image:hover .details h2{
+	transform: translateY(-30px);
+}
+.image .details p{
+	margin: 30px 30px 0 30px;
+	font-size: 18px;
+	font-weight: 600;
+	text-align: center;
+	opacity: 0;
+	transition: 0.6s;
+	transition-property: opacity, transform;
+}
+.image:hover .details p{
+	opacity: 1;
+	transform: translateY(-40px);
+}
+.more{
+	position: absolute;
+	background: rgba(255, 255, 255, 0.8);
+	width: 100%;
+	display: flex;
+	justify-content: space-between;
+	align-items: center;
+	padding: 15px;
+	bottom: -60px;
+	transition: 0.6s;
+	transition-property: bottom;
+}
+.image:hover .more{
+	bottom: 0;
+}
+.more .read-more{
+	color: #000;
+	text-decoration: none;
+	font-size: 20px;
+	font-weight: 500;
+	text-transform: uppercase;
+}
+.more .read-more span{
+	font-weight: 900;
+}
+/* Responsive CSS */
+@media (max-width: 1080px){
+	.image{
+		flex: 100%;
+		max-width: 480px;
+	}
+}
+@media (max-width: 400px){
+	.image .details p{
+		font-size: 16px;
+	}
+	.more .read-more, .more .icon-links a i{
+		font-size: 18px;
+	}
 }
 /* End of Journey Section */
 /**/
