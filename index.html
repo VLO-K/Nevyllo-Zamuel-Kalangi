@@ -48,44 +48,102 @@
                     </span>
                 </div>
             </div>
-            <div class="slider-container" alt="VLOVLOVLO" height="24" loading="lazy">
-                <div class="highlight-wrapper">
-                    <img src="Resources/SL1.jpeg" draggable="false" loading="lazy" oncontextmenu="return false;">
-                    <img src="Resources/SL2.jpeg" draggable="false" loading="lazy" oncontextmenu="return false;">
-                    <img src="Resources/SL3.jpeg" draggable="false" loading="lazy" oncontextmenu="return false;">
-                    <img src="Resources/SL4.jpg" draggable="false" loading="lazy" oncontextmenu="return false;">
-                </div>
-                <div class="highlight-text">
-                    <a>Recent Activity</a>
-                </div>
-            </div>                        
-            <div class="slide-controls">
-                <label onclick="chooseSlide()" class="slide-control"></label>
-                <label onclick="chooseSlide(1)" class="slide-control"></label>
-                <label onclick="chooseSlide(1)" class="slide-control"></label>
-                <label onclick="chooseSlide(1)" class="slide-control"></label>
-            </div>
-            <div class="seperator"></div>
-            <div class="journey-wrapper">
-                <ul class="journey">
-                    <div class="journey-title">
-                        My Journey
+            <div class="slider-container">
+                <!-- Image Slider Start -->
+                <div class="slider">
+                    <div class="slides">
+                        <div class="highlight-text">
+                            <a>Recent Activity</a>
+                        </div>
+                        <!-- Radio Button Start  -->
+                        <input type="radio" name="radio-btn" id="radio1">
+                        <input type="radio" name="radio-btn" id="radio2">
+                        <input type="radio" name="radio-btn" id="radio3">
+                        <input type="radio" name="radio-btn" id="radio4">
+                        <!-- Radio Button Close  -->
+                        <!-- Slide Image Start -->
+                        <div class="slide">
+                            <img src="Resources/SL1.jpeg" draggable="false" loading="lazy" oncontextmenu="return false;">
+                        </div>
+                        <div class="slide">
+                            <img src="Resources/SL2.jpeg" draggable="false" loading="lazy" oncontextmenu="return false;">
+                        </div>
+                        <div class="slide">
+                            <img src="Resources/SL3.jpeg" draggable="false" loading="lazy" oncontextmenu="return false;">
+                        </div>
+                        <div class="slide">
+                            <img src="Resources/SL4.jpg" draggable="false" loading="lazy" oncontextmenu="return false;">
+                        </div>
+                        <!-- Slide Image Close -->
                     </div>
-                    <li>
-                        <div class="time">Feb 2019</div>
-                        <p>Start Coding</p>
-                    </li>
-                    <li>
-                        <div class="time">Jan 2020</div>
-                        <p>Head of Student Council Sport & Art Division</p>
-                    </li>
-                    <li>
-                        <div class="time">Sep 2022</div>
-                        <p>President of Student Council</p>
-                    </li>
-                </ul>
+                    <!-- Slides Close -->
+                    <!-- Mannual Navigation Start -->
+                    <div class="navigation-mannual">
+                        <label for="radio1" class="mannual-btn"></label>
+                        <label for="radio2" class="mannual-btn"></label>
+                        <label for="radio3" class="mannual-btn"></label>
+                        <label for="radio4" class="mannual-btn"></label>
+                    </div>
+                    <!-- Mannual Navigation Close -->
+                </div>
+                <!-- Image Slider Close -->
             </div>
+            <!--Seperator start-->
             <div class="seperator"></div>
+            <!--Seperator end-->
+            <div class="journey-wrapper">
+                <div class="journey-title">
+                    My Journey
+                </div>
+                <!--image card layout start-->
+                <div class="container">
+                    <!--image row start-->
+                    <div class="row">
+                        <!--image card start-->
+                        <div class="image">
+                        <img src="1.jpg" alt="">
+                        <div class="details">
+                            <h2>Feb 2019</h2>
+                            <p>I Start Making Projects</p>
+                            <div class="more">
+                            <a href="#" class="read-more">Read <span>More</span></a>
+                            </div>
+                        </div>
+                        </div>
+                        <!--image card end-->
+                        <!--image card start-->
+                        <div class="image">
+                        <img src="2.jpg" alt="">
+                        <div class="details">
+                            <h2>Jan 2020</h2>
+                            <p>Head of Student Council Sport & Art Division</p>
+                            <div class="more">
+                            <a href="#" class="read-more">Read <span>More</span></a>
+                            </div>
+                        </div>
+                        </div>
+                        <!--image card end-->
+                        <!--image card start-->
+                        <div class="image">
+                        <img src="3.jpg" alt="">
+                        <div class="details">
+                            <h2>Sep 2022</h2>
+                            <p>President of Student Council</p>
+                            <div class="more">
+                            <a href="#" class="read-more">Read <span>More</span></a>
+                            </div>
+                        </div>
+                        </div>
+                        <!--image card end-->
+                    </div>
+                    <!--image row end-->
+                </div>
+                <!--image row end-->
+            </div>
+            <!--image card layout end-->
+            <!--Seperator start-->
+            <div class="seperator"></div>
+            <!--Seperator end-->
             <div class="about">
                 <div>
                     <div id="about-title">
