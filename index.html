@@ -1,39 +1,44 @@
 <!DOCTYPE html>
 <HTML>
     <head>
+        <!-- HTML Config Start -->
         <meta charset="utf-8">
         <meta name="author" content="One Celsius">
         <meta name="description" content="Beta Version 2">
-        <link rel="icon" type = "image/x-icon" href="Resources/Logo.png">
         <title>Nevyllo Z. Kalangi</title>
         <link rel="stylesheet" href="style.css">
-        <link href='https://fonts.googleapis.com/css?family=Roboto Condensed' rel='stylesheet'>
         <script type="text/javascript" src="app.js"></script>  
+        <!-- HTML Config End -->
+        <!-- HTML Links Start -->
+        <link rel="icon" type = "image/x-icon" href="Resources/Logo.png">
+        <link href='https://fonts.googleapis.com/css?family=Roboto Condensed' rel='stylesheet'>
+        <!-- HTML Links End -->
     </head>
     <body>
+        <!-- Top Navigation Start -->
         <div class="nav-container">
-            <div class="nav-link">
+                <!-- Navigation Logo Start -->
                 <div class="logo">
                     <a href="index.html">
                         <img src="Resources/Logo.png" draggable="false" alt="Logo" height="32" loading="lazy">
                     </a>
                 </div>
+                <!-- Navigation Logo End -->
+            <!-- Navigation Link Start -->
+            <div class="nav-link">
+                <!-- Navigation Menu Start -->
                 <div class="nav-menu">
                     <a href="about.html">ABOUT</a>
                     <a href="projects.html">PROJECTS</a>
                     <a href="experience.html">EXPERIENCE</a>
                     <a href="faq.html">FAQ</a>
                 </div>
+                <!-- Navigation Menu End -->
             </div>
-            <div class="nav-sm" >
-                <a href="https://www.instagram.com/nevylloproman">
-                    <img src="Resources/Instagram.png" draggable="false" alt="Instagram: @nevylloproman" height="24" loading="lazy">
-                </a>
-                <a href="https://www.youtube.com/@vlovlovlo">
-                    <img src="Resources/Youtube.png" draggable="false" alt="Youtube: VLOVLOVLO" height="28" loading="lazy">
-                </a>
-            </div>
+            <!-- Navigation Link End -->
         </div>
+        <!-- Top Navigation End -->
+        <!-- Content Start -->
         <div class="content-container">
             <!-- Greeting Background Start -->
             <div>
@@ -54,44 +59,15 @@
             <!-- Greeting Text End -->
             <!-- Image Wrapper Start -->
             <div class="slider-container">
-                <!-- Image Slider Start -->
                 <div class="slider">
-                    <div class="slides">
-                        <div class="highlight-text">
-                            <a>Recent Activity</a>
-                        </div>
-                        <!-- Radio Button Start  -->
-                        <input type="radio" name="radio-btn" id="radio1">
-                        <input type="radio" name="radio-btn" id="radio2">
-                        <input type="radio" name="radio-btn" id="radio3">
-                        <input type="radio" name="radio-btn" id="radio4">
-                        <!-- Radio Button Close  -->
-                        <!-- Slide Image Start -->
-                        <div class="slide">
-                            <img src="Resources/SL1.jpeg" draggable="false" loading="lazy" oncontextmenu="return false;">
-                        </div>
-                        <div class="slide">
-                            <img src="Resources/SL2.jpeg" draggable="false" loading="lazy" oncontextmenu="return false;">
-                        </div>
-                        <div class="slide">
-                            <img src="Resources/SL3.jpeg" draggable="false" loading="lazy" oncontextmenu="return false;">
-                        </div>
-                        <div class="slide">
-                            <img src="Resources/SL4.jpg" draggable="false" loading="lazy" oncontextmenu="return false;">
-                        </div>
-                        <!-- Slide Image Close -->
-                    </div>
-                    <!-- Slides Close -->
-                    <!-- Mannual Navigation Start -->
-                    <div class="navigation-mannual">
-                        <label for="radio1" class="mannual-btn"></label>
-                        <label for="radio2" class="mannual-btn"></label>
-                        <label for="radio3" class="mannual-btn"></label>
-                        <label for="radio4" class="mannual-btn"></label>
-                    </div>
-                    <!-- Mannual Navigation Close -->
+                    <img class="slider-img" src="Resources/SL1.jpeg" draggable="false" loading="lazy" oncontextmenu="return false;">
+                    <img class="slider-img" src="Resources/SL2.jpeg" draggable="false" loading="lazy" oncontextmenu="return false;">
+                    <img class="slider-img" src="Resources/SL3.jpeg" draggable="false" loading="lazy" oncontextmenu="return false;">
+                    <img class="slider-img" src="Resources/SL4.jpg" draggable="false" loading="lazy" oncontextmenu="return false;">
                 </div>
-                <!-- Image Slider Close -->
+                <div class="slider-title">
+                    <span></span>
+                </div>
             </div>
             <!-- Image Wrapper End -->
             <!--Seperator start-->
@@ -99,7 +75,7 @@
             <!--Seperator end-->
             <div class="journey-wrapper">
                 <div class="journey-title">
-                    My Journey
+                    What I Do?
                 </div>
                 <!--image card layout start-->
                 <div class="container">
@@ -162,6 +138,8 @@
                 </div>
             </div>
         </div>
+        <!-- Content End -->
+        <!-- Footer Start -->
         <footer>
             <div class="f-container">
                 <div class="f-navigation">
@@ -188,10 +166,19 @@
                     <a href="https://www.youtube.com/@vlovlovlo">Youtube</a>
                     <a href="https://github.com/VLO-K">Github</a>
                 </div>
+                <div class="nav-sm" >
+                    <a href="https://www.instagram.com/nevylloproman">
+                        <img src="Resources/Instagram.png" draggable="false" alt="Instagram: @nevylloproman" height="24" loading="lazy">
+                    </a>
+                    <a href="https://www.youtube.com/@vlovlovlo">
+                        <img src="Resources/Youtube.png" draggable="false" alt="Youtube: VLOVLOVLO" height="28" loading="lazy">
+                    </a>
+                </div>
             </div>
             <div class="f-copyright">
                 <a>Copyright © 2022 Nevyllo Zamuel Kalangi</a>
             </div>
         </footer>
+        <!-- Footer End -->
     </body>
 </HTML>

@@ -7,7 +7,6 @@ html {
   scroll-behavior: smooth;
 }
 body {
-  text-align: center;
   font-family: "Montserrat", sans-serif;
   color: #ffffff;
   background-color: #121212;
@@ -17,28 +16,26 @@ body {
   height: 200px;
 }
 
+/**/
+/* Navigation Section - Production */
 .nav-container {
   display: flex;
-  justify-content: flex-start;
   position: sticky;
+  justify-content: space-between;
   align-items: center;
   text-overflow: ellipsis;
   overflow: hidden;
-  z-index: 39;
-  background-color: #161819;
   top: 0;
   height: 65px;
   width: 100%;
+  padding: 0 5%;
+  z-index: 39;
+  background-color: #161819;
 }
 .logo {
-  padding-left: 4%;
+  padding-left: 2%;
   padding-right: 2%;
   cursor: pointer;
-}
-.nav-link {
-  display: flex;
-  align-items: center;
-  width: 100%;
 }
 .nav-menu {
   display: flex;
@@ -50,7 +47,7 @@ body {
   text-decoration: none;
   font-size: 14.5px;
   color: #d4d4d4;
-  margin: 0 1%;
+  margin: 0 18px;
   padding: 5px 5px;
 }
 .nav-menu a:after {
@@ -72,23 +69,16 @@ body {
   width: 100%; 
   left: 0; 
 }
-.nav-sm {
-  display: inline-flex;
-  justify-content: space-between;
-  align-items: center;
-  gap: 15px;
-  margin-right: 20px;
-}
-
+/* End of Navigation Section */
+/**/
 .content-container {
-  position: center;
-  justify-items: center;
   height: 5000px;
 }
 /**/
 /* Greeting Section - Production */
 .greeting {
   display: flex;
+  text-align: center;
   justify-content: center;
   align-items: center;
   flex-direction: column;
@@ -180,91 +170,134 @@ body {
   }
 }
 @keyframes firstspan {
-  0% {
-    transform: translateX(50%);
-  }
-  60% {
-    transform: translateX(50%);
-  }
-  100% {
-    transform: translateX(0%);
-  } 
+  0% {transform: translateX(50%);}
+  60% {transform: translateX(50%);}
+  100% {transform: translateX(0%);} 
 }
 @keyframes secondspan {
-  0% {
-    transform: translateX(-100%);
-  }
-  60% {
-    transform: translateX(-100%);
-  }
-  100% {
-    transform: translateX(0%);
-  } 
+  0% {transform: translateX(-100%);}
+  60% {transform: translateX(-100%);}
+  100% {transform: translateX(0%);} 
 }
 /* End of Greeting Section */
 /**/
 /* Highlight Section */
-.slides{
-  display: flex;
+.slider-container {
   position: relative;
   overflow: hidden;
   height: 700px;
   width: 100%;
-  font-size: 0;
-  transition: 0.8s;
+  text-align: center;
 }
-.slides input{
-  display: none;
+.slider {
+  display: flex;
+  height: 100%;
+  animation: slide 24s infinite;
 }
-.slides div {
-  min-width: 100%;
-  transition: all 0.8s ease;
-}
-.slider img{
+.slider-img {
   object-fit: cover;
   filter: brightness(30%);
-  width: 100%;
+  min-width: 100%;
 }
-.navigation-mannual{
+.slider-title span{
   position: absolute;
-  z-index: 2;
-  bottom: -580px;
-  width: 100%;
-}
-.mannual-btn{
-  display: inline-block;
-  text-decoration: none;
-  background: #929292;
-  width: 20px;
-  height: 20px;
-  margin: 0 4px;
-  border-radius: 50%;
-}
-.mannual-btn:not(:last-child){
-  margin-right: 40px;
-}
-.mannual-btn:hover{
-  background: #ffffff !important;
-}
-#radio1:checked ~ .slide{
-  transform: translateX(0);
-}
-#radio2:checked ~ .slide{
-  transform: translateX(-100%);
-}
-#radio3:checked ~ .slide{
-  transform: translateX(-200%);
-}
-#radio4:checked ~ .slide{
-  transform: translateX(-300%);
-}
-.highlight-text {
-  position: absolute;
-  z-index: 2;
+  color: #ffffff;
   font-size: 70px;
   top: 50%;
   left: 50%;
   transform: translate(-50%, -50%);
+}
+.slider-title span::before {
+  content: "";
+  animation: text 24s infinite;
+}
+@keyframes text {
+  0% {
+    opacity: 0;
+    content: "D-SPORA 2022";
+  }
+  3.75% {
+    opacity: 1;
+  }
+  12.5% {
+    opacity: 1;
+  }
+  15% {
+    opacity: 0;
+  }
+  25% {
+    opacity: 0;
+    content: "D-SPORA 2022";
+  }
+  28.75% {
+    opacity: 1;
+  }
+  37.5% {
+    opacity: 1;
+  }
+  40% {
+    opacity: 0;
+  }
+  50% {
+    opacity: 0;
+    content: "D-SPORA 2022";
+  }
+  53.75% {
+    opacity: 1;
+  }
+  62.5% {
+    opacity: 1;
+  }
+  65% {
+    opacity: 0;
+    content: "D-SPORA 2022";
+  }
+  75% {
+    opacity: 0;
+    content: "Kidsstar 18th Birthday";
+  }
+  78.75% {
+    opacity: 1;
+  }
+  87.5% {
+    opacity: 1;
+  }
+  90% {
+    opacity: 0;
+  }
+  100% {
+    opacity: 0;
+    content: "Kidsstar 18th Birthday";
+  }
+}
+@keyframes slide {
+  0% {
+    transform: translate(0);
+  }
+  13% {
+    transform: translate(0);
+  }
+  26% {
+    transform: translate(-100%);
+  }
+  39% {
+    transform: translate(-100%);
+  }
+  52% {
+    transform: translate(-200%);
+  }
+  65% {
+    transform: translate(-200%);
+  }
+  78% {
+    transform: translate(-300%);
+  }
+  90% {
+    transform: translate(-300%);
+  }
+  100% {
+    transform: translate(0);
+  }
 }
 /* End of Highlight Section */
 /**/
@@ -419,6 +452,13 @@ footer {
   align-self: start;
   font-size: 20px;
   margin: 6px 0 6px 0;
+}
+.nav-sm {
+  display: inline-flex;
+  justify-content: space-between;
+  align-items: center;
+  gap: 15px;
+  margin-right: 20px;
 }
 .f-copyright {
   align-items: center;
