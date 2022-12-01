@@ -1,3 +1,4 @@
+/* Body Section */
 * {
   box-sizing: border-box;
   margin: 0;
@@ -15,7 +16,7 @@ body {
 .seperator {
   height: 200px;
 }
-
+/* End of Body */
 /**/
 /* Navigation Section - Production */
 .nav-container {
