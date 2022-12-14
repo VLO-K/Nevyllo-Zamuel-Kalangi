@@ -38,7 +38,8 @@ body {
   width: 100%;
   padding: 0 8%;
   z-index: 39;
-  background-color: #000000;
+  background-color: #000000e0;
+  filter: blur(80%)
 }
 .logo {
   padding-left: 2%;
@@ -86,13 +87,122 @@ body {
 }
 /**/
 /* Greeting Section - Production */
+.greeting-background {
+  display: flex;
+  position: absolute;
+  justify-content: center;
+  align-items: center;
+  overflow: hidden;
+  width: 100%;
+  min-height: 100vh;
+  background-color: #000;
+}
+.greeting-glowing {
+  position: relative;
+  min-width: 750px;
+  height: 750px;
+  margin: -150px;
+  transform-origin: right;
+  animation: colorchange 5s linear infinite;
+}
+.greeting-glowing:nth-child(even) {
+  transform-origin: left;
+}
+.greeting-glowing span {
+  position: absolute;
+  top: calc(80px* var(--i));
+  bottom: calc(80px* var(--i));
+  left: calc(80px* var(--i));
+  right: calc(80px* var(--i));
+}
+.greeting-glowing span::before {
+  content: '';
+  position: absolute;
+  top: 50%;
+  left: -8px;
+  width: 15px;
+  height: 15px;
+  background: #f00;
+  border-radius: 50%;
+}
+.greeting-glowing span:nth-child(3n+1):before{
+  background-color: #9900ff;
+  box-shadow: 1 1 20px #9900ff,
+              0 0 40px #9900ff,
+              1 1 60px #9900ff,
+              1 1 80px #9900ff,
+              1 1 0 8px #9900ff;
+}
+.greeting-glowing span:nth-child(3n+2):before{
+  background-color: #0084ff;
+  box-shadow: 1 1 20px #0084ff,
+              0 0 40px #0084ff,
+              1 1 60px #0084ff,
+              1 1 80px #0084ff,
+              1 1 0 8px #0084ff;
+}
+.greeting-glowing span:nth-child(3n+3):before{
+  background-color: #ff008c;
+  box-shadow: 1 1 20px #ff008c,
+              0 0 40px #ff008c,
+              1 1 60px #ff008c,
+              1 1 80px #ff008c,
+              1 1 0 8px #ff008c;
+}
+.greeting-glowing span:nth-child(3n+1) {
+  animation: animate-1 11s alternate infinite;
+}
+.greeting-glowing span:nth-child(3n+2) {
+  animation: animate-2 3s alternate infinite;
+}
+.greeting-glowing span:nth-child(3n+3) {
+  animation: animate-1 7s alternate infinite;
+}
+@keyframes colorchange {
+  0% {
+    filter: hue-rotate(0deg);
+    transform: rotate(0deg);
+  }
+  100% {
+    filter: hue-rotate(360deg);
+    transform: rotate(360deg);
+  }
+}
+@keyframes animate-1 {
+  0% {
+    transform: rotate(0deg)
+  }
+  10% {
+    opacity: 0
+  }
+  20% {
+    opacity: 1
+  }
+  100% {
+    transform: rotate(360deg)
+  }
+}
+@keyframes animate-2 {
+  0% {
+    transform: rotate(360deg)
+  }
+  80% {
+    opacity: 0
+  }
+  90% {
+    opacity: 1
+  }
+  100% {
+    transform: rotate(0deg)
+  }
+}
 .greeting {
   display: flex;
   text-align: center;
   justify-content: center;
   align-items: center;
   flex-direction: column;
-  height: 500px;
+  height: 100vh;
   padding: 0;
   font-size: 70px;
 }
@@ -117,23 +227,12 @@ body {
   -webkit-background-clip: text;
   -webkit-text-fill-color: transparent;
   animation: fadeIn 0.8s,
-    secondspan 1.5s forwards cubic-bezier(0.785, 0.135, 0.15, 0.86),
-    bounce 0.4s ease infinite alternate;
-  animation-delay: 0s, 0s, 2s;
+    secondspan 1.5s forwards cubic-bezier(0.785, 0.135, 0.15, 0.86);
+  animation-delay: 0s, 0s;
 }
 .slide {
   display: inline-flex;
   overflow: hidden;
-}
-@keyframes bounce {
-  0% {
-  }
-  100% {
-    background: linear-gradient(to right, #5bffc0 0%, #1c64ff 100%);
-    -webkit-background-clip: text;
-    -webkit-text-fill-color: transparent;
-    transform: translateY(-20px);
-  }
 }
 @keyframes fadeIn {
   0% {
@@ -210,9 +309,22 @@ body {
 }
 /* End of About Section */
 /**/
+/* Education Section */
+
+
+
+
+
+
+
+
+
+
+/* End of Education Section */
+/**/
 /* Journey Section */
 .timeline-wrapper {
-  padding: 200px 200px 80px 200px;
+  padding: 160px 160px 80px 160px;
   background-color: #000000;
 }
 .timeline-title {
@@ -510,6 +622,16 @@ body {
 /* Achievements Section */
 .achievements-container {
 }
+
+
+
+
+
+
+
+
+
+
 /* End of Achievements Section */
 /**/
 /* Footer Section */
