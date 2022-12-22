@@ -319,61 +319,48 @@ body {
 /* End of About Section */
 /**/
 /* Education & Work Section */
-.education-section {
+.education-section, .work-section {
   display: flex;
   flex-direction: row;
   justify-content: center;
-  padding: 160px;
-  width: 100%;
+  user-select: none;
+  padding: 160px 160px 0 160px;
   background-color: var(--secondary-bg);
 }
-.work-section {
-  display: flex;
-  flex-direction: row;
-  justify-content: center;
-  padding: 0px 160px 80px 160px;
-  width: 100%;
-  background-color: var(--secondary-bg);
+.education-img {
+  max-height: 250px;
+  max-width: 250px;
+  margin-right: 120px;
+  transform: rotate(340deg);
 }
-.education-title {
-  align-self: flex-start;
-  writing-mode: vertical-lr;
-  font-size: 46px;
-  letter-spacing: .15em;
-  transform: rotate(180deg);
-  text-shadow: -4px -6px 0px #ff0080,
-                4px 4px 0px #00f7ff;
-}
-.work-title {
-  align-self: flex-start;
-  writing-mode: vertical-lr;
-  font-size: 46px;
-  letter-spacing: .15em;
-  text-shadow: -4px -6px 0px #ff0080,
-                4px 4px 0px #00f7ff;
+.work-img {
+  max-height: 250px;
+  max-width: 250px;
+  margin-right: 120px;
 }
 .education-container, .work-container {
   justify-content: center;
-  width: 80%;
+  width: 40%;
 }
-.education-wrapper, .work-wrapper {
-  display: grid;
+.education-title, .work-title {
   position: relative;
-  grid-template-columns: 1fr;
-  padding: 0 50px 20px 50px;
+  font-size: 46px;
+  padding-bottom: 20px;
+  letter-spacing: .15em;
+  text-shadow: -4px -6px 0px #ff0080,
+                4px 4px 0px #00f7ff;
 }
 .education-content, .work-content {
   display: grid;
+  cursor: pointer;
   grid-template-columns: 3fr 4fr 1fr;
-  grid-gap: 10px;
   font-size: 20px;
   font-weight: 600;
   line-height: 36px;
   padding: 15px 0;
+  width: 100%;
+  padding-bottom: 20px;
   border-top: 2px solid var(--primary);
-}
-.education-wrapper:last-child .education-content, .work-wrapper:last-child .work-content {
-  border-bottom: 2px solid var(--primary);
 }
 .education-year, .work-year {
   text-align: center;
@@ -381,28 +368,44 @@ body {
 .education-number, .work-number {
   text-align: right;
 }
-.education-container:hover .education-wrapper, .work-container:hover .work-wrapper {
+.education-container:hover .education-content, .work-container:hover .work-content {
   filter: blur(4px);
   transition: 0.5s;
 }
-.education-container .education-wrapper:hover, .work-container .work-wrapper:hover {
+.education-container .education-content:hover, .work-container .work-content:hover {
   filter: blur(0);
   transition: 0.5s;
 }
 @media (orientation: portrait) {
-  .education-section {
-    padding: 160px 0;
+  .education-section, .work-section {
+    padding: 160px 10px 0 10px;
   }
-  .work-section {
-    padding: 0 0 80px 0;
+  .education-img {
+    max-height: 80px;
+    max-width: 80px;
+    margin-right: 10px;
+    transform: rotate(340deg);
   }
-  .education-wrapper, .work-wrapper {
-    padding: 0 20px 20px 20px;
+  .work-img {
+    max-height: 80px;
+    max-width: 80px;
+    margin-right: 10px;
+  }
+  .education-container, .work-container {
+    justify-content: center;
+    width: 80%;
+  }
+  .education-title, .work-title {
+    position: relative;
+    font-size: 26px;
+    padding-bottom: 20px;
+    letter-spacing: .15em;
+    text-shadow: -4px -6px 0px #ff0080,
+                  4px 4px 0px #00f7ff;
   }
   .education-content, .work-content {
-    grid-template-columns: 2fr 1fr 1fr;
-    line-height: 20px;
-    font-size: 16px;
+    font-size: 12px;
+    line-height: 16px;
   }
 } 
 /* End of Education & Work Section */
