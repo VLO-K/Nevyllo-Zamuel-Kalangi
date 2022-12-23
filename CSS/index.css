@@ -2,8 +2,8 @@
 :root {
   --primary: #fff;
   --secondary: #e91e63;
-  --bg: #111;
-  --secondary-bg: #000;
+  --bg: #000;
+  --secondary-bg: #0f0f0f;
 }
 /* End of Config */
 /**/
@@ -31,7 +31,7 @@ body {
   min-height: 100vh;
 }
 .seperator {
-  height: 100px;
+  height: 160px;
 }
 /* End of Body */
 /**/
@@ -318,14 +318,16 @@ body {
 }
 /* End of About Section */
 /**/
-/* Education & Work Section */
-.education-section, .work-section {
+/* Education & Work Section & Organization */
+.education-section, 
+.work-section, 
+.organization-section,
+.skills-section {
   display: flex;
   flex-direction: row;
   justify-content: center;
   user-select: none;
-  padding: 160px 160px 0 160px;
-  background-color: var(--secondary-bg);
+  padding: 0 160px;
 }
 .education-img {
   max-height: 250px;
@@ -338,22 +340,41 @@ body {
   max-width: 250px;
   margin-right: 120px;
 }
-.education-container, .work-container {
+.organization-img {
+  max-height: 250px;
+  max-width: 250px;
+  margin-right: 120px;
+}
+.skills-img {
+  max-height: 250px;
+  max-width: 250px;
+  margin-right: 120px;
+}
+.education-container, 
+.work-container, 
+.organization-container, 
+.skills-container {
   justify-content: center;
   width: 40%;
 }
-.education-title, .work-title {
+.education-title, 
+.work-title, 
+.organization-title, 
+.skills-title {
   position: relative;
   font-size: 46px;
-  padding-bottom: 20px;
+  padding-bottom: 30px;
   letter-spacing: .15em;
-  text-shadow: -4px -6px 0px #ff0080,
+  text-shadow: -4px -4px 0px #ff0080,
                 4px 4px 0px #00f7ff;
 }
-.education-content, .work-content {
+.education-content, 
+.work-content, 
+.organization-content, 
+.skills-content { 
   display: grid;
   cursor: pointer;
-  grid-template-columns: 3fr 4fr 1fr;
+  grid-template-columns: 6fr 4fr 1fr;
   font-size: 20px;
   font-weight: 600;
   line-height: 36px;
@@ -362,40 +383,53 @@ body {
   padding-bottom: 20px;
   border-top: 2px solid var(--primary);
 }
-.education-year, .work-year {
+.education-year, 
+.work-year, 
+.organization-year,
+.skills-year {
   text-align: center;
 }
-.education-number, .work-number {
+.education-number, 
+.work-number, 
+.organization-number,
+.skills-number {
   text-align: right;
 }
-.education-container:hover .education-content, .work-container:hover .work-content {
+.education-container:hover .education-content, 
+.work-container:hover .work-content, 
+.organization-container:hover .organization-content,
+.skills-container:hover .skills-content {
   filter: blur(4px);
   transition: 0.5s;
 }
-.education-container .education-content:hover, .work-container .work-content:hover {
+.education-container .education-content:hover, 
+.work-container .work-content:hover, 
+.organization-container .organization-content:hover, 
+.skills-container .skills-content:hover {
   filter: blur(0);
   transition: 0.5s;
 }
 @media (orientation: portrait) {
-  .education-section, .work-section {
-    padding: 160px 10px 0 10px;
+  .education-section, 
+  .work-section, 
+  .organization-section,
+  .skills-section {
+    padding: 0 10px;
   }
   .education-img {
-    max-height: 80px;
-    max-width: 80px;
-    margin-right: 10px;
     transform: rotate(340deg);
-  }
-  .work-img {
-    max-height: 80px;
-    max-width: 80px;
-    margin-right: 10px;
-  }
-  .education-container, .work-container {
+  }  
+  .education-container, 
+  .work-container, 
+  .organization-container, 
+  .skills-container {
     justify-content: center;
     width: 80%;
   }
-  .education-title, .work-title {
+  .education-title, 
+  .work-title, 
+  .organization-title, 
+  .skills-title {
     position: relative;
     font-size: 26px;
     padding-bottom: 20px;
@@ -403,7 +437,10 @@ body {
     text-shadow: -4px -6px 0px #ff0080,
                   4px 4px 0px #00f7ff;
   }
-  .education-content, .work-content {
+  .education-content, 
+  .work-content, 
+  .organization-content, 
+  .skills-content {
     font-size: 12px;
     line-height: 16px;
   }
@@ -413,7 +450,6 @@ body {
 /* Journey Section */
 .timeline-section {
   padding: 80px 160px;
-  background-color: var(--secondary-bg);
 }
 .timeline-title {
   display: flex;
@@ -923,10 +959,10 @@ body {
   margin: 8px 0;
 }
 ::-webkit-scrollbar-thumb {
-  background-color: #d6dee1;
+  background-color: var(--secondary);
   border-radius: 20px;
 }
 ::-webkit-scrollbar-thumb:hover {
-  background-color: #a8bbbf;
+  background-color: #c91651;
 }
 /* End of Scrollbar Section */
