@@ -10,78 +10,22 @@
     <title>Nevyllo Z. Kalangi</title>
     <!-- HTML Config End -->
     <!-- HTML Links Start -->
-    <script type="text/javascript" src="../Scripts/app.js" defer></script>
-    <link rel="stylesheet" href="../CSS/index.css" media="print" onload="this.media='all'">
-    <link rel="icon" type="image/x-icon" href="../Assets/Img/Logo.png"/>
+    <script type="text/javascript" src="/VLORTOFOLIO/Scripts/app.js" defer></script>
+    <link rel="stylesheet" href="/VLORTOFOLIO/CSS/about.css" media="print" onload="this.media='all'">
+    <link rel="icon" type="image/x-icon" href="/VLORTOFOLIO/Assets/Img/Logo.png"/>
     <link href="https://fonts.googleapis.com/css?family=Roboto Condensed" rel="stylesheet"/>
     <link href="https://fonts.googleapis.com/css?family=Inter" rel="stylesheet"/>
     <!-- HTML Links End -->
 </head>
 
 <body>
-    <!-- Top Navigation Start -->
-    <header class="nav-container">
-        <!-- Navigation Logo Start -->
-        <div class="logo">
-            <a href="../index.html">
-                <img src="../Assets/Img/Logo.png" draggable="false" alt="NZK" height="32"/>
-            </a>
-        </div>
-        <!-- Navigation Logo End -->
-        <!-- Navigation Link Start -->
-        <div class="nav-link">
-            <!-- Navigation Menu Start -->
-            <div class="nav-menu">
-                <a href="../Page/about.html">ABOUT</a>
-                <a href="../Page/projects.html">PROJECTS</a>
-                <a href="../Page/faq.html">FAQ</a>
-            </div>
-            <!-- Navigation Menu End -->
-        </div>
-        <!-- Navigation Link End -->
-    </header>
-    <!-- Top Navigation End -->
+    <?php include '../Assets/common/header.php';?>
     <!-- Content Start -->
     <main class="content-container">
-        <!-- Greeting Start -->
-        <div class="greeting">
-            <div class="greeting-background">
-                <div class="greeting-glowing">
-                    <span style="--i:1;"></span>
-                    <span style="--i:2;"></span>
-                    <span style="--i:3;"></span>
-                </div>
-                <div class="greeting-glowing">
-                    <span style="--i:1;"></span>
-                    <span style="--i:2;"></span>
-                    <span style="--i:3;"></span>
-                </div>
-                <div class="greeting-glowing">
-                    <span style="--i:1;"></span>
-                    <span style="--i:2;"></span>
-                    <span style="--i:3;"></span>
-                </div>
-                <div class="greeting-glowing">
-                    <span style="--i:1;"></span>
-                    <span style="--i:2;"></span>
-                    <span style="--i:3;"></span>
-                </div>
-            </div>
-            <div class="greeting-wrapper">
-                <span class="greeting-1">WELCOME</span>
-                <span class="slide">
-                    <span class="greeting-2">TO MY WEBSITE</span>
-                </span>
-            </div>
-        </div>
-        <!-- Greeting End -->
-        <!--Seperator start-->
-        <div class="seperator"></div>
-        <!--Seperator end-->
         <!--About start-->
         <div class="about-section">
             <div class="about-image">
-                <img src="../Assets/Img/MyPic.jpeg" alt="About Me Picture" draggable="false" loading="lazy"
+                <img src="/VLORTOFOLIO/Assets/Img/MyPic.jpeg" alt="About Me Picture" draggable="false" loading="lazy"
                     oncontextmenu="return false;"/>
             </div>
             <div class="about-text">
@@ -101,7 +45,7 @@
         <!--Seperator end-->
         <!--Wokr start-->
         <div class="work-section">
-            <img class="work-img" src="../Assets/Img/Work.png" alt="Work" draggable="false" loading="lazy" oncontextmenu="return false;"/>
+            <img class="work-img" src="/VLORTOFOLIO/Assets/Img/Work.png" alt="Work" draggable="false" loading="lazy" oncontextmenu="return false;"/>
             <div class="work-container">
                 <h2 class="work-title">WORK</h2>
                 <div class="work-content">
@@ -126,7 +70,7 @@
         <!--Seperator end-->
         <!--Education start-->
         <div class="education-section">
-            <img class="education-img" src="../Assets/Img/Education.png" alt="Education" draggable="false" loading="lazy" oncontextmenu="return false;"/>
+            <img class="education-img" src="/VLORTOFOLIO/Assets/Img/Education.png" alt="Education" draggable="false" loading="lazy" oncontextmenu="return false;"/>
             <div class="education-container">
                 <h2 class="education-title">EDUCATION</h2>
                 <div class="education-content">
@@ -158,7 +102,7 @@
         <!--Seperator end-->
         <!-- Organization start-->
         <div class="organization-section">
-            <img class="organization-img" src="../Assets/Img/Organization.png" alt="Organization" draggable="false" loading="lazy" oncontextmenu="return false;"/>
+            <img class="organization-img" src="/VLORTOFOLIO/Assets/Img/Organization.png" alt="Organization" draggable="false" loading="lazy" oncontextmenu="return false;"/>
             <div class="organization-container">
                 <h2 class="organization-title">ORGANIZATION</h2>
                 <div class="organization-content">
@@ -190,7 +134,7 @@
         <!--Seperator end-->
         <!-- Skills start-->
         <div class="skills-section">
-            <img class="skills-img" src="../Assets/Img/Skill.png" alt="Skill" draggable="false" loading="lazy" oncontextmenu="return false;"/>
+            <img class="skills-img" src="/VLORTOFOLIO/Assets/Img/Skill.png" alt="Skill" draggable="false" loading="lazy" oncontextmenu="return false;"/>
             <div class="skills-container">
                 <h2 class="skills-title">SKILLS</h2>
                 <div class="skills-content">
@@ -216,10 +160,10 @@
         <!-- Highlight Start -->
         <div class="slider-section">
             <div class="slider">
-                <img class="slider-img" src="../Assets/Img/SL1.jpeg" alt="D-SPORA 2022" draggable="false" loading="lazy" oncontextmenu="return false;" />
-                <img class="slider-img" src="../Assets/Img/SL2.jpeg" alt="D-SPORA 2022" draggable="false" loading="lazy" oncontextmenu="return false;" />
-                <img class="slider-img" src="../Assets/Img/SL3.jpeg" alt="Leadership Camp 2022" draggable="false" loading="lazy" oncontextmenu="return false;" />
-                <img class="slider-img" src="../Assets/Img/SL4.jpg" alt="Kidsstar 18th Birthday" draggable="false" loading="lazy" oncontextmenu="return false;" />
+                <img class="slider-img" src="/VLORTOFOLIO/Assets/Img/SL1.jpeg" alt="D-SPORA 2022" draggable="false" loading="lazy" oncontextmenu="return false;" />
+                <img class="slider-img" src="/VLORTOFOLIO/Assets/Img/SL2.jpeg" alt="D-SPORA 2022" draggable="false" loading="lazy" oncontextmenu="return false;" />
+                <img class="slider-img" src="/VLORTOFOLIO/Assets/Img/SL3.jpeg" alt="Leadership Camp 2022" draggable="false" loading="lazy" oncontextmenu="return false;" />
+                <img class="slider-img" src="/VLORTOFOLIO/Assets/Img/SL4.jpg" alt="Kidsstar 18th Birthday" draggable="false" loading="lazy" oncontextmenu="return false;" />
             </div>
             <div class="slider-title">
                 <span></span>
@@ -302,60 +246,7 @@
         <!-- Achievements Wrapper End -->
     </main>
     <!-- Content End -->
-    <!-- Footer Start -->
-    <footer>
-        <div class="footer-section">
-            <div class="footer-row">
-                <div class="footer-col">
-                    <h4 class="footer-title">Navigate</h4>
-                    <ul class="footer-ul">
-                        <li><a class="footer-text" href="http://">ABOUT</a></li>
-                        <li><a class="footer-text" href="http://">PROJECTS</a></li>
-                        <li><a class="footer-text" href="http://">EXPERIENCE</a></li>
-                        <li><a class="footer-text" href="http://">FAQ</a></li>
-                    </ul>
-                </div>
-                <div class="footer-col">
-                    <h4 class="footer-title">Contact</h4>
-                    <ul class="footer-ul">
-                        <li class="footer-contact">
-                            <img src="../Assets/Img/Email.png" draggable="false" alt="Email" height="24" loading="lazy"/>
-                            <a class="footer-text">nevyllokalangi@gmail.com</a>
-                        </li>
-                        <li class="footer-contact">
-                            <img src="../Assets/Img/Phone.png" draggable="false" alt="Email" height="24" loading="lazy"/>
-                            <a class="footer-text">+62 851 7118 6112</a>
-                        </li>
-                        <li class="footer-contact">
-                            <img src="../Assets/Img/Pin.png" draggable="false" alt="Pin" height="24" loading="lazy"/>
-                            <a class="footer-text">Indonesia</a>
-                        </li>
-                    </ul>
-                </div>
-                <div class="footer-col">
-                    <h4 class="footer-title">Follow Me</h4>
-                    <div class="social-links">
-                        <a class="footer-sosmed" href="https://www.instagram.com/nevylloproman">
-                            <img src="../Assets/Img/Instagram.png" draggable="false" alt="Instagram: @nevylloproman" height="32" loading="lazy"/>
-                        </a>
-                        <a class="footer-sosmed" href="https://www.youtube.com/@vlovlovlo">
-                            <img src="../Assets/Img/Youtube.png" draggable="false" alt="Youtube: VLOVLOVLO" height="32" loading="lazy"/>
-                        </a>
-                        <a class="footer-sosmed" href="https://discord.gg/SRWRdzZmur">
-                            <img src="../Assets/Img/Discord.png" draggable="false" alt="Discord: Glee Community" height="32" loading="lazy"/>
-                        </a>
-                        <a class="footer-sosmed" href="https://github.com/VLO-K">
-                            <img src="../Assets/Img/Github.png" draggable="false" alt="Github: VLO-K" height="32" loading="lazy"/>
-                        </a>
-                    </div>
-                </div>
-            </div>
-        </div>
-        <div class="f-copyright">
-            <a>Copyright © 2022 Nevyllo Zamuel Kalangi</a>
-        </div>
-    </footer>
-    <!-- Footer End -->
+    <?php include '../Assets/common/footer.php';?>
 </body>
 
 </html>
