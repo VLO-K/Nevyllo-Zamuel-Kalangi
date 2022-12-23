@@ -1,5 +1,4 @@
 <footer>
-    <link rel="stylesheet" href="/VLORTOFOLIO/CSS/index.css" media="print" onload="this.media='all'">
     <div class="footer-section">
         <div class="footer-row">
             <div class="footer-col">
