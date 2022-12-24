@@ -5,14 +5,14 @@
     <!-- HTML Config Start -->
     <meta charset="utf-8"/>
     <meta name="author" content="Nevyllo Zamuel Kalangi"/>
-    <meta name="description" content="Beta Version 2"/>
+    <meta name="description" content="Portfolio"/>
     <meta name="viewport" content="width=device-width, initial-scale=1">
-    <title>Nevyllo Z. Kalangi</title>
+    <title>About - Nevyllo Kalangi</title>
     <!-- HTML Config End -->
     <!-- HTML Links Start -->
-    <script type="text/javascript" src="/VLORTOFOLIO/Scripts/app.js" defer></script>
-    <link rel="stylesheet" href="/VLORTOFOLIO/CSS/about.css" media="print" onload="this.media='all'">
-    <link rel="icon" type="image/x-icon" href="/VLORTOFOLIO/Assets/Img/Logo.png"/>
+    <script type="text/javascript" src="/Scripts/app.js" defer></script>
+    <link rel="stylesheet" href="/CSS/about.css" media="print" onload="this.media='all'">
+    <link rel="icon" type="image/x-icon" href="/Assets/Img/Logo.png"/>
     <link href="https://fonts.googleapis.com/css?family=Roboto Condensed" rel="stylesheet"/>
     <link href="https://fonts.googleapis.com/css?family=Inter" rel="stylesheet"/>
     <!-- HTML Links End -->
@@ -25,7 +25,7 @@
         <!--About start-->
         <div class="about-section">
             <div class="about-image">
-                <img src="/VLORTOFOLIO/Assets/Img/MyPic.jpeg" alt="About Me Picture" draggable="false" loading="lazy"
+                <img src="/Assets/Img/MyPic.jpeg" alt="About Me Picture" draggable="false" loading="lazy"
                     oncontextmenu="return false;"/>
             </div>
             <div class="about-text">
@@ -45,7 +45,7 @@
         <!--Seperator end-->
         <!--Wokr start-->
         <div class="work-section">
-            <img class="work-img" src="/VLORTOFOLIO/Assets/Img/Work.png" alt="Work" draggable="false" loading="lazy" oncontextmenu="return false;"/>
+            <img class="work-img" src="/Assets/Img/Work.png" alt="Work" draggable="false" loading="lazy" oncontextmenu="return false;"/>
             <div class="work-container">
                 <h2 class="work-title">WORK</h2>
                 <div class="work-content">
@@ -70,7 +70,7 @@
         <!--Seperator end-->
         <!--Education start-->
         <div class="education-section">
-            <img class="education-img" src="/VLORTOFOLIO/Assets/Img/Education.png" alt="Education" draggable="false" loading="lazy" oncontextmenu="return false;"/>
+            <img class="education-img" src="/Assets/Img/Education.png" alt="Education" draggable="false" loading="lazy" oncontextmenu="return false;"/>
             <div class="education-container">
                 <h2 class="education-title">EDUCATION</h2>
                 <div class="education-content">
@@ -102,7 +102,7 @@
         <!--Seperator end-->
         <!-- Organization start-->
         <div class="organization-section">
-            <img class="organization-img" src="/VLORTOFOLIO/Assets/Img/Organization.png" alt="Organization" draggable="false" loading="lazy" oncontextmenu="return false;"/>
+            <img class="organization-img" src="/Assets/Img/Organization.png" alt="Organization" draggable="false" loading="lazy" oncontextmenu="return false;"/>
             <div class="organization-container">
                 <h2 class="organization-title">ORGANIZATION</h2>
                 <div class="organization-content">
@@ -134,7 +134,7 @@
         <!--Seperator end-->
         <!-- Skills start-->
         <div class="skills-section">
-            <img class="skills-img" src="/VLORTOFOLIO/Assets/Img/Skill.png" alt="Skill" draggable="false" loading="lazy" oncontextmenu="return false;"/>
+            <img class="skills-img" src="/Assets/Img/Skill.png" alt="Skill" draggable="false" loading="lazy" oncontextmenu="return false;"/>
             <div class="skills-container">
                 <h2 class="skills-title">SKILLS</h2>
                 <div class="skills-content">
@@ -160,10 +160,10 @@
         <!-- Highlight Start -->
         <div class="slider-section">
             <div class="slider">
-                <img class="slider-img" src="/VLORTOFOLIO/Assets/Img/SL1.jpeg" alt="D-SPORA 2022" draggable="false" loading="lazy" oncontextmenu="return false;" />
-                <img class="slider-img" src="/VLORTOFOLIO/Assets/Img/SL2.jpeg" alt="D-SPORA 2022" draggable="false" loading="lazy" oncontextmenu="return false;" />
-                <img class="slider-img" src="/VLORTOFOLIO/Assets/Img/SL3.jpeg" alt="Leadership Camp 2022" draggable="false" loading="lazy" oncontextmenu="return false;" />
-                <img class="slider-img" src="/VLORTOFOLIO/Assets/Img/SL4.jpg" alt="Kidsstar 18th Birthday" draggable="false" loading="lazy" oncontextmenu="return false;" />
+                <img class="slider-img" src="/Assets/Img/SL1.jpeg" alt="D-SPORA 2022" draggable="false" loading="lazy" oncontextmenu="return false;" />
+                <img class="slider-img" src="/Assets/Img/SL2.jpeg" alt="D-SPORA 2022" draggable="false" loading="lazy" oncontextmenu="return false;" />
+                <img class="slider-img" src="/Assets/Img/SL3.jpeg" alt="Leadership Camp 2022" draggable="false" loading="lazy" oncontextmenu="return false;" />
+                <img class="slider-img" src="/Assets/Img/SL4.jpg" alt="Kidsstar 18th Birthday" draggable="false" loading="lazy" oncontextmenu="return false;" />
             </div>
             <div class="slider-title">
                 <span></span>

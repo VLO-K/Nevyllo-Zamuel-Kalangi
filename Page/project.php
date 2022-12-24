@@ -5,9 +5,9 @@
     <!-- HTML Config Start -->
     <meta charset="utf-8"/>
     <meta name="author" content="Nevyllo Zamuel Kalangi"/>
-    <meta name="description" content="Beta Version 2"/>
+    <meta name="description" content="Portfolio"/>
     <meta name="viewport" content="width=device-width, initial-scale=1">
-    <title>Nevyllo Z. Kalangi</title>
+    <title>Projects - Nevyllo Kalangi</title>
     <!-- HTML Config End -->
     <!-- HTML Links Start -->
     <script type="text/javascript" src="./Scripts/app.js" defer></script>
@@ -19,14 +19,14 @@
 </head>
 
 <body>
-    <?php include './Assets/common/header.php';?>
+    <?php include '../Assets/common/header.php';?>
     <!-- Content Start -->
     <main class="content-container">
 
     
     </main>
     <!-- Content End -->
-    <?php include './Assets/common/footer.php';?>
+    <?php include '../Assets/common/footer.php';?>
 </body>
 
 </html>

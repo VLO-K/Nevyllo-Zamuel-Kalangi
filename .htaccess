@@ -1,4 +1,6 @@
 RewriteEngine On
 
 RewriteRule ^home$ index.php
-RewriteRule ^about$ about.php
+RewriteRule ^about$ Page/about.php
+RewriteRule ^project$ Page/project.php
+RewriteRule ^faq$ Page/faq.php
