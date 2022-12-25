@@ -1,0 +1,47 @@
+/* Config */
+:root {
+  --primary: #fff;
+  --secondary: #e91e63;
+  --bg: #000;
+  --secondary-bg: #0f0f0f;
+}
+*, *::after, *::before {
+  box-sizing: border-box;
+}
+* {
+  font-family: "Montserrat", sans-serif;
+  color: var(--primary);
+  margin: 0;
+  padding: 0;
+}
+img, video, picture, svg {
+  display: block;
+  user-select: none;
+}
+html {
+  color-scheme: dark light;
+  scroll-behavior: smooth;
+}
+body {
+  background-color: var(--bg);
+  width: 100%;
+  min-height: 100vh;
+}
+/* Config */
+
+/* Scrollbar */
+::-webkit-scrollbar {
+  width: 9px;
+}
+::-webkit-scrollbar-track {
+  background-color: transparent;
+  margin: 8px 0;
+}
+::-webkit-scrollbar-thumb {
+  background-color: var(--secondary);
+  border-radius: 20px;
+}
+::-webkit-scrollbar-thumb:hover {
+  background-color: #c91651;
+}
+/* Scrollbar */

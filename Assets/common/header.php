@@ -1,16 +1,12 @@
 <header class="nav-container">
     <style type="text/css" scoped>
-        /* Navigation Section - Production */
-        /* Config Section - Production */
+        /* Config */
         :root {
             --primary: #fff;
             --secondary: #e91e63;
             --bg: #000;
             --secondary-bg: #0f0f0f;
         }
-        /* End of Config */
-        /**/
-        /* Body Section */
         *, *::after, *::before {
             box-sizing: border-box;
         }
@@ -24,6 +20,8 @@
             display: block;
             user-select: none;
         }
+        /* Config */
+        /* Navigation */
         .nav-container {
             display: flex;
             position: sticky;
@@ -65,7 +63,7 @@
             width: 0;
             left: 50%;
             bottom: 0;
-            background: #e91e63;
+            background: var(--secondary);
             transition: width 0.3s ease 0s, left 0.3s ease 0s;
         }
         .nav-menu a:hover {
@@ -76,24 +74,23 @@
             width: 100%;
             left: 0;
         }
-        /* End of Navigation Section */
+        /* Navigation */
     </style>
-    <!-- Navigation Logo Start -->
+    <!-- Navigation Logo -->
     <div class="logo">
         <a href="home">
             <img src="/Assets/Img/Logo.png" draggable="false" alt="NZK" height="32"/>
         </a>
     </div>
-    <!-- Navigation Logo End -->
-    <!-- Navigation Link Start -->
+    <!-- Navigation Logo -->
+    <!-- Navigation Link -->
     <div class="nav-link">
-        <!-- Navigation Menu Start -->
+        <!-- Navigation Menu -->
         <div class="nav-menu">
             <a href="about">ABOUT</a>
             <a href="project">PROJECTS</a>
             <a href="faq">FAQ</a>
         </div>
-        <!-- Navigation Menu End -->
+        <!-- Navigation Menu -->
     </div>
-    <!-- Navigation Link End -->
 </header>

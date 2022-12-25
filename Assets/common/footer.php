@@ -1,16 +1,12 @@
 <footer>
     <style type="text/css" scoped>
-        /* Footer Section */
-        /* Config Section - Production */
+        /* Config */
         :root {
             --primary: #fff;
             --secondary: #e91e63;
             --bg: #000;
             --secondary-bg: #0f0f0f;
         }
-        /* End of Config */
-        /**/
-        /* Body Section */
         *, *::after, *::before {
             box-sizing: border-box;
         }
@@ -24,10 +20,12 @@
             display: block;
             user-select: none;
         }
+        /* Config */
+        /* Footer */
         .footer-section {
-        font-family: 'Poppins', sans-serif;
-        background-color: var(--secondary-bg);
-        padding: 70px 20% 10px 20%
+            font-family: 'Poppins', sans-serif;
+            background-color: var(--secondary-bg);
+            padding: 70px 0 10px 0;
         }
         .footer-row {
             display: flex;
@@ -39,7 +37,7 @@
         }
         .footer-col:nth-child(2) {
             min-width: 240px;
-            margin: 0 80px 0 160px;
+            margin: 0 7% 0 10%;
         }
         .footer-ul {
             list-style: none;
@@ -100,26 +98,31 @@
             background-color: var(--secondary-bg);
             padding: 15px 0 15px 0;
         }
-        /* End of Footer Section */
-        /**/
-        /* Responsive CSS */
+        /* Footer */
         /* Footer Responsive */
-        @media(max-width: 1250px){
-        .footer-col{
-            width: 50%;
-            margin-bottom: 30px;
+        @media(max-width: 900px){
+            .footer-section {
+                padding: 70px 10% 10px 10%
+            }
+            .footer-col{
+                width: 50%;
+                margin-bottom: 30px;
+            }
+            .footer-row{
+                justify-content: left;
+            }
+            .footer-col:nth-child(1) {
+                min-width: 89px;
+            }
+            .footer-col:nth-child(2) {
+                min-width: 240px;
+                margin: 0 0 30px 0;
+            }
         }
-        .footer-row{
-            justify-content: left;
-        }
-        }
-        @media(max-width: 574px){
-        .footer-col{
-            width: 100%;
-        }
-        .footer-row{
-            justify-content: left;
-        }
+        @media(max-width: 600px){
+            .footer-col{
+                width: 100%;
+            }
         }
         /* Footer Responsive */
     </style>

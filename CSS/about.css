@@ -1,13 +1,10 @@
-/* Config Section - Production */
+/* Config */
 :root {
   --primary: #fff;
   --secondary: #e91e63;
   --bg: #000;
   --secondary-bg: #0f0f0f;
 }
-/* End of Config */
-/**/
-/* Body Section */
 *, *::after, *::before {
   box-sizing: border-box;
 }
@@ -33,14 +30,14 @@ body {
 .seperator {
   height: 160px;
 }
-/* End of Body */
-/**/
+/* Config */
+
 .content-container {
   margin: auto;
   max-width: 120em;
 }
-/**/
-/* About Section */
+
+/* About */
 .about-section {
   display: flex;
   flex-direction: row;
@@ -75,9 +72,8 @@ body {
   color: var(--primary);
   font-size: 18px;
 }
-/* End of About Section */
-/**/
-/* Education & Work Section & Organization */
+/* About  */
+/* Education, Work, Organization & Skill*/
 .education-section, 
 .work-section, 
 .organization-section,
@@ -203,10 +199,9 @@ body {
     font-size: 12px;
     line-height: 16px;
   }
-} 
-/* End of Education & Work Section */
-/**/
-/* Journey Section */
+}
+/* Education, Work, Organization & Skill*/
+/* Journey */
 .timeline-section {
   padding: 80px 160px;
 }
@@ -375,9 +370,8 @@ body {
   color: var(--primary);
   background-color: var(--secondary);
 }
-/* End of Journey Section */
-/**/
-/* Highlight Section */
+/* Journey */
+/* Highlight */
 .slider-section {
   position: relative;
   overflow: hidden;
@@ -498,10 +492,8 @@ body {
     transform: translate(0);
   }
 }
-/* End of Highlight Section */
-/**/
-/**/
-/* Achievements Section */
+/* Highlight */
+/* Achievements */
 .achievements-section {
   user-select: none;
   padding: 50px;
@@ -554,8 +546,8 @@ body {
 .achievements-col:nth-child(3) {
   background: #a764ff;
 }
-/* End of Achievements Section */
-/**/
+/* Achievements */
+
 /* Journey Responsive */
 @media (max-width: 1000px){
   .timeline{
@@ -590,8 +582,7 @@ body {
     right: inherit;
   }
 }
-/* End of Journey Responsive */
-/**/
+/* Journey Responsive */
 /* @media (orientation: portrait) {
   .greeting {
     height: 40vh;
@@ -603,8 +594,8 @@ body {
   }
 } */
 /* End of Responsive CSS */
-/**/
-/* Scrollbar Section */
+
+/* Scrollbar */
 ::-webkit-scrollbar {
   width: 9px;
 }
@@ -619,4 +610,4 @@ body {
 ::-webkit-scrollbar-thumb:hover {
   background-color: #c91651;
 }
-/* End of Scrollbar Section */
+/* Scrollbar */

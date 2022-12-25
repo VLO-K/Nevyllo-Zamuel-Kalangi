@@ -2,27 +2,27 @@
 <html>
 
 <head lang="en">
-    <!-- HTML Config Start -->
+    <!-- HTML Config -->
     <meta charset="utf-8"/>
     <meta name="author" content="Nevyllo Zamuel Kalangi"/>
     <meta name="description" content="Portfolio"/>
     <meta name="viewport" content="width=device-width, initial-scale=1">
     <title>About - Nevyllo Kalangi</title>
-    <!-- HTML Config End -->
-    <!-- HTML Links Start -->
+    <!-- HTML Config -->
+    <!-- HTML Links -->
     <script type="text/javascript" src="/Scripts/app.js" defer></script>
     <link rel="stylesheet" href="/CSS/about.css" media="print" onload="this.media='all'">
     <link rel="icon" type="image/x-icon" href="/Assets/Img/Logo.png"/>
     <link href="https://fonts.googleapis.com/css?family=Roboto Condensed" rel="stylesheet"/>
     <link href="https://fonts.googleapis.com/css?family=Inter" rel="stylesheet"/>
-    <!-- HTML Links End -->
+    <!-- HTML Links -->
 </head>
 
 <body>
     <?php include '../Assets/common/header.php';?>
     <!-- Content Start -->
     <main class="content-container">
-        <!--About start-->
+        <!--About Start-->
         <div class="about-section">
             <div class="about-image">
                 <img src="/Assets/Img/MyPic.jpeg" alt="About Me Picture" draggable="false" loading="lazy"
@@ -40,10 +40,10 @@
             </div>
         </div>
         <!--About End-->
-        <!--Seperator start-->
+        <!--Seperator Start-->
         <div class="seperator"></div>
-        <!--Seperator end-->
-        <!--Wokr start-->
+        <!--Seperator End-->
+        <!--Wokr Start-->
         <div class="work-section">
             <img class="work-img" src="/Assets/Img/Work.png" alt="Work" draggable="false" loading="lazy" oncontextmenu="return false;"/>
             <div class="work-container">
@@ -65,10 +65,10 @@
             </div>
         </div>
         <!--Work End-->
-        <!--Seperator start-->
+        <!--Seperator Start-->
         <div class="seperator"></div>
-        <!--Seperator end-->
-        <!--Education start-->
+        <!--Seperator End-->
+        <!--Education Start-->
         <div class="education-section">
             <img class="education-img" src="/Assets/Img/Education.png" alt="Education" draggable="false" loading="lazy" oncontextmenu="return false;"/>
             <div class="education-container">
@@ -97,10 +97,10 @@
             </div>
         </div>
         <!--Education End-->
-        <!--Seperator start-->
+        <!--Seperator Start-->
         <div class="seperator"></div>
-        <!--Seperator end-->
-        <!-- Organization start-->
+        <!--Seperator End-->
+        <!-- Organization Start-->
         <div class="organization-section">
             <img class="organization-img" src="/Assets/Img/Organization.png" alt="Organization" draggable="false" loading="lazy" oncontextmenu="return false;"/>
             <div class="organization-container">
@@ -129,10 +129,10 @@
             </div>
         </div>
         <!-- Organization End-->
-        <!--Seperator start-->
+        <!--Seperator Start-->
         <div class="seperator"></div>
-        <!--Seperator end-->
-        <!-- Skills start-->
+        <!--Seperator End-->
+        <!-- Skills Start-->
         <div class="skills-section">
             <img class="skills-img" src="/Assets/Img/Skill.png" alt="Skill" draggable="false" loading="lazy" oncontextmenu="return false;"/>
             <div class="skills-container">
@@ -154,9 +154,9 @@
             </div>
         </div>
         <!-- Skills End-->
-        <!--Seperator start-->
+        <!--Seperator Start-->
         <div class="seperator"></div>
-        <!--Seperator end-->
+        <!--Seperator End-->
         <!-- Highlight Start -->
         <div class="slider-section">
             <div class="slider">
@@ -170,9 +170,9 @@
             </div>
         </div>
         <!-- Highlight  End -->
-        <!--Seperator start-->
+        <!--Seperator Start-->
         <div class="seperator"></div>
-        <!--Seperator end-->
+        <!--Seperator End-->
         <!-- Timeline Start -->
         <div class="timeline-section">
             <div class="timeline-title">
@@ -218,7 +218,7 @@
                 </ul>
             </div>
         </div>
-        <!--Timeline end-->
+        <!--Timeline End-->
         <!-- Achievements Wrapper Start -->
         <div class="achievements-section">
             <h2 class="achievements-title">ACHIEVEMENTS</h2>

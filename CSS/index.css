@@ -1,13 +1,10 @@
-/* Config Section - Production */
+/* Config */
 :root {
   --primary: #fff;
   --secondary: #e91e63;
   --bg: #000;
   --secondary-bg: #0f0f0f;
 }
-/* End of Config */
-/**/
-/* Body Section */
 *, *::after, *::before {
   box-sizing: border-box;
 }
@@ -30,17 +27,17 @@ body {
   width: 100%;
   min-height: 100vh;
 }
-.seperator {
-  height: 160px;
-}
-/* End of Body */
-/**/
+/* Config */
+
 .content-container {
   margin: auto;
   max-width: 120em;
 }
-/**/
-/* Greeting Section - Production */
+.seperator {
+  height: 160px;
+}
+
+/* Greeting */
 .greeting-background {
   display: flex;
   position: absolute;
@@ -224,7 +221,8 @@ body {
     transform: translateX(0%);
   }
 }
-/* End of Greeting Section */
+/* Greeting */
+
 /* @media (orientation: portrait) {
   .greeting {
     height: 40vh;
@@ -236,8 +234,8 @@ body {
   }
 } */
 /* End of Responsive CSS */
-/**/
-/* Scrollbar Section */
+
+/* Scrollbar */
 ::-webkit-scrollbar {
   width: 9px;
 }
@@ -252,4 +250,4 @@ body {
 ::-webkit-scrollbar-thumb:hover {
   background-color: #c91651;
 }
-/* End of Scrollbar Section */
+/* Scrollbar */

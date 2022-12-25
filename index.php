@@ -2,13 +2,13 @@
 <html>
 
 <head lang="en">
-    <!-- HTML Config Start -->
+    <!-- HTML Config -->
     <meta charset="utf-8"/>
     <meta name="author" content="Nevyllo Zamuel Kalangi"/>
     <meta name="description" content="Portfolio"/>
     <meta name="viewport" content="width=device-width, initial-scale=1">
     <title>Home - Nevyllo Kalangi</title>
-    <!-- HTML Config End -->
+    <!-- HTML Config -->
     <!-- HTML Links Start -->
     <script type="text/javascript" src="/Scripts/app.js" defer></script>
     <link rel="stylesheet" href="/CSS/index.css" media="print" onload="this.media='all'">
