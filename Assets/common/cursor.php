@@ -31,7 +31,7 @@
     border: 1px solid var(--primary);
     border-radius: 50%;
     z-index: 999;
-    transition-duration: 100ms;
+    transition-duration: 200ms;
     transition-timing-function: ease-out;
   }
   @keyframes cursorAnim2 {

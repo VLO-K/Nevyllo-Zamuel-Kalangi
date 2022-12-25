@@ -46,7 +46,10 @@ main {
   margin: 80px 0;
 }
 h1 {
-  font-size: 46px;
+  text-align: center;
+  font-size: 166px;
+  width: 100%;
+  padding: 100px;
   text-shadow: -4px -4px 0px #ff0080,
                 4px 4px 0px #00f7ff;
 }

@@ -7,7 +7,7 @@
     <meta name="author" content="Nevyllo Zamuel Kalangi"/>
     <meta name="description" content="Portfolio"/>
     <meta name="viewport" content="width=device-width, initial-scale=1">
-    <title>Projects - Nevyllo Kalangi</title>
+    <title>Projects | Nevyllo Kalangi</title>
     <!-- HTML Config -->
     <!-- HTML Links -->
     <script type="text/javascript" src="./Scripts/app.js" defer></script>
@@ -25,6 +25,7 @@
     <main class="content-container">
         <!-- Project -->
         <div class="project-section">
+            <h1>PORTFOLIO</h1>
             <div class="project-row">
                 <div class="project-col">
                     

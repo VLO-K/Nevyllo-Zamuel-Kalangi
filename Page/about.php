@@ -7,7 +7,7 @@
     <meta name="author" content="Nevyllo Zamuel Kalangi"/>
     <meta name="description" content="Portfolio"/>
     <meta name="viewport" content="width=device-width, initial-scale=1">
-    <title>About - Nevyllo Kalangi</title>
+    <title>About | Nevyllo Kalangi</title>
     <!-- HTML Config -->
     <!-- HTML Links -->
     <script type="text/javascript" src="/Scripts/app.js" defer></script>
@@ -23,22 +23,24 @@
     <?php include '../Assets/common/header.php';?>
     <!-- Content Start -->
     <main class="content-container">
+        <!--Seperator Start-->
+        <div class="seperator"></div>
+        <!--Seperator End-->
         <!--About Start-->
         <div class="about-section">
+            <!-- background stroke nanti di belanakng about me -->
             <div class="about-image">
                 <img src="/Assets/Img/MyPic.jpeg" alt="About Me Picture" draggable="false" loading="lazy"
                     oncontextmenu="return false;"/>
             </div>
-            <div class="about-text">
-                <a class="about-title">About Me</a><br>
-                <a class="about-job">Student of <span>Dunia Harapan School</span></a><br>
-                <p1 class="about-desc">
-                    Hello everyone! My name is Nevyllo Zamuel Kalangi, a 16 years
-                    Indonesia Student living in Indonesia. Coding is one of my hobby,
-                    and this website is one of my projects. I have been coding since I
-                    was 11 years old. Have some organizational experience and holding events. I love to listen to the music, especially pop music.
-                </p1>
-            </div>
+            <a class="about-title">Nevyllo Zamuel Kalangi</a><br>
+            <a class="about-job">Student of <span>Dunia Harapan School</span></a><br>
+            <p1 class="about-desc">
+                Hello everyone! My name is Nevyllo Zamuel Kalangi, a 16 years
+                Indonesia Student living in Indonesia. Coding is one of my hobby,
+                and this website is one of my projects. I have been coding since I
+                was 11 years old. Have some organizational experience and holding events. I love to listen to the music, especially pop music.
+            </p1>
         </div>
         <!--About End-->
         <!--Seperator Start-->

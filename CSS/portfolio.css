@@ -28,15 +28,154 @@ body {
   width: 100%;
   min-height: 100vh;
 }
+.seperator {
+  height: 160px;
+}
 .content-container {
   margin: auto;
   max-width: 120em;
 }
 /* Config */
-/* Portfolio */
 
 
-
+/* Portfolio Title */
+h1 {
+  text-align: center;
+  font-size: 166px;
+  width: 100%;
+  padding: 100px;
+  text-shadow: -4px -4px 0px #ff0080,
+                4px 4px 0px #00f7ff;
+}
+/* Portfolio Title */
+/* Education, Work, Organization & Skill*/
+.education-section, 
+.work-section, 
+.organization-section,
+.skills-section {
+  display: flex;
+  flex-direction: row;
+  justify-content: center;
+  user-select: none;
+  padding: 0 160px;
+}
+.education-img {
+  max-height: 250px;
+  max-width: 250px;
+  margin-right: 120px;
+  transform: rotate(340deg);
+}
+.work-img {
+  max-height: 250px;
+  max-width: 250px;
+  margin-right: 120px;
+}
+.organization-img {
+  max-height: 250px;
+  max-width: 250px;
+  margin-right: 120px;
+}
+.skills-img {
+  max-height: 250px;
+  max-width: 250px;
+  margin-right: 120px;
+}
+.education-container, 
+.work-container, 
+.organization-container, 
+.skills-container {
+  justify-content: center;
+  width: 40%;
+}
+.education-title, 
+.work-title, 
+.organization-title, 
+.skills-title {
+  position: relative;
+  font-size: 46px;
+  padding-bottom: 30px;
+  letter-spacing: .15em;
+  text-shadow: -4px -4px 0px #ff0080,
+                4px 4px 0px #00f7ff;
+}
+.education-content, 
+.work-content, 
+.organization-content, 
+.skills-content { 
+  display: grid;
+  cursor: pointer;
+  grid-template-columns: 6fr 4fr 1fr;
+  font-size: 20px;
+  font-weight: 600;
+  line-height: 36px;
+  width: 100%;
+  padding: 15px 0;
+  padding-bottom: 20px;
+  border-top: 2px solid var(--primary);
+}
+.education-year, 
+.work-year, 
+.organization-year,
+.skills-year {
+  text-align: center;
+}
+.education-number, 
+.work-number, 
+.organization-number,
+.skills-number {
+  text-align: right;
+}
+.education-container:hover .education-content, 
+.work-container:hover .work-content, 
+.organization-container:hover .organization-content,
+.skills-container:hover .skills-content {
+  filter: blur(4px);
+  transition: 0.5s;
+}
+.education-container .education-content:hover, 
+.work-container .work-content:hover, 
+.organization-container .organization-content:hover, 
+.skills-container .skills-content:hover {
+  filter: blur(0);
+  transition: 0.5s;
+}
+@media (orientation: portrait) {
+  .education-section, 
+  .work-section, 
+  .organization-section,
+  .skills-section {
+    padding: 0 10px;
+  }
+  .education-img {
+    transform: rotate(340deg);
+  }  
+  .education-container, 
+  .work-container, 
+  .organization-container, 
+  .skills-container {
+    justify-content: center;
+    width: 80%;
+  }
+  .education-title, 
+  .work-title, 
+  .organization-title, 
+  .skills-title {
+    position: relative;
+    font-size: 26px;
+    padding-bottom: 20px;
+    letter-spacing: .15em;
+    text-shadow: -4px -6px 0px #ff0080,
+                  4px 4px 0px #00f7ff;
+  }
+  .education-content, 
+  .work-content, 
+  .organization-content, 
+  .skills-content {
+    font-size: 12px;
+    line-height: 16px;
+  }
+}
+/* Education, Work, Organization & Skill*/
 /* Portfolio */
 
 /* Scrollbar */

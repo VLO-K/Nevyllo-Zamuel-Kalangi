@@ -7,7 +7,7 @@
     <meta name="author" content="Nevyllo Zamuel Kalangi"/>
     <meta name="description" content="Portfolio"/>
     <meta name="viewport" content="width=device-width, initial-scale=1">
-    <title>FAQs - Nevyllo Kalangi</title>
+    <title>FAQs | Nevyllo Kalangi</title>
     <!-- HTML Config -->
     <!-- HTML Links -->
     <script type="text/javascript" src="./Scripts/app.js" defer></script>
