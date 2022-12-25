@@ -19,6 +19,7 @@
 </head>
 
 <body>
+    <?php include '../Assets/common/cursor.php';?>
     <?php include '../Assets/common/header.php';?>
     <!-- Content Start -->
     <main class="content-container">

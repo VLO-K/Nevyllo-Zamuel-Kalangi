@@ -2,5 +2,10 @@ RewriteEngine On
 
 RewriteRule ^home$ index.php
 RewriteRule ^about$ Page/about.php
+RewriteRule ^portfolio$ Page/portfolio.php
 RewriteRule ^project$ Page/project.php
 RewriteRule ^faq$ Page/faq.php
+
+ErrorDocument 403 /Page/E403.php
+ErrorDocument 404 /Page/E404.php
+ErrorDocument 500 /Page/E500.php

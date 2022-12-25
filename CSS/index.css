@@ -23,20 +23,19 @@ html {
   scroll-behavior: smooth;
 }
 body {
+  overflow-x: hidden;
   background-color: var(--bg);
   width: 100%;
   min-height: 100vh;
 }
-/* Config */
-
+.seperator {
+  height: 160px;
+}
 .content-container {
   margin: auto;
   max-width: 120em;
 }
-.seperator {
-  height: 160px;
-}
-
+/* Config */
 /* Greeting */
 .greeting-background {
   display: flex;
@@ -227,10 +226,6 @@ body {
   .greeting {
     height: 40vh;
     font-size: 70px;
-  }
-  .slider-container {
-    height: 40vh;
-    font-size: 60px;
   }
 } */
 /* End of Responsive CSS */

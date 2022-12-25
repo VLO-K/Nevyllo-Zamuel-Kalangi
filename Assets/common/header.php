@@ -34,12 +34,14 @@
             width: 100%;
             padding: 0 8%;
             z-index: 39;
-            background-color: #000000e0;
+            background-color: var(--bg);
             filter: blur(80%)
         }
         .logo {
             padding-left: 2%;
             padding-right: 2%;
+        }
+        .logo:hover {
             cursor: pointer;
         }
         .nav-menu {
@@ -87,9 +89,10 @@
     <div class="nav-link">
         <!-- Navigation Menu -->
         <div class="nav-menu">
-            <a href="about">ABOUT</a>
-            <a href="project">PROJECTS</a>
-            <a href="faq">FAQ</a>
+            <a href="/about">ABOUT</a>
+            <a href="/portfolio">PORTFOLIO</a>
+            <a href="/project">PROJECT</a>
+            <a href="/faq">FAQ</a>
         </div>
         <!-- Navigation Menu -->
     </div>

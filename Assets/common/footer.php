@@ -131,10 +131,11 @@
             <div class="footer-col">
                 <h4 class="footer-title">Navigate</h4>
                 <ul class="footer-ul">
-                    <li><a class="footer-text" href="home">Home</a></li>
-                    <li><a class="footer-text" href="about">ABOUT</a></li>
-                    <li><a class="footer-text" href="project">PROJECTS</a></li>
-                    <li><a class="footer-text" href="faq">FAQ</a></li>
+                    <li><a class="footer-text" href="/ome">HOME</a></li>
+                    <li><a class="footer-text" href="/about">ABOUT</a></li>
+                    <li><a class="footer-text" href="/portfolio">PORTFOLIO</a></li>
+                    <li><a class="footer-text" href="/project">PROJECT</a></li>
+                    <li><a class="footer-text" href="/faq">FAQ</a></li>
                 </ul>
             </div>
             <div class="footer-col">

@@ -10,7 +10,7 @@
     <title>Home - Nevyllo Kalangi</title>
     <!-- HTML Config -->
     <!-- HTML Links Start -->
-    <script type="text/javascript" src="/Scripts/app.js" defer></script>
+    <script type="text/javascript" src="/Scripts/index.js" defer></script>
     <link rel="stylesheet" href="/CSS/index.css" media="print" onload="this.media='all'">
     <link rel="icon" type="image/x-icon" href="/Assets/Img/Logo.png"/>
     <link href="https://fonts.googleapis.com/css?family=Roboto Condensed" rel="stylesheet"/>
@@ -19,6 +19,7 @@
 </head>
 
 <body>
+    <?php include 'Assets/common/cursor.php';?>
     <?php include 'Assets/common/header.php';?>
     <!-- Content Start -->
     <main class="content-container">

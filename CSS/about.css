@@ -23,6 +23,7 @@ html {
   scroll-behavior: smooth;
 }
 body {
+  overflow-x: hidden;
   background-color: var(--bg);
   width: 100%;
   min-height: 100vh;
@@ -30,13 +31,11 @@ body {
 .seperator {
   height: 160px;
 }
-/* Config */
-
 .content-container {
   margin: auto;
   max-width: 120em;
 }
-
+/* Config */
 /* About */
 .about-section {
   display: flex;
@@ -133,8 +132,8 @@ body {
   font-size: 20px;
   font-weight: 600;
   line-height: 36px;
-  padding: 15px 0;
   width: 100%;
+  padding: 15px 0;
   padding-bottom: 20px;
   border-top: 2px solid var(--primary);
 }
@@ -583,16 +582,12 @@ body {
   }
 }
 /* Journey Responsive */
-/* @media (orientation: portrait) {
-  .greeting {
-    height: 40vh;
-    font-size: 70px;
-  }
+@media (orientation: portrait) {
   .slider-container {
     height: 40vh;
     font-size: 60px;
   }
-} */
+}
 /* End of Responsive CSS */
 
 /* Scrollbar */
