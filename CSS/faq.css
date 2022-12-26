@@ -51,6 +51,7 @@ h1 {
                 4px 4px 0px #00f7ff;
 }
 .faq-accordion {
+  max-width: 926px;
   width: 70%;
   margin: 40px auto;
 }

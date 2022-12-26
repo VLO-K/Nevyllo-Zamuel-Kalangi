@@ -19,10 +19,11 @@
 </head>
 
 <body>
+    <?php include 'Assets/common/loader.php';?>
     <?php include 'Assets/common/cursor.php';?>
     <?php include 'Assets/common/header.php';?>
     <!-- Content Start -->
-    <main class="content-container">
+    <main class="content-container" id="content">
         <!-- Greeting Start -->
         <div class="greeting">
             <div class="greeting-background">
