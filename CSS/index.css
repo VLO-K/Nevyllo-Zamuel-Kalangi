@@ -3,7 +3,7 @@
   --primary: #fff;
   --secondary: #e91e63;
   --bg: #000;
-  --secondary-bg: #0f0f0f;
+  --secondary-bg: #121212;
 }
 *, *::after, *::before {
   box-sizing: border-box;
@@ -32,6 +32,7 @@ body {
   height: 160px;
 }
 .content-container {
+  display: none;
   margin: auto;
   max-width: 120em;
 }

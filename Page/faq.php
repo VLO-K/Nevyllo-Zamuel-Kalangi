@@ -10,7 +10,6 @@
     <title>FAQs | Nevyllo Kalangi</title>
     <!-- HTML Config -->
     <!-- HTML Links -->
-    <script type="text/javascript" src="./Scripts/app.js" defer></script>
     <link rel="stylesheet" href="/CSS/faq.css" media="print" onload="this.media='all'">
     <link rel="icon" type="image/x-icon" href="./Assets/Img/Logo.png"/>
     <link href="https://fonts.googleapis.com/css?family=Roboto Condensed" rel="stylesheet"/>
@@ -19,10 +18,11 @@
 </head>
 
 <body>
+    <?php include '../Assets/common/loader.php';?>
     <?php include '../Assets/common/cursor.php';?>
     <?php include '../Assets/common/header.php';?>
     <!-- Content Start -->
-    <main class="content-container">
+    <main class="content-container" id="content">
         <!-- FAQ Start -->
         <div class="faq-section">
             <h1>FAQs</h1>
@@ -38,28 +38,28 @@
                     <label for="second">What are your hobbies?</label>
                     <input type="radio" name="faq-input" id="second">
                     <div class="faq-answer">
-                        <p>I love to play</p>
+                        <p>I love playing games, listening music, coding & watching movies</p>
                     </div>
                 </li>
                 <li>
-                    <label for="third">What are your hobbies?</label>
+                    <label for="third">Where are you from?</label>
                     <input type="radio" name="faq-input" id="third">
                     <div class="faq-answer">
-                        <p>I love to play</p>
+                        <p>I'm from Makassar, South Sulawesi, Indonesia</p>
                     </div>
                 </li>
                 <li>
-                    <label for="forth">What are your hobbies?</label>
+                    <label for="forth">Do you have experience in holding an event?</label>
                     <input type="radio" name="faq-input" id="forth">
                     <div class="faq-answer">
-                        <p>I love to play</p>
+                        <p>Yes, Inter-School Competitions (DHS CUP)</p>
                     </div>
                 </li>
                 <li>
-                    <label for="fifth">What are your hobbies?</label>
+                    <label for="fifth">Are you married?</label>
                     <input type="radio" name="faq-input" id="fifth">
                     <div class="faq-answer">
-                        <p>I love to play</p>
+                        <p>No and not anytime soon</p>
                     </div>
                 </li>
             </ul>

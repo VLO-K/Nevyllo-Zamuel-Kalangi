@@ -1,29 +1,8 @@
-<header class="nav-container">
+<header class="nav-container" id="nav">
     <style type="text/css" scoped>
-        /* Config */
-        :root {
-            --primary: #fff;
-            --secondary: #e91e63;
-            --bg: #000;
-            --secondary-bg: #0f0f0f;
-        }
-        *, *::after, *::before {
-            box-sizing: border-box;
-        }
-        * {
-            font-family: "Montserrat", sans-serif;
-            color: var(--primary);
-            margin: 0;
-            padding: 0;
-        }
-        img, video, picture, svg {
-            display: block;
-            user-select: none;
-        }
-        /* Config */
         /* Navigation */
         .nav-container {
-            display: flex;
+            display: none;
             position: sticky;
             justify-content: space-between;
             align-items: center;

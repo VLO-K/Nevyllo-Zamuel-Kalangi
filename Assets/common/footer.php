@@ -1,27 +1,9 @@
-<footer>
+<footer id="footer">
     <style type="text/css" scoped>
-        /* Config */
-        :root {
-            --primary: #fff;
-            --secondary: #e91e63;
-            --bg: #000;
-            --secondary-bg: #0f0f0f;
-        }
-        *, *::after, *::before {
-            box-sizing: border-box;
-        }
-        * {
-            font-family: "Montserrat", sans-serif;
-            color: var(--primary);
-            margin: 0;
-            padding: 0;
-        }
-        img, video, picture, svg {
-            display: block;
-            user-select: none;
-        }
-        /* Config */
         /* Footer */
+        footer {
+            display: none;
+        }
         .footer-section {
             font-family: 'Poppins', sans-serif;
             background-color: var(--secondary-bg);
@@ -142,15 +124,15 @@
                 <h4 class="footer-title">Contact</h4>
                 <ul class="footer-ul">
                     <li class="footer-contact">
-                        <img src="/Assets/Img/Email.png" draggable="false" alt="Email" height="24" loading="lazy"/>
+                        <img src="/Assets/Img/Email.png" draggable="false" alt="Email" height="20" loading="lazy"/>
                         <a class="footer-text">nevyllokalangi@gmail.com</a>
                     </li>
                     <li class="footer-contact">
-                        <img src="/Assets/Img/Phone.png" draggable="false" alt="Email" height="24" loading="lazy"/>
+                        <img src="/Assets/Img/Phone.png" draggable="false" alt="Email" height="20" loading="lazy"/>
                         <a class="footer-text">+62 851 7118 6112</a>
                     </li>
                     <li class="footer-contact">
-                        <img src="/Assets/Img/Pin.png" draggable="false" alt="Pin" height="24" loading="lazy"/>
+                        <img src="/Assets/Img/Pin.png" draggable="false" alt="Pin" height="20" loading="lazy"/>
                         <a class="footer-text">Indonesia</a>
                     </li>
                 </ul>

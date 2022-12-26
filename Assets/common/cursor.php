@@ -15,12 +15,6 @@
   })
 </script>
 <style type="text/css" scoped>
-    :root {
-    --primary: #fff;
-    --secondary: #e91e63;
-    --bg: #000;
-    --secondary-bg: #0f0f0f;
-  }
   .cursor {
     position: absolute;
     pointer-events: none;
