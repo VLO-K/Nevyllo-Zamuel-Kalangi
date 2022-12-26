@@ -50,4 +50,9 @@
     border: 1px solid var(--secondary);
     animation: cursorAnim2 .5s forwards;
   }
+  @media(max-width: 600px){
+    .cursor {
+      display: none;
+    }
+  }
 </style>

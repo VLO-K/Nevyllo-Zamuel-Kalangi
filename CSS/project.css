@@ -39,9 +39,9 @@ body {
 }
 h1 {
   text-align: center;
-  font-size: 166px;
+  font-size: 120px;
   width: 100%;
-  padding: 100px;
+  padding: 50px;
   text-shadow: -4px -4px 0px #ff0080,
                 4px 4px 0px #00f7ff;
 }

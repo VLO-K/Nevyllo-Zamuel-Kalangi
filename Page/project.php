@@ -25,7 +25,7 @@
     <main class="content-container">
         <!-- Project -->
         <div class="project-section">
-            <h1>PORTFOLIO</h1>
+            <h1>PROJECTS</h1>
             <div class="project-row">
                 <div class="project-col">
                     

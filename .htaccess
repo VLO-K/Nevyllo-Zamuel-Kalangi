@@ -1,4 +1,6 @@
+DirectoryIndex /index.php
 RewriteEngine On
+Options -Indexes
 
 RewriteRule ^home$ index.php
 RewriteRule ^about$ Page/about.php

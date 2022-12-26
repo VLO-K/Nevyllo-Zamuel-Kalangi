@@ -11,7 +11,7 @@
     <!-- HTML Config -->
     <!-- HTML Links -->
     <script type="text/javascript" src="./Scripts/app.js" defer></script>
-    <link rel="stylesheet" href="./CSS/faq.css" media="print" onload="this.media='all'">
+    <link rel="stylesheet" href="/CSS/faq.css" media="print" onload="this.media='all'">
     <link rel="icon" type="image/x-icon" href="./Assets/Img/Logo.png"/>
     <link href="https://fonts.googleapis.com/css?family=Roboto Condensed" rel="stylesheet"/>
     <link href="https://fonts.googleapis.com/css?family=Inter" rel="stylesheet"/>
