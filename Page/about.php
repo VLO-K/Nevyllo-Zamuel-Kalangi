@@ -24,13 +24,24 @@
     <!-- Content Start -->
     <main class="content-container" id="content">
         <!-- Hello Message -->
-        <div class="content-title">
-            <h1>Hello</h1>
+        <div class="content-wrapper">
+            <div class="content-hello">
+                <h1 class="content-hello1">H</h1>
+                <h1 class="content-hello2">e</h1>
+                <h1 class="content-hello3">l</h1>
+                <h1 class="content-hello4">l</h1>
+                <h1 class="content-hello5">o</h1>
+            </div>
+        </div>
+        <div class="content-main">
+            <div class="content-1">ABOUT ME</div>
+            <div class="content-1">ABOUT ME</div>
+            <div class="content-1">ABOUT ME</div>
         </div>
         <!-- Hello Message -->
         <!--Seperator Start-->
         <div class="seperator"></div>
-        <!--Seperator End-->
+    <!--Seperator End-->
         <!--About Start-->
         <div class="about-section">
             <!-- background stroke nanti di belanakng about me -->
@@ -48,6 +59,7 @@
             </p1>
         </div>
         <!--About End-->
+        <iframe width="800" height="450" src="https://www.youtube.com/embed?listType=playlist&list=UUgVgGSlM4LUNc3HfEJpij6Q" frameborder="0" allow="autoplay; encrypted-media" allowfullscreen></iframe>
         <!--Seperator Start-->
         <div class="seperator"></div>
         <!--Seperator End-->

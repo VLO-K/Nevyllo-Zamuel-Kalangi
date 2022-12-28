@@ -1,7 +1,7 @@
 /* Config */
 :root {
   --primary: #fff;
-  --secondary: #e91e63;
+  --secondary: #fe019a;
   --bg: #000;
   --secondary-bg: #121212;
 }
@@ -9,8 +9,6 @@
   box-sizing: border-box;
 }
 * {
-  font-family: "Montserrat", sans-serif;
-  color: var(--primary);
   margin: 0;
   padding: 0;
 }
@@ -23,10 +21,11 @@ html {
   scroll-behavior: smooth;
 }
 body {
-  overflow-x: hidden;
-  background-color: var(--bg);
+  font-family: "Montserrat", sans-serif;
+  color: var(--primary);
   width: 100%;
   min-height: 100vh;
+  background-color: var(--bg);
 }
 .seperator {
   height: 160px;
@@ -36,15 +35,98 @@ body {
   margin: auto;
   max-width: 120em;
 }
+@font-face {
+  font-family: "RobotoTh";
+  src: url(/Assets/font/Roboto-Thin.ttf);
+}
+@font-face {
+  font-family: "RobotoBold";
+  src: url(/Assets/font/Roboto-Bold.ttf);
+}
 /* Config */
 
 /* Title */
-.content-title {
-  text-align: center;
+.content-wrapper {
+  position: relative;
+  align-self: center;
+  z-index: 2;
 }
-.content-title h1 {
+.content-hello {
+  display: flex;
+  flex-direction: row;
+  user-select: none;
+  justify-content: center;
+  align-items: center;
+  text-align: center;
+  height: 80vh;
+}
+.content-hello1 {
+  opacity: 0;
+  animation: content_hello 4.5s ease 230ms;
+}
+.content-hello2 {
+  opacity: 0;
+  animation: content_hello 4.5s ease 260ms;
+}
+.content-hello3 {
+  opacity: 0;
+  animation: content_hello 4.5s ease 290ms;
+}
+.content-hello4 {
+  opacity: 0;
+  animation: content_hello 4.5s ease 320ms;
+}
+.content-hello5 {
+  opacity: 0;
+  animation: content_hello 4.5s ease 350ms;
+}
+@keyframes content_hello {
+  0% {
+    transform: translateY(100px);
+    opacity: 1;
+  }
+  10% {
+    transform: translateY(0);
+  }
+  80% {
+    transform: translateY(-20px);
+    opacity: 1;
+  }
+  100% {
+    transform: translateY(-300px);
+    opacity: 0;
+  }
+}
+.content-hello h1 {
+  font-family: 'RobotoTh', sans-serif;
   font-size: 210px;
   font-weight: 10;
+}
+.content-main {
+  display: block;
+  position: absolute;
+  user-select: none;
+  text-align: center;
+  font-family: 'RobotoBold', sans-serif;
+  font-size: 200px;
+  height: 80vh;
+  width: 100%;
+  top: 0;
+  bottom: 0;
+  left: 0;
+  right: 0;
+  margin: auto;
+  z-index: 0;
+  stroke: #fff;
+  color: transparent;
+  -webkit-text-stroke-color: #474747;
+  -webkit-text-stroke-width: 1px;
+}
+.content-1 {
+}
+.content-1 {
+}
+.content-1 {
 }
 /* Title */
 /* About */
@@ -65,11 +147,11 @@ body {
   border-radius: 50%;
 }
 .about-title {
-  font-size: 52px;
+  font-size: 36px;
   padding-top: 25px;
 }
 .about-job {
-  font-size: 26px;
+  font-size: 24px;
 }
 .about-job span {
   color: var(--secondary);

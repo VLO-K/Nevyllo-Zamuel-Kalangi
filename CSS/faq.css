@@ -1,7 +1,7 @@
 /* Config */
 :root {
   --primary: #fff;
-  --secondary: #e91e63;
+  --secondary: #fe019a;
   --bg: #000;
   --secondary-bg: #121212;
 }
@@ -9,8 +9,6 @@
   box-sizing: border-box;
 }
 * {
-  font-family: "Montserrat", sans-serif;
-  color: var(--primary);
   margin: 0;
   padding: 0;
 }
@@ -23,10 +21,11 @@ html {
   scroll-behavior: smooth;
 }
 body {
-  overflow-x: hidden;
-  background-color: var(--bg);
+  font-family: "Montserrat", sans-serif;
+  color: var(--primary);
   width: 100%;
   min-height: 100vh;
+  background-color: var(--bg);
 }
 .content-container {
   display: none;
