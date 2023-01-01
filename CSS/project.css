@@ -24,18 +24,20 @@ body {
   font-family: "Montserrat", sans-serif;
   color: var(--primary);
   width: 100%;
-  min-height: 100vh;
   background-color: var(--bg);
 }
 .content-container {
   display: none;
   margin: auto;
   max-width: 120em;
+  height: 100vh;
 }
 /* Config */
 /* Project */
 .project-section {
-  
+  display: flex;
+  flex-direction: column;
+  align-items: center;
 }
 h1 {
   text-align: center;
@@ -46,12 +48,22 @@ h1 {
                 4px 4px 0px #00f7ff;
 }
 .project-row {
-
+  display: flex;
+  flex-wrap: wrap;
+  justify-content: center;
+  align-items: center;
 }
 .project-col {
-  
+  padding: 0 25px;;
 }
-
+.project-img {
+  object-fit: cover;
+  overflow: hidden;
+  filter: brightness(80%);
+  width: 500px;
+  height: 320px;
+  border-radius: 8px;
+}
 
 
 

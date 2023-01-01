@@ -28,7 +28,22 @@
             <h1>PROJECTS</h1>
             <div class="project-row">
                 <div class="project-col">
-                    
+                    <div class="project-wrapper">
+                        <img class="project-img" src="/Assets/Img/SL4.jpg" alt="" draggable="false" loading="lazy" oncontextmenu="return false;" />
+                        <a>Cashier System - VB6</a>
+                    </div>
+                </div>
+                <div class="project-col">
+                    <div class="project-wrapper">
+                        <img class="project-img" src="/Assets/Img/SL4.jpg" alt="" draggable="false" loading="lazy" oncontextmenu="return false;" />
+                        <a>Cashier System - VB6</a>
+                    </div>
+                </div>
+                <div class="project-col">
+                    <div class="project-wrapper">
+                        <img class="project-img" src="/Assets/Img/SL4.jpg" alt="" draggable="false" loading="lazy" oncontextmenu="return false;" />
+                        <a>Cashier System - VB6</a>
+                    </div>
                 </div>
             </div>
         </div>

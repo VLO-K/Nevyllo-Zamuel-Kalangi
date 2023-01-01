@@ -7,7 +7,7 @@
     <meta name="author" content="Nevyllo Zamuel Kalangi"/>
     <meta name="description" content="Portfolio"/>
     <meta name="viewport" content="width=device-width, initial-scale=1">
-    <title>Home - Nevyllo Kalangi</title>
+    <title>Home | Nevyllo Kalangi</title>
     <!-- HTML Config -->
     <!-- HTML Links Start -->
     <script type="text/javascript" src="/Scripts/index.js" defer></script>
@@ -24,38 +24,35 @@
     <?php include 'Assets/common/header.php';?>
     <!-- Content Start -->
     <main class="content-container" id="content">
-        <!-- Greeting Start -->
-        <div class="greeting">
-            <div class="greeting-background">
-                <div class="greeting-glowing">
-                    <span style="--i:1;"></span>
-                    <span style="--i:2;"></span>
-                    <span style="--i:3;"></span>
+        <div class="content">
+            <diV class="typography">
+                <h1>GAMERRRR</h1>
+            </diV>
+            <div class="carousel">
+                <div class="carousel-content">
                 </div>
-                <div class="greeting-glowing">
-                    <span style="--i:1;"></span>
-                    <span style="--i:2;"></span>
-                    <span style="--i:3;"></span>
+                <div class="carousel-content">
                 </div>
-                <div class="greeting-glowing">
-                    <span style="--i:1;"></span>
-                    <span style="--i:2;"></span>
-                    <span style="--i:3;"></span>
+                <div class="carousel-content">
                 </div>
-                <div class="greeting-glowing">
-                    <span style="--i:1;"></span>
-                    <span style="--i:2;"></span>
-                    <span style="--i:3;"></span>
-                </div>
-            </div>
-            <div class="greeting-wrapper">
-                <span class="greeting-1">WELCOME</span>
-                <span class="slide">
-                    <span class="greeting-2">TO MY WEBSITE</span>
-                </span>
             </div>
         </div>
-        <!-- Greeting End -->
+        <!--Seperator Start-->
+        <div class="seperator"></div>
+        <!--Seperator End-->
+        <!-- Highlight Start -->
+        <div class="slider-section">
+            <div class="slider">
+                <img class="slider-img" src="/Assets/Img/SL1.jpeg" alt="D-SPORA 2022" draggable="false" loading="lazy" oncontextmenu="return false;" />
+                <img class="slider-img" src="/Assets/Img/SL2.jpeg" alt="D-SPORA 2022" draggable="false" loading="lazy" oncontextmenu="return false;" />
+                <img class="slider-img" src="/Assets/Img/SL3.jpeg" alt="Leadership Camp 2022" draggable="false" loading="lazy" oncontextmenu="return false;" />
+                <img class="slider-img" src="/Assets/Img/SL4.jpg" alt="Kidsstar 18th Birthday" draggable="false" loading="lazy" oncontextmenu="return false;" />
+            </div>
+            <div class="slider-title">
+                <span></span>
+            </div>
+        </div>
+        <!-- Highlight  End -->
     </main>
     <!-- Content End -->
     <?php include 'Assets/common/footer.php';?>

@@ -23,118 +23,62 @@
     <?php include '../Assets/common/header.php';?>
     <!-- Content Start -->
     <main class="content-container" id="content">
-        <h1>PORTFOLIO</h1>
+        <div class="title-container">
+            <h1 class="title">PORTFOLIO<span>PORTFOLIO</span>PORTFOLIOPORTFOLIO</h1>
+        </div>
         <!--Seperator Start-->
         <div class="seperator"></div>
         <!--Seperator End-->
-        <!--Work Start-->
-        <div class="work-section">
-            <img class="work-img" src="/Assets/Img/Work.png" alt="Work" draggable="false" loading="lazy" oncontextmenu="return false;"/>
-            <div class="work-container">
-                <h2 class="work-title">WORK</h2>
-                <div class="work-content">
-                    <div class="work-name">None</div>
-                    <div class="work-year">None</div>
-                    <div class="work-number">
-                        <p>01</p>
-                    </div>
-                </div>
-                <div class="work-content">
-                    <div class="work-name">None</div>
-                    <div class="work-year">None</div>
-                    <div class="work-number">
-                        <p>01</p>
-                    </div>
-                </div>
+        <!--Timeline Start-->
+        <div class="timeline-section">
+            <h2 class="timeline-title">Timeline</h2>
+            <div class="timeline-content">
+                <div class="timeline-year">Elementary School</div>
+                <p class="timeline-desc">In 2018, I graduated from Kidsstar Elementary School</p>
+            </div>
+            <div class="timeline-content">
+                <div class="timeline-year">Head of Sport & Art Division</div>
+                <p class="timeline-desc">In 2020, I was chosen to be the head of Dunia Harapan Secondary School Student Council Sport & Art Division by the Student Council President.</p>
+            </div>
+            <div class="timeline-content">
+                <div class="timeline-year">Secondary School</div>
+                <p class="timeline-desc">In 2021, I graduated from Dunia Harapan Secondary School</p>
+            </div>
+            <div class="timeline-content">
+                <div class="timeline-year">D-SPORA 2021</div>
+                <p class="timeline-desc">The 2nd Winner of Badminton Men's Single, The 1st Winner of Men's 100m Run</p>
+            </div>
+            <div class="timeline-content">
+                <div class="timeline-year">Member of Sport & Art Division</div>
+                <p class="timeline-desc">In 2021, I was chosen to be the member of Dunia Harapan High School Student Council Sport & Art Division</p>
+            </div>
+            <div class="timeline-content">
+                <div class="timeline-year">D-SPORA 2022</div>
+                <p class="timeline-desc">The 2nd Winner of Hotshot, The 1st Winner of Futsal, The 1st Winner of Badminton Men's Single, The 1st Winner of Badminton Mixed Double</p>
+            </div>
+            <div class="timeline-content">
+                <div class="timeline-year">President Student Council</div>
+                <p class="timeline-desc">In 2022, I was elected as the president of Dunia Harapan High School Student Council</p>
+            </div>
+            <div class="timeline-content">
+                <div class="timeline-year">High School</div>
+                <p class="timeline-desc">In 2024, I graduated from Dunia Harapan High School</p>
             </div>
         </div>
-        <!--Work End-->
-        <!--Seperator Start-->
-        <div class="seperator"></div>
-        <!--Seperator End-->
-        <!--Education Start-->
-        <div class="education-section">
-            <img class="education-img" src="/Assets/Img/Education.png" alt="Education" draggable="false" loading="lazy" oncontextmenu="return false;"/>
-            <div class="education-container">
-                <h2 class="education-title">EDUCATION</h2>
-                <div class="education-content">
-                    <div class="education-name">Kidsstar School Primary School</div>
-                    <div class="education-year">2012 - 2018</div>
-                    <div class="education-number">
-                        <p>01</p>
-                    </div>
-                </div>
-                <div class="education-content">
-                    <div class="education-name">Dunia Harapan School Secondary</div>
-                    <div class="education-year">2018 - 2021</div>
-                    <div class="education-number">
-                        <p>02</p>
-                    </div>
-                </div>
-                <div class="education-content">
-                    <div class="education-name">Dunia Harapan School High School</div>
-                    <div class="education-year">2021 - Now</div>
-                    <div class="education-number">
-                        <p>03</p>
-                    </div>
-                </div>
-            </div>
-        </div>
-        <!--Education End-->
-        <!--Seperator Start-->
-        <div class="seperator"></div>
-        <!--Seperator End-->
-        <!-- Organization Start-->
-        <div class="organization-section">
-            <img class="organization-img" src="/Assets/Img/Organization.png" alt="Organization" draggable="false" loading="lazy" oncontextmenu="return false;"/>
-            <div class="organization-container">
-                <h2 class="organization-title">ORGANIZATION</h2>
-                <div class="organization-content">
-                    <div class="organization-name">Head of DHS Secondary Student Council Sport & Art Division</div>
-                    <div class="organization-year">2020 - 2021</div>
-                    <div class="organization-number">
-                        <p>01</p>
-                    </div>
-                </div>
-                <div class="organization-content">
-                    <div class="organization-name">Member of DHS High School Student Council Sport & Art Division</div>
-                    <div class="organization-year">2021 - 2022</div>
-                    <div class="organization-number">
-                        <p>02</p>
-                    </div>
-                </div>
-                <div class="organization-content">
-                    <div class="organization-name">President of DHS High School Student Council</div>
-                    <div class="organization-year">2022 - 2023</div>
-                    <div class="organization-number">
-                        <p>03</p>
-                    </div>
-                </div>
-            </div>
-        </div>
-        <!-- Organization End-->
+        <!--Timeline End-->
         <!--Seperator Start-->
         <div class="seperator"></div>
         <!--Seperator End-->
         <!-- Skills Start-->
         <div class="skills-section">
-            <img class="skills-img" src="/Assets/Img/Skill.png" alt="Skill" draggable="false" loading="lazy" oncontextmenu="return false;"/>
-            <div class="skills-container">
-                <h2 class="skills-title">SKILLS</h2>
-                <div class="skills-content">
-                    <div class="skills-name">Coding Language HTML, CSS, PYTHON, C++, JavaScript & VB6</div>
-                    <div class="skills-year">2020 - 2021</div>
-                    <div class="skills-number">
-                        <p>01</p>
-                    </div>
-                </div>
-                <div class="skills-content">
-                    <div class="skills-name">Language Indonesian & English</div>
-                    <div class="skills-year">2020 - 2021</div>
-                    <div class="skills-number">
-                        <p>02</p>
-                    </div>
-                </div>
+            <h2 class="skills-title">SKILLS</h2>
+            <div class="skills-content">
+                <div class="skills-year">Programming Language</div>
+                <div class="skills-desc">HTML, CSS, PYTHON, C++, JavaScript & VB6</div>
+            </div>
+            <div class="skills-content">
+                <div class="skills-year">Language</div>
+                <div class="skills-desc">Indonesian & English</div>
             </div>
         </div>
         <!-- Skills End-->

@@ -24,7 +24,6 @@ body {
   font-family: "Montserrat", sans-serif;
   color: var(--primary);
   width: 100%;
-  min-height: 100vh;
   background-color: var(--bg);
 }
 .seperator {
@@ -34,6 +33,7 @@ body {
   display: none;
   margin: auto;
   max-width: 120em;
+  min-height: 100vh;
 }
 @font-face {
   font-family: "RobotoTh";
@@ -117,7 +117,6 @@ body {
   right: 0;
   margin: auto;
   z-index: 0;
-  stroke: #fff;
   color: transparent;
   -webkit-text-stroke-color: #474747;
   -webkit-text-stroke-width: 1px;
@@ -165,7 +164,7 @@ body {
   color: var(--primary);
 }
 /* About  */
-/* Journey */
+/* Achievements */
 .timeline-section {
   padding: 80px 160px;
 }
@@ -199,7 +198,7 @@ body {
      width: 0;
     }
   30%, 60% {
-     width: 429.52px;
+     width: 443px;
     }
 }
 @keyframes blink-cursor {
@@ -260,256 +259,6 @@ body {
   box-shadow: 0 0 70px 60px #eb9c43;
   animation: fadeIn 13s infinite;
 }
-.timeline:before {
-  position: absolute;
-  content: '';
-  height: 100%;
-  left: 50%;
-  width: 2px;
-  top: -20px;
-  background: var(--primary);
-  z-index: 1;
-}
-.timeline ul li {
-  list-style: none;
-  box-sizing: border-box; 
-  line-height: normal;
-  position: relative;
-  width: 50%;
-  margin: 40px 0;
-  padding: 40px 50px;
-}
-.timeline ul li .timeline-right h2 {
-  color: var(--secondary);
-  padding: 0px 2px 10px 0px;
-}
-.timeline ul li:nth-child(odd) {
-  float: left;
-  text-align: right;
-  clear: both;
-}
-.timeline ul li:nth-child(even) {
-  float: right;
-  text-align: left;
-  clear: both;
-}
-.timeline ul li:nth-child(odd):before {
-  position: absolute;
-  content: '';
-  width: 10px;
-  height: 10px;
-  background: var(--secondary);
-  border-radius: 50%;
-  box-shadow: 0 0 0 3px #e91e6242;
-  right: -6px;
-  top: 50px;
-  z-index: 1;
-}
-.timeline ul li:nth-child(even):before {
-  position: absolute;
-  content: '';
-  width: 10px;
-  height: 10px;
-  background: var(--secondary);
-  border-radius: 50%;
-  box-shadow: 0 0 0 3px #e91e6242;
-  left: -3px;
-  top: 50px;
-  z-index: 1;
-}
-.timeline ul li:nth-child(odd) .timeline-left {
-  position: absolute;
-  top: 38px;
-  right: -270px;
-  padding: 8px 20px;
-  color: var(--primary);
-  background-color: var(--secondary);
-  box-shadow: 0 0 0 3px #e91e6242;
-}
-.timeline ul li:nth-child(even) .timeline-left {
-  position: absolute;
-  top: 38px;
-  left: -270px;
-  padding: 10px 20px;
-  color: var(--primary);
-  background-color: var(--secondary);
-}
-/* Journey */
-/* Highlight */
-.slider-section {
-  position: relative;
-  overflow: hidden;
-  text-align: center;
-  height: 70vh;
-  width: 100%;
-  font-size: 70px;
-  animation: ambient 24s infinite;
-}
-.slider {
-  display: flex;
-  height: 100%;
-  animation: slide 24s infinite;
-}
-.slider-img {
-  object-fit: cover;
-  filter: brightness(30%);
-  min-width: 100%;
-}
-.slider-title span {
-  position: absolute;
-  color: var(--primary);
-  top: 50%;
-  left: 50%;
-  transform: translate(-50%, -50%);
-}
-.slider-title span::before {
-  content: "";
-  animation: text 24s infinite;
-}
-@keyframes text {
-  0% {
-    opacity: 0;
-    content: "D-SPORA 2022";
-  }
-  3.75% {
-    opacity: 1;
-  }
-  12.5% {
-    opacity: 1;
-  }
-  15% {
-    opacity: 0;
-    content: "D-SPORA 2022";
-  }
-  25% {
-    opacity: 0;
-    content: "D-SPORA 2022";
-  }
-  28.75% {
-    opacity: 1;
-  }
-  37.5% {
-    opacity: 1;
-  }
-  40% {
-    opacity: 0;
-    content: "D-SPORA 2022";
-  }
-  50% {
-    opacity: 0;
-    content: "Leadership Camp 2022";
-  }
-  53.75% {
-    opacity: 1;
-  }
-  62.5% {
-    opacity: 1;
-  }
-  65% {
-    opacity: 0;
-    content: "Leadership Camp 2022";
-  }
-  75% {
-    opacity: 0;
-    content: "Kidsstar 18th Birthday";
-  }
-  78.75% {
-    opacity: 1;
-  }
-  87.5% {
-    opacity: 1;
-  }
-  90% {
-    opacity: 0;
-  }
-  100% {
-    opacity: 0;
-    content: "Kidsstar 18th Birthday";
-  }
-}
-@keyframes slide {
-  0% {
-    transform: translate(0);
-  }
-  13% {
-    transform: translate(0);
-  }
-  26% {
-    transform: translate(-100%);
-  }
-  39% {
-    transform: translate(-100%);
-  }
-  52% {
-    transform: translate(-200%);
-  }
-  65% {
-    transform: translate(-200%);
-  }
-  78% {
-    transform: translate(-300%);
-  }
-  90% {
-    transform: translate(-300%);
-  }
-  100% {
-    transform: translate(0);
-  }
-}
-/* Highlight */
-/* Achievements */
-.achievements-section {
-  user-select: none;
-  padding: 50px;
-}
-.achievements-title {
-  text-align: center;
-  font-size: 46px;
-}
-.achievements-wrapper {
-  display: flex;
-  flex-wrap: wrap;
-  justify-content: center;
-  align-items: flex-start;
-}
-.achievements-col {
-  display: flex;
-  flex-direction: column;
-  margin: 60px 20px;
-  padding: 30px;
-  border-radius: 15px;
-}
-.achievements-col h1 {
-  text-align: center;
-}
-.achievements-row {
-  width: 400px;
-  padding: 20px;
-  margin-top: 20px;
-  border-radius: 10px;
-  background: #fff;
-}
-.achievements-col:nth-child(1) h4 {
-  text-align: center;
-  color: #ffbc64;
-}
-.achievements-col:nth-child(2) h4 {
-  text-align: center;
-  color: #5fb2ff;
-}
-.achievements-col:nth-child(3) h4 {
-  text-align: center;
-  color: #a764ff;
-}
-.achievements-col:nth-child(1) {
-  background: #ffbc64;
-}
-.achievements-col:nth-child(2) {
-  background: #5fb2ff;
-}
-.achievements-col:nth-child(3) {
-  background: #a764ff;
-}
 /* Achievements */
 
 /* Journey Responsive */
@@ -518,35 +267,8 @@ body {
     width: 100%;
   }
 }
-@media (max-width: 767px){
-  .timeline{
-    width: 100%;
-  }
-  .timeline:before{
-    left: 40px;
-  }
-  .timeline ul li:nth-child(odd),
-  .timeline ul li:nth-child(even) {
-    text-align: left;
-    width: 100%;
-    padding-left: 80px; 
-  }
-  .timeline ul li:nth-child(odd):before {
-    top: -18px;
-    left: 36px;
-  }
-  .timeline ul li:nth-child(even):before { 
-    top: -18px;
-    left: 36px;
-  }
-  .timeline ul li:nth-child(odd) .left_content,
-  .timeline ul li:nth-child(even) .left_content {
-    top: -30px;
-    left: 80px;
-    right: inherit;
-  }
-}
 /* Journey Responsive */
+
 @media (orientation: portrait) {
   .slider-container {
     height: 40vh;

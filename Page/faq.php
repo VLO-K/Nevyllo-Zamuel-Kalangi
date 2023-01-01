@@ -28,39 +28,29 @@
             <h1>FAQs</h1>
             <ul class="faq-accordion">
                 <li>
-                    <label for="first">What is your mother language?</label>
-                    <input type="radio" name="faq-input" id="first">
-                    <div class="faq-answer">
-                        <p>Indonesian</p>
-                    </div>
+                    <input type="checkbox" checked>
+                    <h2 class="faq-questions">What is your mother language?</h2>
+                    <p class="faq-answer">Indonesian</p>
                 </li>
                 <li>
-                    <label for="second">What are your hobbies?</label>
-                    <input type="radio" name="faq-input" id="second">
-                    <div class="faq-answer">
-                        <p>I love playing games, listening music, coding & watching movies</p>
-                    </div>
+                    <input type="checkbox" checked>
+                    <h2 class="faq-questions">What are your hobbies?</h2>
+                    <p class="faq-answer">I love playing games, listening music, coding & watching movies</p>
                 </li>
                 <li>
-                    <label for="third">Where are you from?</label>
-                    <input type="radio" name="faq-input" id="third">
-                    <div class="faq-answer">
-                        <p>I'm from Makassar, South Sulawesi, Indonesia</p>
-                    </div>
+                    <input type="checkbox" checked>
+                    <h2 class="faq-questions">Where are you from?</h2>
+                    <p class="faq-answer">I'm from Makassar, South Sulawesi, Indonesia</p>
                 </li>
                 <li>
-                    <label for="forth">Do you have experience in holding an event?</label>
-                    <input type="radio" name="faq-input" id="forth">
-                    <div class="faq-answer">
-                        <p>Yes, Inter-School Competitions (DHS CUP)</p>
-                    </div>
+                    <input type="checkbox" checked>
+                    <h2 class="faq-questions">Do you have experience in holding an event?</h2>
+                    <p class="faq-answer">Yes, Inter-School Competitions (DHS CUP)</p>
                 </li>
                 <li>
-                    <label for="fifth">Are you married?</label>
-                    <input type="radio" name="faq-input" id="fifth">
-                    <div class="faq-answer">
-                        <p>No and not anytime soon</p>
-                    </div>
+                    <input type="checkbox" checked>
+                    <h2 class="faq-questions">Are you married?</h2>
+                    <p class="faq-answer">No and not anytime soon</p>
                 </li>
             </ul>
         </div>

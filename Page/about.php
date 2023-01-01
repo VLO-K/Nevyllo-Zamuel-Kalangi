@@ -63,27 +63,11 @@
         <!--Seperator Start-->
         <div class="seperator"></div>
         <!--Seperator End-->
-        <!-- Highlight Start -->
-        <div class="slider-section">
-            <div class="slider">
-                <img class="slider-img" src="/Assets/Img/SL1.jpeg" alt="D-SPORA 2022" draggable="false" loading="lazy" oncontextmenu="return false;" />
-                <img class="slider-img" src="/Assets/Img/SL2.jpeg" alt="D-SPORA 2022" draggable="false" loading="lazy" oncontextmenu="return false;" />
-                <img class="slider-img" src="/Assets/Img/SL3.jpeg" alt="Leadership Camp 2022" draggable="false" loading="lazy" oncontextmenu="return false;" />
-                <img class="slider-img" src="/Assets/Img/SL4.jpg" alt="Kidsstar 18th Birthday" draggable="false" loading="lazy" oncontextmenu="return false;" />
-            </div>
-            <div class="slider-title">
-                <span></span>
-            </div>
-        </div>
-        <!-- Highlight  End -->
-        <!--Seperator Start-->
-        <div class="seperator"></div>
-        <!--Seperator End-->
-        <!-- Timeline Start -->
+        <!-- Achievements Wrapper Start -->
         <div class="timeline-section">
             <div class="timeline-title">
                 <div>
-                    <h2>ORGANIZATION</h2>
+                    <h2>ACHIEVEMENTS</h2>
                 </div>
             </div>
             <div class="timeline">
@@ -95,58 +79,6 @@
                     <div class="timeline-bg4"></div>
                 </div>
                 <!-- Timeline Background End -->
-                <ul>
-                    <li>
-                        <div class="timeline-right">
-                            <h2>Head of Dunia Harapan School Student Council Sport & Art Division</h2>
-                        </div>
-                        <div class="timeline-left">
-                            <h3>JAN 2020 - JAN 2021</h3>
-                        </div>
-                    </li>
-                    <li>
-                        <div class="timeline-right">
-                            <h2>Member of Dunia Harapan School Student Council Sport & Art Division</h2>
-                        </div>
-                        <div class="timeline-left">
-                            <h3>SEP 2021 - AUG 2022</h3>
-                        </div>
-                    </li>
-                    <li>
-                        <div class="timeline-right">
-                            <h2>President of Dunia Harapan School Student Council</h2>
-                        </div>
-                        <div class="timeline-left">
-                            <h3>SEP 2022 - AUG 2023</h3>
-                        </div>
-                    </li>
-                <div style="clear:both;"></div>
-                </ul>
-            </div>
-        </div>
-        <!--Timeline End-->
-        <!-- Achievements Wrapper Start -->
-        <div class="achievements-section">
-            <h2 class="achievements-title">ACHIEVEMENTS</h2>
-            <div class="achievements-wrapper" >
-                <div class="achievements-col">
-                    <h1>Academics</h1>
-                    <h4 class="achievements-row">Loading...</h4>
-                    <h4 class="achievements-row">Loading...</h4>
-                </div>
-                <div class="achievements-col">
-                    <h1>Sports</h1>
-                    <h4 class="achievements-row">The 1st Winner of Men's 100m Run D-SPORA 2021</h4>
-                    <h4 class="achievements-row">The 2nd Winner of D-SPORA Badminton Men's Single 2021</h4>
-                    <h4 class="achievements-row">The 1st Winner of Badminton Mixed Double D-SPORA 2022</h4>
-                    <h4 class="achievements-row">The 1st Winner of Badminton Men's Single D-SPORA 2022</h4>
-                    <h4 class="achievements-row">The 1st Winner of Futsal D-SPORA 2022</h4>
-                    <h4 class="achievements-row">The 2nd Winner of Hotshot D-SPORA 2022</h4>
-                </div>
-                <div class="achievements-col">
-                    <h1>Others</h1>
-                    <h4 class="achievements-row">Loading...</h4>
-                </div>
             </div>
         </div>
         <!-- Achievements Wrapper End -->

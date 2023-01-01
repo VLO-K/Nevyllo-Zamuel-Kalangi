@@ -38,51 +38,60 @@ body {
   display: flex;
   flex-direction: column;
   align-items: center;
+  user-select: none;
   width: 100%;
   margin-bottom: 80px;
 }
 h1 {
   text-align: center;
-  font-size: 120px;
+  font-size: 60px;
   width: 100%;
   padding: 50px;
-  text-shadow: -4px -4px 0px #ff0080,
-                4px 4px 0px #00f7ff;
 }
 .faq-accordion {
-  max-width: 926px;
-  width: 70%;
-  margin: 40px auto;
+  width: 80%;
+  max-width: 1200px;
 }
 .faq-accordion li {
+  position: relative;
+  overflow: hidden;
   list-style: none;
   width: 100%;
-  padding: 10px;
-  margin-bottom: 15px;
-  border-radius: 8px;
-  background: var(--secondary-bg);
+  padding: 30px 30px;
+  border-top: 1.5px solid #575757;
 }
-.faq-accordion li label {
-  display: flex;
-  align-items: center;
-  justify-content: space-between;
+.faq-accordion li:last-child {
+  border-bottom: 1.5px solid #575757;
+}
+.faq-accordion li input[type=checkbox] {
+  position: absolute;
   cursor: pointer;
-  font-size: 18px;
-  font-weight: 500;
-  padding: 10px;
+  width: 100%;
+  height: 100%;
+  z-index: 1;
+  opacity: 0;
 }
-.faq-accordion label + input[type="radio"] {
-  display: none;
+.faq-accordion li input[type=checkbox]:checked ~ p {
+  margin-top: 0;
+  max-height: 0;
+  transform: translate(0, 50%);
+}
+.faq-questions {
+  display: block;
+  cursor: pointer;
+  font-size: 22px;
 }
 .faq-answer {
+  position: relative;
   overflow: hidden;
-  padding: 0 10px;
+  font-size: 16px;
+  letter-spacing: 1px;
   line-height: 26px;
-  max-height: 0;
-  transition: max-height 0.9s;
+  max-height: 800px;
+  margin-top: 20px;
 }
-.faq-accordion label + input[type="radio"]:checked + .faq-answer {
-  max-height: 400px;
+.ul li i:before, ul li i:after, p {
+  transition: all 0.25s ease-in-out;
 }
 /* FAQ */
 /* Scrollbar */

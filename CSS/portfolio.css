@@ -28,7 +28,7 @@ body {
   background-color: var(--bg);
 }
 .seperator {
-  height: 160px;
+  height: 80px;
 }
 .content-container {
   display: none;
@@ -37,128 +37,75 @@ body {
 }
 /* Config */
 
-
 /* Portfolio Title */
-h1 {
-  text-align: center;
-  font-size: 120px;
-  width: 100%;
-  padding: 50px;
-  text-shadow: -4px -4px 0px #ff0080,
-                4px 4px 0px #00f7ff;
+.title-container {
+  position: relative;
+  overflow: hidden;
+  padding: 10% 0;
+}
+.title {
+  position: absolute;
+  left: -10vw;
+  font-size: 80px;
+  color: transparent;
+  -webkit-text-stroke-color: #474747;
+  -webkit-text-stroke-width: 1px;
+}
+.title span {
+  color: var(--primary);
+  -webkit-text-stroke-color: #000000;
+  -webkit-text-stroke-width: 0px;
 }
 /* Portfolio Title */
-/* Education, Work, Organization & Skill*/
-.education-section, 
-.work-section, 
-.organization-section,
+/* Timeline & Skill*/
+.timeline-section,
 .skills-section {
   display: flex;
-  flex-direction: row;
-  justify-content: center;
+  flex-direction: column;
   user-select: none;
-  padding: 0 160px;
+  width: 60%;
+  margin-left: 32%;
 }
-.education-img {
-  max-height: 250px;
-  max-width: 250px;
-  margin-right: 120px;
-  transform: rotate(340deg);
-}
-.work-img {
-  max-height: 250px;
-  max-width: 250px;
-  margin-right: 120px;
-}
-.organization-img {
-  max-height: 250px;
-  max-width: 250px;
-  margin-right: 120px;
-}
-.skills-img {
-  max-height: 250px;
-  max-width: 250px;
-  margin-right: 120px;
-}
-.education-container, 
-.work-container, 
-.organization-container, 
-.skills-container {
-  justify-content: center;
-  width: 40%;
-}
-.education-title, 
-.work-title, 
-.organization-title, 
+.timeline-title,
 .skills-title {
   position: relative;
-  font-size: 46px;
-  padding-bottom: 30px;
-  letter-spacing: .15em;
-  text-shadow: -4px -4px 0px #ff0080,
-                4px 4px 0px #00f7ff;
+  font-size: 42px;
+  padding-bottom: 20px;
+  color: #ffffff66;
 }
-.education-content, 
-.work-content, 
-.organization-content, 
+.timeline-content,
 .skills-content { 
   display: grid;
-  cursor: pointer;
-  grid-template-columns: 6fr 4fr 1fr;
-  font-size: 20px;
-  font-weight: 600;
+  grid-template-columns: 3fr 8fr;
   line-height: 36px;
   width: 100%;
+  gap: 20px;
   padding: 15px 0;
   padding-bottom: 20px;
-  border-top: 2px solid var(--primary);
+  border-bottom: 1.5px solid var(--primary);
 }
-.education-year, 
-.work-year, 
-.organization-year,
+.timeline-year,
 .skills-year {
-  text-align: center;
+  text-align: left;
+  font-weight: 600;
+  font-size: 18px;
 }
-.education-number, 
-.work-number, 
-.organization-number,
-.skills-number {
-  text-align: right;
+.timeline-desc, .skills-desc {
+  text-align: justify;
+  font-size: 18px;
 }
-.education-container:hover .education-content, 
-.work-container:hover .work-content, 
-.organization-container:hover .organization-content,
-.skills-container:hover .skills-content {
-  filter: blur(4px);
-  transition: 0.5s;
-}
-.education-container .education-content:hover, 
-.work-container .work-content:hover, 
-.organization-container .organization-content:hover, 
-.skills-container .skills-content:hover {
-  filter: blur(0);
-  transition: 0.5s;
+@media (max-width: 600px) {
+  .timeline-content,
+  .skills-content { 
+    grid-template-columns: 1fr;
+  }
 }
 @media (orientation: portrait) {
-  .education-section, 
-  .work-section, 
-  .organization-section,
+  .timeline-section,
   .skills-section {
     padding: 0 10px;
   }
-  .education-img {
-    transform: rotate(340deg);
-  }  
-  .education-container, 
-  .work-container, 
-  .organization-container, 
-  .skills-container {
-    justify-content: center;
-    width: 80%;
-  }
-  .education-title, 
-  .work-title, 
-  .organization-title, 
+  .timeline-title,
   .skills-title {
     position: relative;
     font-size: 26px;
@@ -167,16 +114,13 @@ h1 {
     text-shadow: -4px -6px 0px #ff0080,
                   4px 4px 0px #00f7ff;
   }
-  .education-content, 
-  .work-content, 
-  .organization-content, 
+  .timeline-content,
   .skills-content {
     font-size: 12px;
     line-height: 16px;
   }
 }
-/* Education, Work, Organization & Skill*/
-/* Portfolio */
+/* Timeline & Skill*/
 
 /* Scrollbar */
 ::-webkit-scrollbar {
