@@ -11,16 +11,16 @@
     <!-- HTML Config -->
     <!-- HTML Links -->
     <link rel="stylesheet" href="/CSS/about.css" media="print" onload="this.media='all'">
-    <link rel="icon" type="image/x-icon" href="/Assets/Img/Logo.png"/>
+    <link rel="icon" type="image/x-icon" href="/assets/img/Logo.png"/>
     <link href="https://fonts.googleapis.com/css?family=Roboto Condensed" rel="stylesheet"/>
     <link href="https://fonts.googleapis.com/css?family=Inter" rel="stylesheet"/>
     <!-- HTML Links -->
 </head>
 
 <body>
-    <?php include '../Assets/common/loader.php';?>
-    <?php include '../Assets/common/cursor.php';?>
-    <?php include '../Assets/common/header.php';?>
+    <?php include '../assets/common/loader.php';?>
+    <?php include '../assets/common/cursor.php';?>
+    <?php include '../assets/common/header.php';?>
     <!-- Content Start -->
     <main class="content-container" id="content">
         <!-- Hello Message -->
@@ -41,12 +41,12 @@
         <!-- Hello Message -->
         <!--Seperator Start-->
         <div class="seperator"></div>
-    <!--Seperator End-->
+        <!--Seperator End-->
         <!--About Start-->
         <div class="about-section">
             <!-- background stroke nanti di belanakng about me -->
             <div class="about-image">
-                <img src="/Assets/Img/MyPic.jpeg" alt="About Me Picture" draggable="false" loading="lazy"
+                <img src="/assets/img/MyPic.jpeg" alt="About Me Picture" draggable="false" loading="lazy"
                     oncontextmenu="return false;"/>
             </div>
             <a class="about-title">Nevyllo Zamuel Kalangi</a><br>
@@ -84,7 +84,7 @@
         <!-- Achievements Wrapper End -->
     </main>
     <!-- Content End -->
-    <?php include '../Assets/common/footer.php';?>
+    <?php include '../assets/common/footer.php';?>
 </body>
 
 </html>

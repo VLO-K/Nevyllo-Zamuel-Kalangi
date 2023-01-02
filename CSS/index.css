@@ -1,9 +1,7 @@
 /* Config */
 :root {
   --primary: #fff;
-  --secondary: #fe019a;
   --bg: #000;
-  --secondary-bg: #121212;
 }
 *, *::after, *::before {
   box-sizing: border-box;
@@ -32,7 +30,8 @@ body {
 }
 .content-container {
   display: none;
-  margin: auto;
+  flex-direction: column;
+  justify-content: center;
   max-width: 120em;
 }
 /* Config */
@@ -206,10 +205,10 @@ body {
   margin: 8px 0;
 }
 ::-webkit-scrollbar-thumb {
-  background-color: var(--secondary);
+  background-color: var(--primary);
   border-radius: 20px;
 }
 ::-webkit-scrollbar-thumb:hover {
-  background-color: #c91651;
+  background-color: #888888;
 }
 /* Scrollbar */

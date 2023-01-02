@@ -39,7 +39,7 @@
     }
   }
   .expand {
-    border: 1px solid var(--secondary);
+    border: 1px solid #fe019a;
     animation: cursorAnim .5s forwards;
   }
   @media(max-width: 600px){

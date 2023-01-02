@@ -4,8 +4,8 @@ Options -Indexes
 
 RewriteRule ^home$ index.php
 RewriteRule ^about$ Page/about.php
-RewriteRule ^portfolio$ Page/portfolio.php
-RewriteRule ^project$ Page/project.php
+RewriteRule ^biography$ Page/biography.php
+RewriteRule ^work$ Page/work.php
 RewriteRule ^faq$ Page/faq.php
 
 ErrorDocument 403 /Page/E403.php

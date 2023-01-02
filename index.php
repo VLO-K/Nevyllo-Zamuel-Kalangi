@@ -10,18 +10,18 @@
     <title>Home | Nevyllo Kalangi</title>
     <!-- HTML Config -->
     <!-- HTML Links Start -->
-    <script type="text/javascript" src="/Scripts/index.js" defer></script>
+    <script type="text/javascript" src="/script/index.js" defer></script>
     <link rel="stylesheet" href="/CSS/index.css" media="print" onload="this.media='all'">
-    <link rel="icon" type="image/x-icon" href="/Assets/Img/Logo.png"/>
+    <link rel="icon" type="image/x-icon" href="/assets/img/Logo.png"/>
     <link href="https://fonts.googleapis.com/css?family=Roboto Condensed" rel="stylesheet"/>
     <link href="https://fonts.googleapis.com/css?family=Inter" rel="stylesheet"/>
     <!-- HTML Links End -->
 </head>
 
 <body>
-    <?php include 'Assets/common/loader.php';?>
-    <?php include 'Assets/common/cursor.php';?>
-    <?php include 'Assets/common/header.php';?>
+    <?php include 'assets/common/loader.php';?>
+    <?php include 'assets/common/cursor.php';?>
+    <?php include 'assets/common/header.php';?>
     <!-- Content Start -->
     <main class="content-container" id="content">
         <div class="content">
@@ -43,10 +43,10 @@
         <!-- Highlight Start -->
         <div class="slider-section">
             <div class="slider">
-                <img class="slider-img" src="/Assets/Img/SL1.jpeg" alt="D-SPORA 2022" draggable="false" loading="lazy" oncontextmenu="return false;" />
-                <img class="slider-img" src="/Assets/Img/SL2.jpeg" alt="D-SPORA 2022" draggable="false" loading="lazy" oncontextmenu="return false;" />
-                <img class="slider-img" src="/Assets/Img/SL3.jpeg" alt="Leadership Camp 2022" draggable="false" loading="lazy" oncontextmenu="return false;" />
-                <img class="slider-img" src="/Assets/Img/SL4.jpg" alt="Kidsstar 18th Birthday" draggable="false" loading="lazy" oncontextmenu="return false;" />
+                <img class="slider-img" src="/assets/img/SL1.jpeg" alt="D-SPORA 2022" draggable="false" loading="lazy" oncontextmenu="return false;" />
+                <img class="slider-img" src="/assets/img/SL2.jpeg" alt="D-SPORA 2022" draggable="false" loading="lazy" oncontextmenu="return false;" />
+                <img class="slider-img" src="/assets/img/SL3.jpeg" alt="Leadership Camp 2022" draggable="false" loading="lazy" oncontextmenu="return false;" />
+                <img class="slider-img" src="/assets/img/SL4.jpg" alt="Kidsstar 18th Birthday" draggable="false" loading="lazy" oncontextmenu="return false;" />
             </div>
             <div class="slider-title">
                 <span></span>
@@ -55,7 +55,7 @@
         <!-- Highlight  End -->
     </main>
     <!-- Content End -->
-    <?php include 'Assets/common/footer.php';?>
+    <?php include 'assets/common/footer.php';?>
 </body>
 
 </html>

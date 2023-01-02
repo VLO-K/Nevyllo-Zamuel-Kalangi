@@ -1,9 +1,7 @@
 /* Config */
 :root {
   --primary: #fff;
-  --secondary: #fe019a;
   --bg: #000;
-  --secondary-bg: #121212;
 }
 *, *::after, *::before {
   box-sizing: border-box;
@@ -28,35 +26,33 @@ body {
 }
 .content-container {
   display: none;
-  margin: auto;
+  flex-direction: column;
+  align-items: center;
   max-width: 120em;
-  height: 100vh;
 }
 /* Config */
-/* Project */
-.project-section {
+/* Work */
+.work-section {
   display: flex;
   flex-direction: column;
   align-items: center;
 }
-h1 {
+.work-header {
   text-align: center;
-  font-size: 120px;
+  font-size: 60px;
   width: 100%;
   padding: 50px;
-  text-shadow: -4px -4px 0px #ff0080,
-                4px 4px 0px #00f7ff;
 }
-.project-row {
+.work-row {
   display: flex;
   flex-wrap: wrap;
   justify-content: center;
   align-items: center;
 }
-.project-col {
+.work-col {
   padding: 0 25px;;
 }
-.project-img {
+.work-img {
   object-fit: cover;
   overflow: hidden;
   filter: brightness(80%);
@@ -67,7 +63,7 @@ h1 {
 
 
 
-/* Project */
+/* Work */
 
 /* Scrollbar */
 ::-webkit-scrollbar {
@@ -78,7 +74,7 @@ h1 {
   margin: 8px 0;
 }
 ::-webkit-scrollbar-thumb {
-  background-color: var(--secondary);
+  background-color: var(--primary);
   border-radius: 20px;
 }
 ::-webkit-scrollbar-thumb:hover {

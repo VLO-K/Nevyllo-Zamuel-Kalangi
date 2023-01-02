@@ -10,9 +10,9 @@
   document.body.style.overflow = "hidden";
   window.addEventListener("load", () => {
     loader.style.display = "none";
-    nav.style.display = "flex";
+    nav.style.display = "initial";
     document.body.style.overflowY = "visible";
-    content.style.display = "initial";
+    content.style.display = "flex";
     footer.style.display = "initial";
   });
 </script>
@@ -33,7 +33,7 @@
     letter-spacing: 6px;
     height: 100vh;
     width: 100%;
-    color: var(--secondary);
+    color: #888888;
     animation: load 1.5s infinite 0s ease-in-out;
     animation-direction: alternate;
   }
