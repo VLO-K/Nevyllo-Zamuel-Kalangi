@@ -4,33 +4,24 @@
         #nav {
             display: none;
         }
-        .nav-container {
-            display: flex;
-            position: fixed;
-            justify-content: space-between;
-            align-items: center;
-            text-overflow: ellipsis;
-            overflow: hidden;
-            user-select: none;
-            top: 0;
-            height: 60px;
-            width: 100%;
-            padding: 0 8%;
-            z-index: 39;
-            background-color: var(--bg);
-            filter: blur(80%)
-        }
         .logo {
-            padding-left: 2%;
-            padding-right: 2%;
+            position: fixed;
+            top: 20px;
+            left: 20px;
+            z-index: 999;
         }
         .logo:hover {
             cursor: pointer;
         }
         .nav-menu {
             display: flex;
-            align-items: center;
-            width: 100%;
+            flex-direction: row;
+            justify-content: right;
+            position: fixed;
+            top: 20px;
+            right: 20px;
+            z-index: 999;
+            transition: all 0.5s ease;
         }
         .nav-menu a {
             position: relative;
@@ -40,24 +31,19 @@
             margin: 0 20px;
             padding: 5px 5px;
         }
-        .nav-menu a:after {
-            position: absolute;
-            background: none repeat scroll 0 0 transparent;
-            content: "";
-            height: 2px;
-            width: 0;
-            left: 50%;
-            bottom: 0;
-            background: var(--primary);
-            transition: width 0.3s ease 0s, left 0.3s ease 0s;
-        }
         .nav-menu a:hover {
             color: var(--primary);
         }
-        .nav a:hover:after {
-            cursor: pointer;
-            width: 100%;
-            left: 0;
+        @media (max-width: 800px){
+            .nav-menu {
+                align-items: flex-end;
+                writing-mode: vertical-lr;
+                right: 0;
+            }
+            .nav-menu a {
+                margin: 0 0;
+                padding: 15px 5px;
+            }
         }
         /* Navigation */
         /* Socmed */
@@ -89,27 +75,23 @@
         }
         /* Socmed */
     </style>
-    <!-- Navigation -->
-    <div class="nav-container">
-        <!-- Navigation Logo -->
-        <div class="logo">
-            <a href="home">
-                <img src="/assets/img/Logo.png" draggable="false" alt="NZK" height="32"/>
-            </a>
-        </div>
-        <!-- Navigation Logo -->
-        <!-- Navigation Menu -->
-        <div class="nav">
-            <div class="nav-menu">
-                <a href="/about">ABOUT</a>
-                <a href="/work">WORK</a>
-                <a href="/biography">BIOGRAPHY</a>
-                <a href="/faq">FAQ</a>
-            </div>
-        </div>
-        <!-- Navigation Menu -->
+    <!-- Logo -->
+    <div class="logo">
+        <a href="home">
+            <img src="/assets/img/Logo.png" draggable="false" alt="NZK" height="42"/>
+        </a>
     </div>
-    <!-- Navigation -->
+    <!-- Logo -->
+    <!-- Navigation Menu -->
+    <div class="nav">
+        <div class="nav-menu" id="menu">
+            <a id="navlink1" href="/about">ABOUT</a>
+            <a id="navlink2" href="/work">WORK</a>
+            <a id="navlink3" href="/biography">BIOGRAPHY</a>
+            <a id="navlink4" href="/faq">FAQ</a>
+        </div>
+    </div>
+    <!-- Navigation Menu -->
     <!-- Social Media -->
     <div class="socmed">
         <h4 class="socmed-title">Follow Me</h4>
@@ -130,3 +112,44 @@
     </div>
     <!-- Social Media -->
 </header>
+<script>
+    function detect() {
+        let scroll = this.scrollY;
+        console.log(scroll);
+
+        var x = window.matchMedia("(max-width: 800px)")
+        console.log(x);
+
+        if (scroll >= 200 || x.matches){
+            navlink1.style.margin = "0px";
+            navlink1.style.padding = "15px 5px";
+            navlink2.style.margin = "0px";
+            navlink2.style.padding = "15px 5px";
+            navlink3.style.margin = "0px";
+            navlink3.style.padding = "15px 5px";
+            navlink4.style.margin = "0px";
+            navlink4.style.padding = "15px 5px";
+            menu.style.alignItems = "flex-end";
+            menu.style.writingMode = "vertical-lr";
+            menu.style.right = "0";
+        } else {
+            navlink1.style.margin = "0 20px";
+            navlink1.style.padding = "5px 5px";
+            navlink2.style.margin = "0 20px";
+            navlink2.style.padding = "5px 5px";
+            navlink3.style.margin = "0 20px";
+            navlink3.style.padding = "5px 5px";
+            navlink4.style.margin = "0 20px";
+            navlink4.style.padding = "5px 5px";
+            menu.style.alignItems = "initial";
+            menu.style.writingMode = "initial";
+            menu.style.right = "20px";
+        }
+    }
+    window.addEventListener("resize", (event) => {
+        detect()
+    });
+    window.addEventListener("scroll", (event) => {
+        detect()
+    });
+</script>

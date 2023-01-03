@@ -6,7 +6,7 @@
     <meta charset="utf-8"/>
     <meta name="author" content="Nevyllo Zamuel Kalangi"/>
     <meta name="description" content="Portfolio"/>
-    <meta name="viewport" content="width=device-width, initial-scale=1">
+    <meta name="viewport" content="width=device-width, initial-scale=1,maximum-scale=1, user-scalable=no">
     <title>Home | Nevyllo Kalangi</title>
     <!-- HTML Config -->
     <!-- HTML Links Start -->
@@ -19,6 +19,7 @@
 </head>
 
 <body>
+    <?php include 'assets/common/default.php';?>
     <?php include 'assets/common/loader.php';?>
     <?php include 'assets/common/cursor.php';?>
     <?php include 'assets/common/header.php';?>

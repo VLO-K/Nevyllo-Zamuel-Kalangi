@@ -1,48 +1,3 @@
-/* Config */
-:root {
-  --primary: #fff;
-  --bg: #000;
-}
-*, *::after, *::before {
-  box-sizing: border-box;
-}
-* {
-  margin: 0;
-  padding: 0;
-}
-img, video, picture, svg {
-  display: block;
-  user-select: none;
-}
-html {
-  color-scheme: dark light;
-  scroll-behavior: smooth;
-}
-body {
-  font-family: "Montserrat", sans-serif;
-  color: var(--primary);
-  width: 100%;
-  background-color: var(--bg);
-}
-.seperator {
-  height: 160px;
-}
-.content-container {
-  display: none;
-  flex-direction: column;
-  align-items: center;
-  max-width: 120em;
-}
-@font-face {
-  font-family: "RobotoTh";
-  src: url(/assets/font/Roboto-Thin.ttf);
-}
-@font-face {
-  font-family: "RobotoBold";
-  src: url(/assets/font/Roboto-Bold.ttf);
-}
-/* Config */
-
 /* Title */
 .content-wrapper {
   position: relative;
@@ -105,7 +60,7 @@ body {
   position: absolute;
   user-select: none;
   text-align: center;
-  font-family: 'RobotoBold', sans-serif;
+  font-family: 'RobotoReg', sans-serif;
   font-size: 200px;
   height: 80vh;
   width: 100%;
