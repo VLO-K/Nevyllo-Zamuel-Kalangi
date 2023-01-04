@@ -26,9 +26,12 @@
         <!--Seperator Start-->
         <div class="seperator"></div>
         <!--Seperator End-->
+        <div class="faq-header">FAQs</div>
+        <!--Seperator Start-->
+        <div class="seperator"></div>
+        <!--Seperator End-->
         <!-- FAQ Start -->
         <div class="faq-section">
-            <a class="faq-header">FAQs</a>
             <ul class="faq-accordion">
                 <li>
                     <input type="checkbox" checked>

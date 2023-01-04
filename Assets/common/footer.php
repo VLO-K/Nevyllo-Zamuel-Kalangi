@@ -3,12 +3,15 @@
     footer {
         display: none;
         user-select: none;
+        justify-content: center;
     }
     .footer-container {
         display: flex;
         justify-content: space-between;
         background-color: var(--bg);
-        padding: 30px 10%;
+        width: 80%;
+        max-width: 1920px;
+        padding: 30px 0;
     }
     .footer-section {
         display: flex;
@@ -27,7 +30,15 @@
     .footer-text:hover {
     }
     @media (max-width: 800px){
-        .footer-section {
+        .footer-container {
+            justify-content: left;
+            width: 90%;
+        }
+        .footer-cr {
+            display: none;
+        }
+        .footer-text:first-child {
+            border: 0 0 0 0 solid var(--primary);
         }
     }
     /* Footer */

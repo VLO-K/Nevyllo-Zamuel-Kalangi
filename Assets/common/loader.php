@@ -10,10 +10,10 @@
   document.body.style.overflow = "hidden";
   window.addEventListener("load", () => {
     loader.style.display = "none";
-    nav.style.display = "initial";
+    nav.style.display = "flex";
     document.body.style.overflowY = "visible";
     content.style.display = "flex";
-    footer.style.display = "initial";
+    footer.style.display = "flex";
   });
 </script>
 <style type="text/css" scoped>

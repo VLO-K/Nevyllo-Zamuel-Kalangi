@@ -26,7 +26,10 @@
         <!--Seperator Start-->
         <div class="seperator"></div>
         <!--Seperator End-->
-        <h1 class="timeline-header">BIOGRAPHY</h1>
+        <div class="timeline-header">BIOGRAPHY</div>
+        <!--Seperator Start-->
+        <div class="seperator"></div>
+        <!--Seperator End-->
         <!--Timeline Start-->
         <div class="timeline-section">
             <div class="timeline-title">Early Years</div>
@@ -49,7 +52,7 @@
                 <div class="timeline-content">
                     <div class="timeline-year">2021</div>
                     <div class="timeline-heading">D-SPORA 2021</div>
-                    <p class="timeline-desc">In 2021, The 2nd Winner of Badminton Men's Single, The 1st Winner of Men's 100m Run</p>
+                    <p class="timeline-desc">In 2021, there was D-Spora which was held by my senior, they held a lot of competitions. The 2nd Winner of Badminton Men's Single, The 1st Winner of Men's 100m Run</p>
                 </div>
                 <div class="timeline-content">
                     <div class="timeline-year">2021  —  2022</div>
@@ -70,6 +73,16 @@
                     <div class="timeline-year">2024</div>
                     <div class="timeline-heading">High School</div>
                     <p class="timeline-desc">In 2024, I graduated from Dunia Harapan High School.</p>
+                </div>
+            </div>
+        </div>
+        <div class="timeline-section">
+            <div class="timeline-title">College Years</div>
+            <div class="timeline-container">
+                <div class="timeline-content">
+                    <div class="timeline-year">2024-2028</div>
+                    <div class="timeline-heading">Bachelor of Computer Science</div>
+                    <p class="timeline-desc">In 2024, </p>
                 </div>
             </div>
         </div>

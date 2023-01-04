@@ -2,16 +2,17 @@
     /* Navigation */
     #nav {
         display: none;
+        justify-content: center;
     }
     .nav-container {
         display: flex;
         justify-content: space-between;
         align-items: center;
         position: sticky;
-        width: 100%;
+        width: 80%;
+        max-width: 1920px;
         top: 0;
-        max-width: 100vw;
-        padding: 20px 10%;
+        padding: 20px 0;
         z-index: 999;
         background-color: var(--bg);
     }
@@ -22,13 +23,13 @@
         display: flex;
         flex-direction: row;
         transition: all 0.5s ease;
+        gap: 40px;
     }
     .nav-menu a {
         position: relative;
         text-decoration: none;
         font-size: 16px;
         color: var(--primary);
-        margin: 0 20px;
     }
     .nav-menu a:hover {
     }
@@ -84,26 +85,26 @@
         </div>
         <!-- Navigation Menu -->
     </div>
-    <!-- Social Media -->
-    <div class="socmed">
-        <h4 class="socmed-title">Follow Me</h4>
-        <div class="socmed-container">
-            <a class="socmed-link" href="https://www.instagram.com/nevylloproman">
-                <img src="/assets/img/Instagram.png" draggable="false" alt="Instagram: @nevylloproman" height="16" loading="lazy"/>
-            </a>
-            <a class="socmed-link" href="https://www.youtube.com/@vlovlovlo">
-                <img src="/assets/img/Youtube.png" draggable="false" alt="Youtube: VLOVLOVLO" height="16" loading="lazy"/>
-            </a>
-            <a class="socmed-link" href="https://discord.gg/SRWRdzZmur">
-                <img src="/assets/img/discord.png" draggable="false" alt="Discord: Glee Community" height="16" loading="lazy"/>
-            </a>
-            <a class="socmed-link" href="https://github.com/VLO-K">
-                <img src="/assets/img/github.png" draggable="false" alt="Github: VLO-K" height="16" loading="lazy"/>
-            </a>
-        </div>
-    </div>
-    <!-- Social Media -->
 </header>
+<!-- Social Media -->
+<div class="socmed">
+    <h4 class="socmed-title">Follow Me</h4>
+    <div class="socmed-container">
+        <a class="socmed-link" href="https://www.instagram.com/nevylloproman">
+            <img src="/assets/img/Instagram.png" draggable="false" alt="Instagram: @nevylloproman" height="16" loading="lazy"/>
+        </a>
+        <a class="socmed-link" href="https://www.youtube.com/@vlovlovlo">
+            <img src="/assets/img/Youtube.png" draggable="false" alt="Youtube: VLOVLOVLO" height="16" loading="lazy"/>
+        </a>
+        <a class="socmed-link" href="https://discord.gg/SRWRdzZmur">
+            <img src="/assets/img/discord.png" draggable="false" alt="Discord: Glee Community" height="16" loading="lazy"/>
+        </a>
+        <a class="socmed-link" href="https://github.com/VLO-K">
+            <img src="/assets/img/github.png" draggable="false" alt="Github: VLO-K" height="16" loading="lazy"/>
+        </a>
+    </div>
+</div>
+<!-- Social Media -->
 <script>
     function detect() {
         let scroll = this.scrollY;
