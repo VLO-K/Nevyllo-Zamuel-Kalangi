@@ -39,17 +39,17 @@
                 <div class="timeline-content">
                     <div class="timeline-year">2020  —  2021</div>
                     <div class="timeline-heading">Head of Sport & Art Division</div>
-                    <p class="timeline-desc">In 2020, I was chosen to be the head of Dunia Harapan Secondary School Student Council Sport & Art Division by the Student Council President.</p>
+                    <p class="timeline-desc">In 2020, I was chosen to be the head of Dunia Harapan Secondary School Student Council Sport & Art Division by the Student Council President. There are several work programs that I made. Most of my programs can't be held due to covid19. But I managed to conduct some of them in online situations. D-Spora 2020 is one of the programs that I held online.</p>
                 </div>
                 <div class="timeline-content">
                     <div class="timeline-year">2021</div>
                     <div class="timeline-heading">Secondary School</div>
-                    <p class="timeline-desc">In 2021, I graduated from Dunia Harapan Secondary School</p>
+                    <p class="timeline-desc">In 2021, I graduated from Dunia Harapan Secondary School.</p>
                 </div>
                 <div class="timeline-content">
                     <div class="timeline-year">2021</div>
                     <div class="timeline-heading">D-SPORA 2021</div>
-                    <p class="timeline-desc">The 2nd Winner of Badminton Men's Single, The 1st Winner of Men's 100m Run</p>
+                    <p class="timeline-desc">In 2021, The 2nd Winner of Badminton Men's Single, The 1st Winner of Men's 100m Run</p>
                 </div>
                 <div class="timeline-content">
                     <div class="timeline-year">2021  —  2022</div>
@@ -69,7 +69,7 @@
                 <div class="timeline-content">
                     <div class="timeline-year">2024</div>
                     <div class="timeline-heading">High School</div>
-                    <p class="timeline-desc">In 2024, I graduated from Dunia Harapan High School</p>
+                    <p class="timeline-desc">In 2024, I graduated from Dunia Harapan High School.</p>
                 </div>
             </div>
         </div>

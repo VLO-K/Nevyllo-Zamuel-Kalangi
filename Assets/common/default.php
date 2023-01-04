@@ -39,6 +39,8 @@
     min-height: 100vh;
     color: var(--primary);
     background-color: var(--bg);
+    -moz-osx-font-smoothing: grayscale;
+    -webkit-font-smoothing: antialiased;
   }
   .seperator {
     height: 80px;
@@ -52,22 +54,22 @@
   /* Animation Keyframes */
 
 
-  
+
   /* Animation Keyframes */
   /* Scrollbar */
   ::-webkit-scrollbar {
     width: 9px;
   }
   ::-webkit-scrollbar-track {
-    background-color: transparent;
     margin: 8px 0;
+    background-color: transparent;
   }
   ::-webkit-scrollbar-thumb {
-    background-color: var(--primary);
     border-radius: 20px;
+    background-color: var(--secondary);
   }
   ::-webkit-scrollbar-thumb:hover {
-    background-color: #888888;
+    background-color: #0090cc;
   }
   /* Scrollbar */
 </style>

@@ -7,11 +7,11 @@
     .footer-container {
         display: flex;
         justify-content: space-between;
-        background-color: var(--secondary);
+        background-color: var(--bg);
+        padding: 30px 10%;
     }
     .footer-section {
         display: flex;
-        padding: 30px 5%;
     }
     .footer-text {
         overflow: hidden;

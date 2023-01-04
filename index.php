@@ -38,22 +38,6 @@
                 </div>
             </div>
         </div>
-        <!--Seperator Start-->
-        <div class="seperator"></div>
-        <!--Seperator End-->
-        <!-- Highlight Start -->
-        <div class="slider-section">
-            <div class="slider">
-                <img class="slider-img" src="/assets/img/SL1.jpeg" alt="D-SPORA 2022" draggable="false" loading="lazy" oncontextmenu="return false;" />
-                <img class="slider-img" src="/assets/img/SL2.jpeg" alt="D-SPORA 2022" draggable="false" loading="lazy" oncontextmenu="return false;" />
-                <img class="slider-img" src="/assets/img/SL3.jpeg" alt="Leadership Camp 2022" draggable="false" loading="lazy" oncontextmenu="return false;" />
-                <img class="slider-img" src="/assets/img/SL4.jpg" alt="Kidsstar 18th Birthday" draggable="false" loading="lazy" oncontextmenu="return false;" />
-            </div>
-            <div class="slider-title">
-                <span></span>
-            </div>
-        </div>
-        <!-- Highlight  End -->
     </main>
     <!-- Content End -->
     <?php include 'assets/common/footer.php';?>
