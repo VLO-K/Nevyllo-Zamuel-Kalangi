@@ -2,6 +2,7 @@
   /* Config */
   :root {
     --primary: #fff;
+    --secondary: #00b5ff;
     --bg: #000;
   }
   @font-face {
@@ -15,14 +16,6 @@
   @font-face {
     font-family: "RobotoTh";
     src: url(/assets/font/Roboto-Thin.ttf);
-  }
-  @font-face {
-    font-family: "RubikReg";
-    src: url(/Assets/font/Rubik-Regular.ttf);
-  }
-  @font-face {
-    font-family: "RubikLi";
-    src: url(/assets/font/Rubik-Light.ttf);
   }
   *, *::after, *::before {
     box-sizing: border-box;
@@ -42,9 +35,9 @@
   body {
     overflow-x: hidden;
     font-family: "RobotoReg", sans-serif;
-    color: var(--primary);
     width: 100%;
     min-height: 100vh;
+    color: var(--primary);
     background-color: var(--bg);
   }
   .seperator {
@@ -54,6 +47,27 @@
     display: none;
     flex-direction: column;
     align-items: center;
-    max-width: 120em;
   }
+  /* Config */
+  /* Animation Keyframes */
+
+
+  
+  /* Animation Keyframes */
+  /* Scrollbar */
+  ::-webkit-scrollbar {
+    width: 9px;
+  }
+  ::-webkit-scrollbar-track {
+    background-color: transparent;
+    margin: 8px 0;
+  }
+  ::-webkit-scrollbar-thumb {
+    background-color: var(--primary);
+    border-radius: 20px;
+  }
+  ::-webkit-scrollbar-thumb:hover {
+    background-color: #888888;
+  }
+  /* Scrollbar */
 </style>

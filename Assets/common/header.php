@@ -78,7 +78,7 @@
     <!-- Logo -->
     <div class="logo">
         <a href="home">
-            <img src="/assets/img/Logo.png" draggable="false" alt="NZK" height="42"/>
+            <img src="/assets/img/Logo.png" draggable="false" alt="NZK" height="38"/>
         </a>
     </div>
     <!-- Logo -->

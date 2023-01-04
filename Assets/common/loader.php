@@ -17,10 +17,6 @@
   });
 </script>
 <style type="text/css" scoped>
-  @font-face {
-    font-family: "Ma Shan Zheng";
-    src: url(/Assets/font/MaShanZheng-Regular.ttf);
-  }
   #loader {
     display: flex;
     user-select: none;
@@ -28,12 +24,12 @@
     text-align: center;
     justify-content: center;
     writing-mode: vertical-lr;
-    font-family: 'Ma Shan Zheng', cursive;
+    font-family: "Ma Shan Zheng", cursive;
     font-size: 12px;
     letter-spacing: 6px;
     height: 100vh;
     width: 100%;
-    color: #888888;
+    color: var(--secondary);
     animation: load 1.5s infinite 0s ease-in-out;
     animation-direction: alternate;
   }

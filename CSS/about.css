@@ -60,7 +60,6 @@
   position: absolute;
   user-select: none;
   text-align: center;
-  font-family: 'RobotoReg', sans-serif;
   font-size: 200px;
   height: 80vh;
   width: 100%;
@@ -88,7 +87,6 @@
   justify-content: center;
   align-items: center;
   text-align: center;
-  font-family: 'Inter', sans-serif;
 }
 .about-image img {
   object-fit: cover;
@@ -229,20 +227,3 @@
   }
 }
 /* End of Responsive CSS */
-
-/* Scrollbar */
-::-webkit-scrollbar {
-  width: 9px;
-}
-::-webkit-scrollbar-track {
-  background-color: transparent;
-  margin: 8px 0;
-}
-::-webkit-scrollbar-thumb {
-  background-color: var(--primary);
-  border-radius: 20px;
-}
-::-webkit-scrollbar-thumb:hover {
-  background-color: #888888;
-}
-/* Scrollbar */

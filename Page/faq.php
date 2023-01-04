@@ -28,7 +28,7 @@
         <!--Seperator End-->
         <!-- FAQ Start -->
         <div class="faq-section">
-            <h1 class="faq-header">FAQs</h1>
+            <a class="faq-header">FAQs</a>
             <ul class="faq-accordion">
                 <li>
                     <input type="checkbox" checked>
