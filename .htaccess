@@ -1,4 +1,13 @@
+DirectoryIndex /index.php
 RewriteEngine On
+Options -Indexes
 
-RewriteRule ^home$ index.html
-RewriteRule ^about$ about.html
+RewriteRule ^home$ index.php
+RewriteRule ^about$ Page/about.php
+RewriteRule ^biography$ Page/biography.php
+RewriteRule ^work$ Page/work.php
+RewriteRule ^faq$ Page/faq.php
+
+ErrorDocument 403 /Page/E403.php
+ErrorDocument 404 /Page/E404.php
+ErrorDocument 500 /Page/E500.php
