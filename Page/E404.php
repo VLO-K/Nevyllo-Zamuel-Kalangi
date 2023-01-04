@@ -23,10 +23,12 @@
     <?php include '../assets/common/header.php';?>
     <!-- Content Start -->
     <main class="content-container" id="content">
-        <!-- Error 404 -->
-        <div>
+        <div class="content-wrapper">
+            <!-- Error 404 -->
+            <div>
+            </div>
+            <!-- Error 404 -->
         </div>
-        <!-- Error 404 -->
     </main>
     <!-- Content End -->
     <?php include '../assets/common/footer.php';?>

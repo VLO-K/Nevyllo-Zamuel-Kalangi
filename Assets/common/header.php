@@ -3,15 +3,15 @@
     #nav {
         display: none;
         justify-content: center;
+        background-color: var(--bg);
     }
     .nav-container {
         display: flex;
         justify-content: space-between;
         align-items: center;
-        position: sticky;
+        position: fixed;
         width: 80%;
         max-width: 1920px;
-        top: 0;
         padding: 20px 0;
         z-index: 999;
         background-color: var(--bg);
@@ -34,6 +34,10 @@
     .nav-menu a:hover {
     }
     @media (max-width: 800px){
+        .nav-container {
+            width: 90%;
+            max-width: 1920px;
+        }
     }
     /* Navigation */
     /* Socmed */
@@ -42,7 +46,7 @@
         flex-direction: column;
         position: fixed;
         user-select: none;
-        top: 40%;
+        bottom: 10px;
         gap: 10px;
         z-index: 999;
     }
@@ -70,7 +74,7 @@
         <!-- Logo -->
         <div class="logo">
             <a href="home">
-                <img src="/assets/img/Logo.png" draggable="false" alt="NZK" height="38"/>
+                <img src="/assets/img/Logo.png" draggable="false" alt="NZK" height="38" loading="lazy"/>
             </a>
         </div>
         <!-- Logo -->

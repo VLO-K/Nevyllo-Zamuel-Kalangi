@@ -23,44 +23,46 @@
     <?php include '../assets/common/header.php';?>
     <!-- Content Start -->
     <main class="content-container" id="content">
-        <!-- Work Start -->
-        <div class="work-section">
-            <h1 class="work-header">WORK</h1>
-            <div class="work-row">
-                <div class="work-col">
-                    <div class="work-wrapper">
-                        <img class="work-img" src="/assets/Img/SL4.jpg" alt="" draggable="false" loading="lazy" oncontextmenu="return false;" />
-                        <a>Cashier System - VB6</a>
+        <div class="content-wrapper">
+            <!--Seperator Start-->
+            <div class="seperator"></div>
+            <!--Seperator End-->
+            <div class="work-header">WORK</div>
+            <!--Seperator Start-->
+            <div class="seperator"></div>
+            <!--Seperator End-->
+            <!-- Work Start -->
+            <div class="work-section">
+                <div class="work-container">
+                    <div class="work-content">
+                        <div class="work-year">2020</div>
+                        <div class="work-heading">One Celsius</div>
+                        <p class="work-desc">I created my first large project called One Celsius in 2020. It is a cashier system or a pos system with Visual Basic 6.0 language.</p>
+                        <img class="work-img" src="/assets/img/Biography-HS.jpg" draggable="false" alt="Graduation-HS" height="16" loading="lazy"/>
                     </div>
-                </div>
-                <div class="work-col">
-                    <div class="work-wrapper">
-                        <img class="work-img" src="/assets/Img/SL4.jpg" alt="" draggable="false" loading="lazy" oncontextmenu="return false;" />
-                        <a>Cashier System - VB6</a>
-                    </div>
-                </div>
-                <div class="work-col">
-                    <div class="work-wrapper">
-                        <img class="work-img" src="/assets/Img/SL4.jpg" alt="" draggable="false" loading="lazy" oncontextmenu="return false;" />
-                        <a>Cashier System - VB6</a>
+                    <div class="work-content">
+                        <div class="work-year">2022</div>
+                        <div class="work-heading">Portfolio Website</div>
+                        <p class="work-desc">In 2022, I created this website and this website will be my portfolio.</p>
+                        <img class="work-img" src="/assets/img/Biography-HS.jpg" draggable="false" alt="Graduation-HS" height="16" loading="lazy"/>
                     </div>
                 </div>
             </div>
+            <!-- Work End -->
+            <!-- Skill Start-->
+            <div class="skill-section">
+                <h2 class="skill-text">SKILLS</h2>
+                <div class="skill-content">
+                    <div class="skill-heading">Programming Language</div>
+                    <div class="skill-desc">HTML, CSS, PYTHON, C++, JavaScript & VB6</div>
+                </div>
+                <div class="skill-content">
+                    <div class="skill-heading">Language</div>
+                    <div class="skill-desc">Indonesian & English</div>
+                </div>
+            </div>
+            <!-- Skill End-->
         </div>
-        <!-- Work End -->
-        <!-- Skills Start-->
-        <div class="skills-section">
-            <h2 class="skills-text">SKILLS</h2>
-            <div class="skills-content">
-                <div class="skills-heading">Programming Language</div>
-                <div class="skills-desc">HTML, CSS, PYTHON, C++, JavaScript & VB6</div>
-            </div>
-            <div class="skills-content">
-                <div class="skills-heading">Language</div>
-                <div class="skills-desc">Indonesian & English</div>
-            </div>
-        </div>
-        <!-- Skills End-->
     </main>
     <!-- Content End -->
     <?php include '../assets/common/footer.php';?>

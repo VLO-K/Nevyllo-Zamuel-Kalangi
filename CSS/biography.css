@@ -1,26 +1,26 @@
-/* Timeline */
-.timeline-header {
+/* Biography */
+.biography-header {
   text-align: center;
   font-size: 80px;
   width: 100%;
 }
-.timeline-section {
+.biography-section {
   display: flex;
   flex-direction: row;
   justify-content: space-between;
   user-select: none;
-  width: 80%;
+  width: 100%;
   gap: 5%;
 }
-.timeline-title {
+.biography-title {
   font-size: 42px;
   font-weight: 600;
   width: 25%;
 }
-.timeline-container {
+.biography-container {
   width: 75%;
 }
-.timeline-content { 
+.biography-content { 
   display: grid;
   grid-template-columns: 1fr;
   width: 100%;
@@ -28,54 +28,57 @@
   padding-bottom: 20px;
   border-bottom: 1.5px solid var(--primary);
 }
-.timeline-year {
+.biography-year {
   text-align: left;
   font-size: 14px;
   padding: 8px 0;
 }
-.timeline-heading {
+.biography-heading {
   text-align: left;
   font-size: 20px;
   font-weight: 600;
   line-height: 26px;
 }
-.timeline-desc {
+.biography-desc {
   text-align: justify;
   font-size: 16px;
   line-height: 26px;
   padding: 20px 0;
 }
+.biography-img {
+  height: 100%;
+  width: 100%;
+  filter: brightness(70%);
+}
 @media (max-width: 1350px) {
-  .timeline-section {
-    width: 90%;
+  .biography-section {
     gap: 2%;
   }
-  .timeline-title {
+  .biography-title {
     font-size: 24px;
   }
-  .timeline-container {
+  .biography-container {
     width: 100%;
   }
 }
 @media (max-width: 800px) {
-  .timeline-header {
+  .biography-header {
     font-size: 60px;
     padding: 80px 0;
   }
-  .timeline-title {
+  .biography-title {
     font-size: 32px;
     width: 100%;
   }
-  .timeline-section {
+  .biography-section {
     flex-direction: column;
-    width: 90%;
     gap: 0;
   }
-  .timeline-container {
+  .biography-container {
     width: 100%;
   }
-  .timeline-desc {
+  .biography-desc {
     padding: 20px 0;
   }
 }
-/* Timeline & Skill*/
+/* Biography */

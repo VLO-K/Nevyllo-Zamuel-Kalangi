@@ -47,9 +47,20 @@
   }
   .content-container {
     display: none;
+    justify-content: center;
+  }
+  .content-wrapper {
+    display: flex;
     flex-direction: column;
     align-items: center;
+    width: 80%;
+    max-width: 1920px;
   }
+@media (max-width: 800px) {
+  .content-wrapper {
+    width: 90%;
+  }
+}
   /* Config */
   /* Animation Keyframes */
 
