@@ -55,24 +55,6 @@
   font-size: 210px;
   font-weight: 10;
 }
-.content-main {
-  display: block;
-  position: absolute;
-  user-select: none;
-  text-align: center;
-  font-size: 200px;
-  height: 80vh;
-  width: 100%;
-  top: 0;
-  bottom: 0;
-  left: 0;
-  right: 0;
-  margin: auto;
-  z-index: 0;
-  color: transparent;
-  -webkit-text-stroke-color: #474747;
-  -webkit-text-stroke-width: 1px;
-}
 .content-1 {
 }
 .content-1 {
@@ -100,125 +82,17 @@
   font-size: 36px;
   padding-top: 25px;
 }
-.about-job {
-  font-size: 24px;
-}
-.about-job span {
-  color: #fe019a;
-}
-.about-desc {
-  text-align: justify;
-  line-height: 30px;
-  word-spacing: 1.8px;
-  font-size: 22px;
-  width: 40%;
-  color: var(--primary);
-}
 /* About  */
-/* Achievements */
-.timeline-section {
-  padding: 80px 160px;
-}
-.timeline-title {
-  display: flex;
-  justify-content: center;
-  align-items: center;
-}
-.timeline-title div {
-  position: relative;
-}
-.timeline-title div::before {
-  content: '';
-  position: absolute;
-  top: 0;
-  right: 0;
-  width: 2px;
-  height: 100%;
-  background: #fe019a;
-  animation: blink-cursor 0.8s steps(15) infinite;
-}
-.timeline-title h2 {
-  position: relative;
-  overflow: hidden;
-  font-size: 46px;
-  letter-spacing: .15em;
-  animation: typing 8s steps(12) infinite;
-}
-@keyframes typing {
-  0%, 90%, 100% {
-     width: 0;
-    }
-  30%, 60% {
-     width: 443px;
-    }
-}
-@keyframes blink-cursor {
-  0%, 75% {
-    opacity: 1;
-  }
-  76%, 100% {
-    opacity: 0;
-  }
-}
-.timeline{
-  position: relative;
-  margin: 80px auto;
-  width: 1000px;
-  padding: 50px 0;
-}
-.timeline-bg1 {
-  display: inline;
-  position: relative;
-  top: 50px;
-  left: 120px;
-  width: 0px;
-  height: 0px;
-  border-radius: 50%;
-  box-shadow: 0 0 70px 50px #47ffa3;
-  animation: fadeIn 4s infinite;
-}
-.timeline-bg2 {
-  display: inline;
-  position: relative;
-  top: 400px;
-  left: 800px;
-  width: 0px;
-  height: 0px;
-  border-radius: 50%;
-  box-shadow: 0 0 70px 60px #c96dff;
-  animation: fadeIn 7s infinite;
-}
-.timeline-bg3 {
-  display: inline;
-  position: relative;
-  top: 800px;
-  left: 80px;
-  width: 0px;
-  height: 0px;
-  border-radius: 50%;
-  box-shadow: 0 0 60px 50px #6b9cff;
-  animation: fadeIn 11s infinite;
-}
-.timeline-bg4 {
-  display: inline;
-  position: relative;
-  top: -100px;
-  left: 900px;
-  width: 0px;
-  height: 0px;
-  border-radius: 50%;
-  box-shadow: 0 0 70px 60px #eb9c43;
-  animation: fadeIn 13s infinite;
-}
-/* Achievements */
+/* Youtube */
 
+/* Youtube */
 /* Highlight */
 .slider-section {
   position: relative;
   overflow: hidden;
   text-align: center;
-  font-size: 70px;
-  height: 500px;
+  font-size: 6vh;
+  height: 48vh;
   width: 100%;
   border-radius: 12px;
   animation: ambient 24s infinite;
@@ -336,18 +210,23 @@
 }
 /* Highlight */
 
-/* Journey Responsive */
-@media (max-width: 1000px){
-  .timeline{
-    width: 100%;
-  }
-}
-/* Journey Responsive */
 
-@media (orientation: portrait) {
-  .slider-container {
-    height: 40vh;
-    font-size: 60px;
+
+
+
+
+
+
+
+
+
+/* Responsive CSS */
+@media (max-width: 800px){
+  .slider-section {
+    height: 40vw;
+  }
+  .slider-title span {
+    font-size: 20px;
   }
 }
-/* End of Responsive CSS */
+/* Responsive CSS */

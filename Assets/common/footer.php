@@ -32,10 +32,16 @@
     @media (max-width: 800px){
         .footer-container {
             justify-content: left;
-            width: 90%;
+            width: 85%;
         }
         .footer-cr {
             display: none;
+        }
+        .footer-section {
+            flex-direction: column;
+        }
+        .footer-text {
+            padding-top: 5px;
         }
         .footer-text:first-child {
             border: 0 0 0 0 solid var(--primary);

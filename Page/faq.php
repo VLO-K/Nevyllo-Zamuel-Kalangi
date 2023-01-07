@@ -36,8 +36,8 @@
                 <ul class="faq-accordion">
                     <li>
                         <input type="checkbox" checked>
-                        <h2 class="faq-questions">What is your mother language?</h2>
-                        <p class="faq-answer">Indonesian</p>
+                        <h2 class="faq-questions">Who are you?</h2>
+                        <p class="faq-answer">I am s student of Dunia Harapan School</p>
                     </li>
                     <li>
                         <input type="checkbox" checked>

@@ -11,6 +11,10 @@
   user-select: none;
   width: 100%;
   gap: 5%;
+  padding-bottom: 150px;
+}
+.biography-section:last-child {
+  padding-bottom: 0px;
 }
 .biography-title {
   font-size: 42px;

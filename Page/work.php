@@ -31,6 +31,17 @@
             <!--Seperator Start-->
             <div class="seperator"></div>
             <!--Seperator End-->
+
+
+
+
+
+
+
+
+
+
+
             <!-- Work Start -->
             <div class="work-section">
                 <div class="work-container">
@@ -49,19 +60,9 @@
                 </div>
             </div>
             <!-- Work End -->
-            <!-- Skill Start-->
-            <div class="skill-section">
-                <h2 class="skill-text">SKILLS</h2>
-                <div class="skill-content">
-                    <div class="skill-heading">Programming Language</div>
-                    <div class="skill-desc">HTML, CSS, PYTHON, C++, JavaScript & VB6</div>
-                </div>
-                <div class="skill-content">
-                    <div class="skill-heading">Language</div>
-                    <div class="skill-desc">Indonesian & English</div>
-                </div>
-            </div>
-            <!-- Skill End-->
+            <!--Seperator Start-->
+            <div class="seperator"></div>
+            <!--Seperator End-->
         </div>
     </main>
     <!-- Content End -->

@@ -19,6 +19,7 @@
   }
   *, *::after, *::before {
     box-sizing: border-box;
+    -webkit-tap-highlight-color: transparent;
   }
   * {
     margin: 0;
