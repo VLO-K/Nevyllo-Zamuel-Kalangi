@@ -11,7 +11,7 @@
     <!-- HTML Config -->
     <!-- HTML Links -->
     <link rel="stylesheet" href="/CSS/biography.css" media="print" onload="this.media='all'">
-    <link rel="icon" type="image/x-icon" href="/assets/Img/Logo.png"/>
+    <link rel="icon" type="image/x-icon" href="/assets/Img/logo.png"/>
     <link href="https://fonts.googleapis.com/css?family=Inter" rel="stylesheet"/>
     <!-- HTML Links -->
 </head>
@@ -27,14 +27,14 @@
             <!--Seperator Start-->
             <div class="seperator"></div>
             <!--Seperator End-->
-            <div class="biography-header">BIOGRAPHY</div>
+            <div class="biography-title">BIOGRAPHY</div>
             <!--Seperator Start-->
             <div class="seperator"></div>
             <!--Seperator End-->
             <!--Biography Start-->
             <div>
-                <div class="biography-section">
-                    <div class="biography-title">Early Years</div>
+                <div class="biography">
+                    <div class="biography-subtitle">Early Years</div>
                     <div class="biography-container">
                         <div class="biography-content">
                             <div class="biography-year">2018</div>
@@ -45,19 +45,19 @@
                             <div class="biography-year">2020  —  2021</div>
                             <div class="biography-heading">Head of Sport & Art Division</div>
                             <p class="biography-desc">In 2020, I was chosen to be the head of Dunia Harapan Secondary School Student Council Sport & Art Division by the Student Council President. There are several work programs that I made. Most of my programs can't be held due to covid19. But I managed to conduct some of them in online situations. D-Spora 2020 is one of the programs that I held online.</p>
-                            <img class="biography-img" src="/assets/img/Biography-StucoSec.jpg" draggable="false" alt="Graduation-HS" height="16" loading="lazy"/>
+                            <img class="biography-img" src="/assets/img/biography-stucosec.jpg" draggable="false" alt="Graduation-HS" height="16" loading="lazy"/>
                         </div>
                         <div class="biography-content">
                             <div class="biography-year">2021</div>
                             <div class="biography-heading">Secondary School</div>
                             <p class="biography-desc">In 2021, I graduated from Dunia Harapan Secondary School. </p>
-                            <img class="biography-img" src="/assets/img/Biography-HS.jpg" draggable="false" alt="Graduation-HS" height="16" loading="lazy"/>
+                            <img class="biography-img" src="/assets/img/biography-hs.jpg" draggable="false" alt="Graduation-HS" height="16" loading="lazy"/>
                         </div>
                         <div class="biography-content">
                             <div class="biography-year">2021</div>
                             <div class="biography-heading">D-SPORA 2021</div>
                             <p class="biography-desc">In 2021, D-Spora 2021 was held with a lot of new online competitions. I joined several competitions and won all of them. I became The 2nd Winner of Badminton Men's Single and The 1st Winner of Men's 100m Run.</p>
-                            <img class="biography-img" src="/assets/img/Biography-DSPORA21.jpg" draggable="false" alt="Graduation-HS" height="16" loading="lazy"/>
+                            <img class="biography-img" src="/assets/img/biography-dspora21.jpg" draggable="false" alt="Graduation-HS" height="16" loading="lazy"/>
                         </div>
                         <div class="biography-content">
                             <div class="biography-year">2021  —  2022</div>
@@ -68,7 +68,7 @@
                             <div class="biography-year">2022</div>
                             <div class="biography-heading">D-SPORA 2022</div>
                             <p class="biography-desc">In 2022, D-SPORA 2022 can be held completely offline. This year I joined more competitions than before. I became The 2nd Winner of Hotshot, The 1st Winner of Futsal, The 1st Winner of Badminton Men's Single and The 1st Winner of Badminton Mixed Double.</p>
-                            <img class="biography-img" src="/assets/img/Biography-DSPORA22.jpeg" draggable="false" alt="Graduation-HS" height="16" loading="lazy"/>
+                            <img class="biography-img" src="/assets/img/biography-dspora22.jpeg" draggable="false" alt="Graduation-HS" height="16" loading="lazy"/>
                         </div>
                         <div class="biography-content">
                             <div class="biography-year">2022  —  2023</div>
@@ -82,8 +82,8 @@
                         </div>
                     </div>
                 </div>
-                <div class="biography-section">
-                    <div class="biography-title">College Years</div>
+                <div class="biography">
+                    <div class="biography-subtitle">College Years</div>
                     <div class="biography-container">
                         <div class="biography-content">
                             <div class="biography-year">2024-2028</div>

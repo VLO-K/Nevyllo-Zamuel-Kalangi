@@ -12,7 +12,7 @@
     <!-- HTML Links -->
     <script type="text/javascript" src="/script/about.js" defer></script>
     <link rel="stylesheet" href="/CSS/about.css" media="print" onload="this.media='all'">
-    <link rel="icon" type="image/x-icon" href="/assets/img/Logo.png"/>
+    <link rel="icon" type="image/x-icon" href="/assets/img/logo.png"/>
     <link href="https://fonts.googleapis.com/css?family=Inter" rel="stylesheet"/>
     <!-- HTML Links -->
 </head>
@@ -25,49 +25,21 @@
     <!-- Content Start -->
     <main class="content-container" id="content">
         <div class="content-wrapper">
-            <!-- Hello Message -->
-            <div class="content-wrapper">
-                <div class="content-hello">
-                    <h1 class="content-hello1">H</h1>
-                    <h1 class="content-hello2">e</h1>
-                    <h1 class="content-hello3">l</h1>
-                    <h1 class="content-hello4">l</h1>
-                    <h1 class="content-hello5">o</h1>
-                </div>
-            </div>
-            <!-- Hello Message -->
-            <!--Seperator Start-->
-            <div class="seperator"></div>
-            <!--Seperator End-->
             <!--About Start-->
             <div class="about-section">
-                <!-- background stroke nanti di belanakng about me -->
-                <div class="about-image">
-                    <img src="/assets/img/MyPic.jpeg" alt="About Me Picture" draggable="false" loading="lazy"
-                        oncontextmenu="return false;"/>
-                </div>
-                <a class="about-title">Nevyllo Zamuel Kalangi</a><br>
+                <a class="about-title">Nevyllo<br>Zamuel Kalangi</a><br>
             </div>
             <!--About End-->
-            <!--Seperator Start-->
-            <div class="seperator"></div>
-            <!--Seperator End-->
-            <!--Youtube Start-->
-            <div>
-                <div>Latest Youtube Video</div>
-                <iframe width="800" height="450" src="https://www.youtube.com/embed?listType=playlist&list=UUgVgGSlM4LUNc3HfEJpij6Q" frameborder="0" allow="autoplay; encrypted-media" allowfullscreen></iframe>
-            </div>
-            <!--Youtube End-->
             <!--Seperator Start-->
             <div class="seperator"></div>
             <!--Seperator End-->
             <!-- Highlight Start -->
             <div class="slider-section">
                 <div class="slider">
-                    <img class="slider-img" src="/assets/img/SL1.jpeg" alt="D-SPORA 2022" draggable="false" loading="lazy" oncontextmenu="return false;" />
-                    <img class="slider-img" src="/assets/img/SL2.jpeg" alt="D-SPORA 2022" draggable="false" loading="lazy" oncontextmenu="return false;" />
-                    <img class="slider-img" src="/assets/img/SL3.jpeg" alt="Leadership Camp 2022" draggable="false" loading="lazy" oncontextmenu="return false;" />
-                    <img class="slider-img" src="/assets/img/SL4.jpg" alt="Kidsstar 18th Birthday" draggable="false" loading="lazy" oncontextmenu="return false;" />
+                    <img class="slider-img" src="/assets/img/about-slider1.jpeg" alt="D-SPORA 2022" draggable="false" loading="lazy" oncontextmenu="return false;" />
+                    <img class="slider-img" src="/assets/img/about-slider2.jpeg" alt="D-SPORA 2022" draggable="false" loading="lazy" oncontextmenu="return false;" />
+                    <img class="slider-img" src="/assets/img/about-slider3.jpeg" alt="Leadership Camp 2022" draggable="false" loading="lazy" oncontextmenu="return false;" />
+                    <img class="slider-img" src="/assets/img/about-slider4.jpg" alt="Kidsstar 18th Birthday" draggable="false" loading="lazy" oncontextmenu="return false;" />
                 </div>
                 <div class="slider-title">
                     <span></span>
@@ -77,7 +49,16 @@
             <!--Seperator Start-->
             <div class="seperator"></div>
             <!--Seperator End-->
-            
+            <div class="album">
+                <div class="album-title">
+                    <h1>More Photos</h1>
+                </div>
+                <div class="album-content">
+                    <img class="album-img" src="/assets/img/about-photo1.jpg" alt="Photo 1" draggable="false" loading="lazy" oncontextmenu="return false;" />
+                    <img class="album-img" src="/assets/img/about-photo1.jpg" alt="Photo 1" draggable="false" loading="lazy" oncontextmenu="return false;" />
+                    <img class="album-img" src="/assets/img/about-photo1.jpg" alt="Photo 1" draggable="false" loading="lazy" oncontextmenu="return false;" />
+                </div>
+            </div>
             <!--Seperator Start-->
             <div class="seperator"></div>
             <!--Seperator End-->

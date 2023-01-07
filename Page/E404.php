@@ -11,7 +11,7 @@
     <!-- HTML Config -->
     <!-- HTML Links -->
     <link rel="stylesheet" href="./CSS/E404.css" media="print" onload="this.media='all'">
-    <link rel="icon" type="image/x-icon" href="./assets/img/Logo.png"/>
+    <link rel="icon" type="image/x-icon" href="./assets/img/logo.png"/>
     <link href="https://fonts.googleapis.com/css?family=Inter" rel="stylesheet"/>
     <!-- HTML Links -->
 </head>

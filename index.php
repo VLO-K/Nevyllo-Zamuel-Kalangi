@@ -12,7 +12,7 @@
     <!-- HTML Links Start -->
     <script type="text/javascript" src="/script/index.js" defer></script>
     <link rel="stylesheet" href="/CSS/index.css" media="print" onload="this.media='all'">
-    <link rel="icon" type="image/x-icon" href="/assets/img/Logo.png"/>
+    <link rel="icon" type="image/x-icon" href="/assets/img/logo.png"/>
     <link href="https://fonts.googleapis.com/css?family=Roboto Condensed" rel="stylesheet"/>
     <link href="https://fonts.googleapis.com/css?family=Inter" rel="stylesheet"/>
     <!-- HTML Links End -->

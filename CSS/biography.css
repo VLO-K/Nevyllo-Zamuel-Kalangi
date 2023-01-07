@@ -1,10 +1,10 @@
 /* Biography */
-.biography-header {
+.biography-title {
   text-align: center;
   font-size: 80px;
   width: 100%;
 }
-.biography-section {
+.biography {
   display: flex;
   flex-direction: row;
   justify-content: space-between;
@@ -16,7 +16,7 @@
 .biography-section:last-child {
   padding-bottom: 0px;
 }
-.biography-title {
+.biography-subtitle {
   font-size: 42px;
   font-weight: 600;
   width: 25%;
@@ -55,10 +55,10 @@
   filter: brightness(70%);
 }
 @media (max-width: 1350px) {
-  .biography-section {
+  .biography {
     gap: 2%;
   }
-  .biography-title {
+  .biography-subtitle {
     font-size: 24px;
   }
   .biography-container {
@@ -66,15 +66,15 @@
   }
 }
 @media (max-width: 800px) {
-  .biography-header {
+  .biography-title {
     font-size: 60px;
     padding: 80px 0;
   }
-  .biography-title {
+  .biography-subtitle {
     font-size: 32px;
     width: 100%;
   }
-  .biography-section {
+  .biography {
     flex-direction: column;
     gap: 0;
   }
