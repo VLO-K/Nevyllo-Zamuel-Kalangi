@@ -27,17 +27,6 @@
     <main class="content-container" id="content">
         <div class="content-wrapper">
             <div class="content">
-                <diV class="typography">
-                    <h1>GAMERRRR</h1>
-                </diV>
-                <div class="carousel">
-                    <div class="carousel-content">
-                    </div>
-                    <div class="carousel-content">
-                    </div>
-                    <div class="carousel-content">
-                    </div>
-                </div>
             </div>
         </div>
     </main>

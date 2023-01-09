@@ -4,34 +4,8 @@
   flex-direction: row;
   justify-content: left;
   overflow: hidden;
-  height: 90vh;
+  height: 60vh;
   width: 100%;
   padding: 20px 130px;
-}
-.typography {
-  font-size: 40px;
-  width: 50%;
-}
-.carousel {
-  display: flex;
-  overflow: hidden;
-  gap: 20px;
-}
-.carousel-content {
-  height: 80%;
-  width: 230px;
-  border-radius: 15px;
-}
-.carousel-content:nth-child(1) {
-  margin-top: 9%;
-  background-color: #2696ff;
-}
-.carousel-content:nth-child(2) {
-  margin-top: 1%;
-  background-color: #8b26ff;
-}
-.carousel-content:nth-child(3) {
-  margin-top: 5%;
-  background-color: #fe019a;
 }
 /* Home */

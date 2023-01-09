@@ -55,8 +55,6 @@
                 </div>
                 <div class="album-content">
                     <img class="album-img" src="/assets/img/about-photo1.jpg" alt="Photo 1" draggable="false" loading="lazy" oncontextmenu="return false;" />
-                    <img class="album-img" src="/assets/img/about-photo1.jpg" alt="Photo 1" draggable="false" loading="lazy" oncontextmenu="return false;" />
-                    <img class="album-img" src="/assets/img/about-photo1.jpg" alt="Photo 1" draggable="false" loading="lazy" oncontextmenu="return false;" />
                 </div>
             </div>
             <!--Seperator Start-->
